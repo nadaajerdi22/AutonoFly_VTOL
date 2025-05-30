@@ -525,3 +525,196 @@
 [1370.994s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/are_error_codes_present_condition.hpp
 [1371.007s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/are_poses_near_condition.hpp
 [1371.019s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[1371.031s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[1371.043s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[1371.055s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[1371.067s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[1371.079s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[1371.091s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[1371.103s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[1371.115s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_stopped_condition.hpp
+[1371.128s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[1371.141s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[1371.152s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[1371.167s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[1371.179s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp
+[1371.193s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_planner_recovery_help_condition.hpp
+[1371.208s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_route_recovery_help_condition.hpp
+[1371.222s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/condition/would_a_smoother_recovery_help_condition.hpp
+[1371.234s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[1371.248s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/recovery_node.hpp
+[1371.259s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[1371.270s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[1371.282s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[1371.294s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[1371.311s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[1371.327s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[1371.337s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[1371.350s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[1371.366s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/ros_topic_logger.hpp
+[1371.383s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/utils/loop_rate.hpp
+[1371.397s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/utils/test_action_server.hpp
+[1371.410s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp
+[1371.423s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp
+[1371.436s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_service.hpp
+[1371.448s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_transform_handler.hpp
+[1371.462s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[1371.473s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/plugins_list.hpp
+[1371.487s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[1371.504s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[1371.516s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[1371.533s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[1371.553s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[1371.566s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[1371.584s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[1371.603s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[1371.615s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[1371.630s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[1371.644s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[1371.656s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[1371.669s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[1371.681s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[1371.694s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[1371.710s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[1371.720s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[1371.742s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_targets-extras.cmake
+[1371.754s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[1371.767s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[1371.779s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[1371.791s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[1371.794s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so" to ""
+[1371.794s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[1371.796s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so" to ""
+[1371.796s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[1371.799s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so" to ""
+[1371.799s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[1371.800s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so" to ""
+[1371.800s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[1371.801s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so" to ""
+[1371.801s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[1371.802s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so" to ""
+[1371.802s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[1371.803s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so" to ""
+[1371.803s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[1371.804s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so" to ""
+[1371.804s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[1371.804s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so" to ""
+[1371.804s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[1371.807s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so" to ""
+[1371.807s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[1371.809s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so" to ""
+[1371.809s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[1371.810s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so" to ""
+[1371.810s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[1371.811s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so" to ""
+[1371.812s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[1371.815s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so" to ""
+[1371.815s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[1371.816s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so" to ""
+[1371.817s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[1371.819s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so" to ""
+[1371.819s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[1371.821s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so" to ""
+[1371.821s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[1371.825s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so" to ""
+[1371.825s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_stopped_condition_bt_node.so
+[1371.826s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_stopped_condition_bt_node.so" to ""
+[1371.828s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[1371.828s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so" to ""
+[1371.828s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[1371.830s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so" to ""
+[1371.830s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_are_poses_near_condition_bt_node.so
+[1371.832s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_are_poses_near_condition_bt_node.so" to ""
+[1371.832s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[1371.833s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so" to ""
+[1371.834s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[1371.835s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so" to ""
+[1371.836s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[1371.838s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so" to ""
+[1371.838s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[1371.840s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so" to ""
+[1371.840s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[1371.841s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so" to ""
+[1371.841s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[1371.843s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so" to ""
+[1371.843s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[1371.846s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so" to ""
+[1371.846s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[1371.848s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so" to ""
+[1371.848s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[1371.852s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so" to ""
+[1371.852s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so
+[1371.852s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so" to ""
+[1371.852s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so
+[1371.854s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so" to ""
+[1371.854s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so
+[1371.855s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so" to ""
+[1371.855s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+[1371.856s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so" to ""
+[1371.857s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_route_recovery_help_condition_bt_node.so
+[1371.858s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_route_recovery_help_condition_bt_node.so" to ""
+[1371.858s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[1371.859s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so" to ""
+[1371.859s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[1371.860s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so" to ""
+[1371.861s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[1371.862s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so" to ""
+[1371.863s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[1371.865s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so" to ""
+[1371.865s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[1371.866s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so" to ""
+[1371.866s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_concatenate_paths_action_bt_node.so
+[1371.867s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_concatenate_paths_action_bt_node.so" to ""
+[1371.867s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[1371.868s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so" to ""
+[1371.868s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[1371.875s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so" to ""
+[1371.875s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[1371.877s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so" to ""
+[1371.877s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[1371.878s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so" to ""
+[1371.878s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[1371.879s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so" to ""
+[1371.880s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[1371.881s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so" to ""
+[1371.881s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[1371.883s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so" to ""
+[1371.883s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_remove_in_collision_goals_action_bt_node.so
+[1371.884s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_remove_in_collision_goals_action_bt_node.so" to ""
+[1371.884s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_append_goal_pose_to_goals_action_bt_node.so
+[1371.884s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_append_goal_pose_to_goals_action_bt_node.so" to ""
+[1371.885s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[1371.886s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so" to ""
+[1371.887s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_extract_route_nodes_as_goals_action_bt_node.so
+[1371.887s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_extract_route_nodes_as_goals_action_bt_node.so" to ""
+[1371.887s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_next_few_goals_action_bt_node.so
+[1371.887s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_next_few_goals_action_bt_node.so" to ""
+[1371.887s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_current_pose_action_bt_node.so
+[1371.888s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_current_pose_action_bt_node.so" to ""
+[1371.888s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[1371.888s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so" to ""
+[1371.888s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[1371.890s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so" to ""
+[1371.890s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[1371.892s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so" to ""
+[1371.892s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[1371.893s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so" to ""
+[1371.893s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[1371.895s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so" to ""
+[1371.895s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[1371.896s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so" to ""
+[1371.896s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[1371.898s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so" to ""
+[1371.898s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[1371.899s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so" to ""
+[1371.899s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[1371.901s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so" to ""
+[1371.901s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_cancel_bt_node.so
+[1371.903s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_cancel_bt_node.so" to ""
+[1371.904s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_bt_node.so
+[1371.904s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_and_track_route_bt_node.so" to ""
+[1371.904s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_route_bt_node.so
+[1371.907s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_route_bt_node.so" to ""
+[1371.907s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeExport.cmake
+[1371.907s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeExport-release.cmake
+[1371.913s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_behavior_tree

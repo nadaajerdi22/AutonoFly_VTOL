@@ -1,0 +1,7 @@
+In file included from [01m[K/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_docking/opennav_docking_bt/src/dock_robot.cpp:18[m[K:
+[01m[K/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_docking/opennav_docking_bt/include/opennav_docking_bt/dock_robot.hpp:75:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid opennav_docking_bt::DockRobotAction::[01;32m[Kon_timeout[m[K()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   75 |   void [01;31m[Kon_timeout[m[K() override;
+      |        [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/opennav_dock_action_bt_node.dir/build.make:76: CMakeFiles/opennav_dock_action_bt_node.dir/src/dock_robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:176: CMakeFiles/opennav_dock_action_bt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_route/graphs/scripts/generate_start_and_end_id.sql

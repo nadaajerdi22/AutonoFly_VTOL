@@ -1,0 +1,121 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav2_common: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_core: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core/share/nav2_core/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: serialization filesystem system 
+-- Found ompl: /opt/ros/jazzy/include/ompl-1.7;/usr/include;/usr/include/eigen3  
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_smac_planner/include>
+-- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.3s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_smac_planner
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/a_star.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/analytic_expansion.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/collision_checker.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/costmap_downsampler.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/node_2d.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/node_basic.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/node_hybrid.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/node_lattice.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_common.dir/src/smoother.cpp.o[0m
+[ 21%] [32m[1mLinking CXX shared library libnav2_smac_planner_common.so[0m
+[ 21%] Built target nav2_smac_planner_common
+[ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 26%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 26%] Built target gtest
+[ 28%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[ 30%] Built target nav2_smac_planner_2d
+[ 32%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[ 34%] Built target nav2_smac_planner_lattice
+[ 36%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[ 39%] Built target nav2_smac_planner
+[ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 43%] Built target gtest_main
+[ 45%] [32mBuilding CXX object test/CMakeFiles/test_utils.dir/test_utils.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_utils[0m
+[ 47%] Built target test_utils
+[ 50%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[ 52%] Built target test_nodehybrid
+[ 54%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable test_nodebasic[0m
+[ 56%] Built target test_nodebasic
+[ 58%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_collision_checker[0m
+[ 60%] Built target test_collision_checker
+[ 63%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_a_star[0m
+[ 65%] Built target test_a_star
+[ 67%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[ 69%] Built target test_smac_hybrid
+[ 71%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable test_smac_2d[0m
+[ 73%] Built target test_smac_2d
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[ 78%] Built target test_smac_lattice
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable test_smoother[0m
+[ 82%] Built target test_smoother
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_lattice_node[0m
+[ 86%] Built target test_lattice_node
+[ 89%] [32mBuilding CXX object test/CMakeFiles/test_goal_manager.dir/test_goal_manager.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable test_goal_manager[0m
+[ 91%] Built target test_goal_manager
+[ 93%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_node2d[0m
+[ 95%] Built target test_node2d
+[ 97%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[100%] Built target test_costmap_downsampler
