@@ -1,0 +1,134 @@
+[0.035s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com
+[0.137s] -- The C compiler identification is GNU 13.3.0
+[0.225s] -- The CXX compiler identification is GNU 13.3.0
+[0.260s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.642s] -- Detecting C compile features
+[0.643s] -- Detecting C compile features - done
+[0.674s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.960s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.960s] -- Detecting CXX compile features
+[0.961s] -- Detecting CXX compile features - done
+[1.001s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.247s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.401s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.520s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.651s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.681s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.804s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.820s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.825s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.886s] -- Found px4_msgs: 2.0.1 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.945s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.039s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.047s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.196s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.228s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.408s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.455s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.473s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.731s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.756s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.757s] -- Configured cppcheck include dirs: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com/include/px4_ros_com>
+[2.757s] -- Configured cppcheck exclude dirs and/or files: 
+[2.765s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.766s] -- Configured cpplint exclude dirs and/or files: 
+[2.768s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.769s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.771s] -- Added test 'lint_cmake' to check CMake code style
+[2.775s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.786s] -- Added test 'uncrustify' to check C / C++ code style
+[2.786s] -- Configured uncrustify additional arguments: 
+[2.791s] -- Added test 'xmllint' to check XML markup files
+[2.804s] -- Configuring done (2.7s)
+[2.863s] -- Generating done (0.0s)
+[2.886s] -- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com
+[2.907s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com
+[2.909s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com -- -j4 -l4
+[2.992s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[10.966s] [ 16%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[11.251s] [ 16%] Built target frame_transforms
+[11.285s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[16.321s] [ 33%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[16.599s] [ 33%] Built target debug_vect_advertiser
+[16.636s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[23.786s] [ 50%] [32m[1mLinking CXX executable offboard_control[0m
+[24.130s] [ 50%] Built target offboard_control
+[24.158s] [ 58%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[31.260s] [ 66%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[31.602s] [ 66%] Built target offboard_control_srv
+[31.643s] [ 66%] Built target ament_cmake_python_symlink_px4_ros_com
+[31.675s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[40.497s] [ 83%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[40.935s] [ 83%] Built target vehicle_gps_position_listener
+[41.540s] running egg_info
+[41.540s] creating px4_ros_com.egg-info
+[41.579s] writing px4_ros_com.egg-info/PKG-INFO
+[41.580s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[41.580s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[41.580s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[41.702s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[41.703s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[41.752s] [ 83%] Built target ament_cmake_python_build_px4_ros_com_egg
+[41.780s] [ 91%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[50.420s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[50.858s] [100%] Built target sensor_combined_listener
+[50.874s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com -- -j4 -l4
+[50.876s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com
+[50.887s] -- Install configuration: ""
+[50.888s] -- Execute custom install script
+[50.889s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[50.902s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[50.915s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[50.930s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[50.943s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[50.956s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[50.969s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[50.981s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[50.995s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[51.009s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[51.021s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[51.035s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[51.048s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[51.062s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[51.075s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[51.087s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[51.102s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO
+[51.115s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt
+[51.127s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt
+[51.151s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt
+[51.166s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py
+[51.176s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py
+[51.189s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[51.201s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[51.215s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[51.231s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[51.248s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[51.262s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[51.276s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[51.287s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[51.301s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[51.314s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[51.327s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[51.345s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[51.353s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[51.365s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.382s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[51.397s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.410s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[51.424s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[51.435s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[51.447s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[51.460s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[51.465s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[51.513s] Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...
+[51.513s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py'...
+[51.513s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py'...
+[51.521s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[51.522s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[51.527s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com

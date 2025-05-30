@@ -1,0 +1,1 @@
+/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com/src/examples/offboard_py/offboard_control.py

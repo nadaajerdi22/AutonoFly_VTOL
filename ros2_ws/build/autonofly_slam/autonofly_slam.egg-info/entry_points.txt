@@ -1,0 +1,2 @@
+[console_scripts]
+fastslam_node = autonofly_slam.fastslam_node:main

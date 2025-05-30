@@ -1,0 +1,438 @@
+[0.055s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs
+[0.333s] -- The C compiler identification is GNU 13.3.0
+[0.447s] -- The CXX compiler identification is GNU 13.3.0
+[0.486s] -- Detecting C compiler ABI info
+[0.916s] -- Detecting C compiler ABI info - done
+[1.044s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.055s] -- Detecting C compile features
+[1.055s] -- Detecting C compile features - done
+[1.081s] -- Detecting CXX compiler ABI info
+[1.429s] -- Detecting CXX compiler ABI info - done
+[1.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.481s] -- Detecting CXX compile features
+[1.484s] -- Detecting CXX compile features - done
+[1.499s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.851s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.180s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.211s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.317s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.374s] -- Found nav_2d_msgs: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[2.408s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.487s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.513s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.689s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.480s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.812s] -- Found PythonExtra: /usr/bin/python3  
+[8.694s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.025s] -- Configuring done (8.9s)
+[9.134s] -- Generating done (0.1s)
+[9.154s] -- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs
+[9.186s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs
+[9.186s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs -- -j4 -l4
+[9.446s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[10.921s] [  1%] Built target dwb_msgs__rosidl_generator_type_description
+[10.998s] [  1%] Built target ament_cmake_python_symlink_dwb_msgs
+[11.046s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.451s] [  3%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__description.c.o[0m
+[13.570s] [  4%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[13.699s] [  5%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[13.781s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__description.c.o[0m
+[13.918s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[14.091s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[14.189s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__description.c.o[0m
+[14.312s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[14.418s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[14.486s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__description.c.o[0m
+[14.593s] [ 12%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[14.700s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[14.833s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__description.c.o[0m
+[15.051s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[15.291s] [ 15%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[15.368s] [ 16%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__description.c.o[0m
+[15.593s] [ 17%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[15.758s] [ 18%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[15.915s] [ 19%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__description.c.o[0m
+[16.046s] [ 20%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[16.236s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[16.368s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__description.c.o[0m
+[16.497s] [ 22%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[16.755s] [ 23%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[16.836s] [ 24%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__description.c.o[0m
+[16.965s] [ 25%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[17.139s] [ 26%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[17.283s] [ 27%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[17.492s] [ 27%] Built target dwb_msgs__rosidl_generator_c
+[18.449s] running egg_info
+[18.449s] creating dwb_msgs.egg-info
+[18.531s] writing dwb_msgs.egg-info/PKG-INFO
+[18.531s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[18.532s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[18.532s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[18.788s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[18.788s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[18.885s] [ 27%] Built target ament_cmake_python_build_dwb_msgs_egg
+[18.933s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.298s] [ 29%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[21.436s] [ 30%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[21.547s] [ 30%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[21.675s] [ 31%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[21.805s] [ 32%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[21.950s] [ 33%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[22.114s] [ 34%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[22.251s] [ 35%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[22.413s] [ 36%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[22.647s] [ 37%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.747s] [ 37%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[22.816s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.537s] [ 39%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[24.643s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[24.874s] [ 41%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[25.103s] [ 42%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[25.247s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[25.371s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[25.521s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[25.676s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[25.904s] [ 46%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[26.068s] [ 47%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[26.179s] [ 47%] Built target dwb_msgs__rosidl_typesupport_c
+[26.221s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.395s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[29.374s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[30.368s] [ 50%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[31.744s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[33.146s] [ 52%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[34.867s] [ 53%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[35.734s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[37.303s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[38.530s] [ 55%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[39.678s] [ 56%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[40.001s] [ 56%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[40.089s] [ 56%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[43.150s] [ 56%] Built target dwb_msgs__cpp
+[43.182s] [ 57%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[44.389s] [ 58%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[45.031s] [ 59%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[45.625s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[46.501s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[47.749s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[49.212s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[50.570s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[51.519s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[53.161s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[54.034s] [ 66%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[54.750s] [ 66%] Built target dwb_msgs__rosidl_typesupport_cpp
+[54.792s] [ 66%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[58.330s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[59.892s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[61.006s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[61.594s] [ 70%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[63.309s] [ 71%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[64.953s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[66.426s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[68.045s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[69.889s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[71.158s] [ 75%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[71.391s] [ 75%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[71.416s] [ 76%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[73.054s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[74.550s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[75.442s] [ 79%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[77.190s] [ 79%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[78.371s] [ 80%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[79.363s] [ 81%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[80.448s] [ 82%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[81.887s] [ 83%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[83.099s] [ 84%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[84.658s] [ 85%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[84.895s] [ 85%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[84.954s] [ 85%] Built target dwb_msgs
+[85.016s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[87.306s] [ 86%] Built target dwb_msgs__py
+[87.341s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[87.530s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[87.739s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[88.006s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[88.218s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[88.431s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[88.649s] [ 93%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[88.883s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[89.088s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[89.315s] [ 94%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_py.so[0m
+[89.389s] [ 94%] Built target dwb_msgs__rosidl_generator_py
+[89.460s] [ 95%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[89.726s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[89.794s] [ 96%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[89.826s] [ 97%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[90.080s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so[0m
+[90.142s] [ 98%] Built target dwb_msgs_s__rosidl_typesupport_c
+[90.186s] [ 99%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[90.499s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[90.553s] [100%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+[90.592s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs -- -j4 -l4
+[90.598s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs
+[90.616s] -- Install configuration: ""
+[90.617s] -- Execute custom install script
+[90.617s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[90.635s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.json
+[90.645s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.json
+[90.664s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.json
+[90.678s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.json
+[90.693s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.json
+[90.705s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.json
+[90.719s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.json
+[90.735s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.json
+[90.749s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.json
+[90.766s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[90.795s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[90.814s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[90.828s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[90.843s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[90.860s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[90.873s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[90.887s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[90.902s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[90.921s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[90.944s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[90.965s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[90.979s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[90.998s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[91.009s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[91.022s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[91.036s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[91.053s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[91.101s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[91.134s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[91.176s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[91.206s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[91.237s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[91.264s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[91.287s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[91.302s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[91.317s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[91.335s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[91.350s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[91.365s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[91.385s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[91.408s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[91.421s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[91.438s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[91.452s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[91.470s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[91.485s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[91.498s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[91.511s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[91.527s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[91.555s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[91.564s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[91.576s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[91.589s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[91.603s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[91.615s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[91.628s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[91.647s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[91.661s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[91.674s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[91.690s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[91.705s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[91.718s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[91.733s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[91.752s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[91.764s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[91.777s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[91.789s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[91.802s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[91.815s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[91.827s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[91.849s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[91.865s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[91.877s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[91.890s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[91.910s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[91.921s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[91.939s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[91.954s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[91.974s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[91.988s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[92.001s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[92.013s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[92.027s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[92.042s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[92.059s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[92.073s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[92.086s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[92.100s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[92.112s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[92.125s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[92.150s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[92.162s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[92.177s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[92.191s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[92.204s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[92.216s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[92.244s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[92.257s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[92.276s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[92.295s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[92.315s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[92.330s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[92.347s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[92.362s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[92.375s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[92.388s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[92.400s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[92.413s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[92.433s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[92.452s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[92.463s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[92.476s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[92.489s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[92.504s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[92.516s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[92.528s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[92.542s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[92.560s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[92.571s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[92.584s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[92.596s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[92.609s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[92.622s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[92.641s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[92.657s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[92.671s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[92.684s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[92.699s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[92.716s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[92.728s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[92.746s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[92.762s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[92.779s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[92.793s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[92.805s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[92.820s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/PKG-INFO
+[92.838s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/SOURCES.txt
+[92.861s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/dependency_links.txt
+[92.877s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.4.0-py3.12.egg-info/top_level.txt
+[92.895s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py
+[92.907s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[92.920s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[92.934s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[92.950s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[92.964s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[92.977s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[92.990s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py
+[93.007s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py
+[93.021s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score_s.c
+[93.046s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[93.060s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[93.072s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[93.088s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[93.106s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py
+[93.130s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[93.143s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py
+[93.157s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[93.178s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[93.199s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[93.218s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[93.233s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py
+[93.251s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[93.271s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py
+[93.290s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[93.302s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py
+[93.316s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[93.328s] -- Up-to-date symlink: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[93.328s] -- Up-to-date symlink: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[93.329s] -- Up-to-date symlink: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[93.330s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[93.346s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[93.362s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[93.376s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[93.390s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[93.409s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[93.422s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[93.436s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[93.454s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[93.473s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[93.480s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[93.493s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[93.510s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[93.522s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[93.537s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[93.553s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[93.568s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[93.584s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[93.594s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[93.607s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[93.619s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[93.633s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[93.649s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[93.665s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[93.675s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[93.689s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[93.701s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[93.715s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[93.726s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[93.741s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[93.754s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[93.771s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[93.783s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[93.796s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[93.811s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[93.826s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[93.850s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[93.864s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[93.876s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[93.888s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[93.900s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[93.902s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[93.903s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[93.903s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[93.903s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[93.903s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[93.903s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[93.903s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[93.903s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[93.904s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[93.904s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[93.905s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[93.906s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[93.909s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[93.993s] Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py'...
+[93.994s] Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py'...
+[93.994s] Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[93.994s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py'...
+[93.995s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py'...
+[93.995s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py'...
+[94.002s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[94.002s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[94.002s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[94.002s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[94.003s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[94.003s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[94.003s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[94.004s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[94.004s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[94.004s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[94.004s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[94.004s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[94.005s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[94.008s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/dwb_msgs

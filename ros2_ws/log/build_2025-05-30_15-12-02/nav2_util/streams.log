@@ -1,0 +1,185 @@
+[0.031s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util
+[0.184s] -- The C compiler identification is GNU 13.3.0
+[0.337s] -- The CXX compiler identification is GNU 13.3.0
+[0.380s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.602s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.602s] -- Detecting C compile features
+[0.607s] -- Detecting C compile features - done
+[0.628s] -- Detecting CXX compiler ABI info
+[1.006s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.042s] -- Detecting CXX compile features
+[1.042s] -- Detecting CXX compile features - done
+[1.057s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.498s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.627s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.753s] -- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+[1.890s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.918s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.963s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.171s] -- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+[2.340s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.346s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.556s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.593s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.107s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.156s] -- Found nav2_common: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[3.162s] -- Found nav2_msgs: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.523s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.549s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[3.569s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.627s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.629s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.630s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.829s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.881s] -- Setting build type to Release as none was specified.
+[3.892s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.902s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[4.432s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.689s] -- Found Threads: TRUE  
+[4.801s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.803s] -- Configured cppcheck include dirs: 
+[4.803s] -- Configured cppcheck exclude dirs and/or files: 
+[4.817s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.817s] -- Configured cpplint exclude dirs and/or files: 
+[4.817s] -- Added test 'lint_cmake' to check CMake code style
+[4.827s] -- Added test 'uncrustify' to check C / C++ code style
+[4.827s] -- Configured uncrustify additional arguments: 
+[4.828s] -- Added test 'xmllint' to check XML markup files
+[4.852s] -- Configuring done (4.8s)
+[5.521s] -- Generating done (0.6s)
+[5.675s] -- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util
+[5.710s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util
+[5.712s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util -- -j4 -l4
+[5.843s] [  1%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[11.676s] [  3%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[17.003s] [  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[24.614s] [  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[25.199s] [  9%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[29.241s] [ 11%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[34.277s] [ 13%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[38.470s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[41.980s] [ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[53.899s] [ 18%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/array_parser.cpp.o[0m
+[54.605s] [ 20%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[54.885s] [ 20%] Built target nav2_util_core
+[54.923s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[65.248s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[65.342s] [ 24%] Built target gtest
+[65.376s] [ 26%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[65.377s] [ 28%] [32mBuilding CXX object src/CMakeFiles/base_footprint_publisher.dir/base_footprint_publisher.cpp.o[0m
+[69.198s] [ 30%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[69.449s] [ 30%] Built target lifecycle_bringup
+[69.481s] [ 32%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[70.588s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[70.666s] [ 33%] Built target gtest_main
+[70.710s] [ 35%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[71.734s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[72.767s] [ 39%] [32m[1mLinking CXX executable test_execution_timer[0m
+[74.310s] [ 41%] [32m[1mLinking CXX executable base_footprint_publisher[0m
+[74.324s] [ 41%] Built target test_execution_timer
+[75.007s] [ 41%] Built target base_footprint_publisher
+[87.062s] [ 43%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[89.131s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_service_server.dir/test_service_server.cpp.o[0m
+[89.434s] [ 47%] [32m[1mLinking CXX executable test_string_utils[0m
+[90.251s] [ 47%] Built target test_string_utils
+[90.355s] [ 49%] [32m[1mLinking CXX executable test_service_client[0m
+[91.353s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[91.553s] [ 50%] Built target test_service_client
+[100.266s] [ 52%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[100.911s] [ 52%] Built target test_lifecycle_utils
+[103.435s] [ 54%] [32m[1mLinking CXX executable test_service_server[0m
+[103.811s] [ 54%] Built target test_service_server
+[103.936s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[111.329s] [ 58%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[111.689s] [ 58%] Built target test_lifecycle_node
+[111.735s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[116.786s] [ 62%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[117.147s] [ 62%] Built target test_lifecycle_cli_node
+[117.177s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[122.518s] [ 66%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[122.988s] [ 66%] Built target test_geometry_utils
+[123.018s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[131.972s] [ 69%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[132.255s] [ 69%] Built target test_odometry_utils
+[132.285s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[139.376s] [ 73%] [32m[1mLinking CXX executable test_robot_utils[0m
+[139.721s] [ 73%] Built target test_robot_utils
+[139.749s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_base_footprint_publisher.dir/test_base_footprint_publisher.cpp.o[0m
+[148.186s] [ 77%] [32m[1mLinking CXX executable test_base_footprint_publisher[0m
+[148.501s] [ 77%] Built target test_base_footprint_publisher
+[148.534s] [ 79%] [32mBuilding CXX object test/CMakeFiles/test_array_parser.dir/test_array_parser.cpp.o[0m
+[150.416s] [ 81%] [32m[1mLinking CXX executable test_array_parser[0m
+[150.662s] [ 81%] Built target test_array_parser
+[150.699s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_twist_publisher.dir/test_twist_publisher.cpp.o[0m
+[162.736s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_twist_subscriber.dir/test_twist_subscriber.cpp.o[0m
+[163.786s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[164.835s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[174.936s] [ 90%] [32m[1mLinking CXX executable test_twist_publisher[0m
+[176.653s] [ 90%] Built target test_twist_publisher
+[179.399s] [ 92%] [32m[1mLinking CXX executable test_node_utils[0m
+[180.305s] [ 92%] Built target test_node_utils
+[193.102s] [ 94%] [32m[1mLinking CXX executable test_actions[0m
+[193.649s] [ 94%] Built target test_actions
+[194.167s] [ 96%] [32m[1mLinking CXX executable test_twist_subscriber[0m
+[194.748s] [ 96%] Built target test_twist_subscriber
+[194.788s] [ 98%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[197.200s] [100%] [32m[1mLinking CXX executable test_validation_messages[0m
+[197.693s] [100%] Built target test_validation_messages
+[197.726s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util -- -j4 -l4
+[197.731s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util
+[198.279s] -- Install configuration: "Release"
+[198.553s] -- Execute custom install script
+[198.555s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[198.953s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+[198.967s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/clear_entirely_costmap_service_client.hpp
+[198.978s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+[198.990s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+[199.002s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+[199.014s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_node.hpp
+[199.026s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+[199.039s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_utils.hpp
+[199.050s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+[199.063s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_thread.hpp
+[199.075s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_utils.hpp
+[199.088s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+[199.099s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+[199.112s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+[199.125s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/service_client.hpp
+[199.139s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/service_server.hpp
+[199.152s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/simple_action_server.hpp
+[199.165s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+[199.178s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+[199.194s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+[199.209s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/validate_messages.hpp
+[199.226s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[199.240s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[199.254s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[199.268s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[199.282s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[199.297s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[199.311s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[199.322s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[199.335s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[199.349s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[199.360s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[199.372s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[199.384s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/package.dsv
+[199.398s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[199.409s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[199.422s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[199.435s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[199.450s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+[199.464s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[199.478s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[199.495s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/package.xml
+[199.509s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+[199.510s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+[199.510s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib/libnav2_util_core.so
+[199.513s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib/libnav2_util_core.so" to ""
+[199.519s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_util
