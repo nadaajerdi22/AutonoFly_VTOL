@@ -101,3 +101,15 @@
 [307.932s] [ 12%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
 [308.815s] [ 12%] Built target nav2_clear_costmap_service_bt_node
 [308.897s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[334.807s] [ 13%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[335.151s] [ 13%] Built target nav2_is_stuck_condition_bt_node
+[335.219s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_is_stopped_condition_bt_node.dir/plugins/condition/is_stopped_condition.cpp.o[0m
+[350.091s] [ 13%] [32m[1mLinking CXX shared library libnav2_is_stopped_condition_bt_node.so[0m
+[350.367s] [ 13%] Built target nav2_is_stopped_condition_bt_node
+[350.452s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[364.693s] [ 14%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[365.135s] [ 14%] Built target nav2_transform_available_condition_bt_node
+[365.172s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[380.862s] [ 15%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[381.282s] [ 15%] Built target nav2_goal_reached_condition_bt_node
+[381.368s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_are_poses_near_condition_bt_node.dir/plugins/condition/are_poses_near_condition.cpp.o[0m
