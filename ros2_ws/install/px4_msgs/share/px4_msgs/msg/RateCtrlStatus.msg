@@ -1,1 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs/msg/RateCtrlStatus.msg

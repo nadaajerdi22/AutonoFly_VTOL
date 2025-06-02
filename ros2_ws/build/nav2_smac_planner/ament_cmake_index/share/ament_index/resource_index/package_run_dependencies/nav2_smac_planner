@@ -1,1 +1,0 @@
-ament_index_cpp;angles;eigen;geometry_msgs;nav2_core;nav2_costmap_2d;nav2_util;nav_msgs;nlohmann-json-dev;ompl;pluginlib;rclcpp;rclcpp_lifecycle;rcl_interfaces;tf2_ros;tf2;visualization_msgs;ament_lint_common;ament_lint_auto;ament_cmake_gtest

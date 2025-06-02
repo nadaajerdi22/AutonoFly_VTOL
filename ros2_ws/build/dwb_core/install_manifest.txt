@@ -1,3 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core/lib/libdwb_core.so
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreExport.cmake
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreExport-release.cmake

@@ -1,2 +1,0 @@
-[console_scripts]
-rrt_node = autonofly_nav.rrt_node:main

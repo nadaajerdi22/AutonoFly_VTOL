@@ -1,3 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_critics/lib/libdwb_critics.so
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsExport.cmake
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsExport-release.cmake

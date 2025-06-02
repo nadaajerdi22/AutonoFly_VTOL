@@ -1,5 +1,5 @@
-# Étape 1 : Base Ubuntu 24.04
-FROM ubuntu:24.04
+# Étape 1 : Base Ubuntu 22.04
+FROM ubuntu:22.04
 
 # Étape 2 : Installer les outils de base nécessaires (dont add-apt-repository) en mode non interactif
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \

@@ -1,1 +1,0 @@
-angles;geometry_msgs;libomp-dev;nav2_common;nav2_core;nav2_costmap_2d;nav2_util;nav_msgs;pluginlib;rclcpp;rclcpp_lifecycle;std_msgs;tf2;tf2_geometry_msgs;tf2_ros;visualization_msgs;eigen3_cmake_module;eigen;ament_lint_auto;ament_lint_common;ament_cmake_gtest

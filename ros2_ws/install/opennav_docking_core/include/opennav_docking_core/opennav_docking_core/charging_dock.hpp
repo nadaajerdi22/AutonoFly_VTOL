@@ -1,1 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_docking/opennav_docking_core/include/opennav_docking_core/charging_dock.hpp

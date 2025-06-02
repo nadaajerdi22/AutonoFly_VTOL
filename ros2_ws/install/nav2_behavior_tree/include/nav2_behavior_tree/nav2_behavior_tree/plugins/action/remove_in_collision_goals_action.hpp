@@ -1,1 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/remove_in_collision_goals_action.hpp

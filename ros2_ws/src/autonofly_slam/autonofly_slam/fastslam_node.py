@@ -34,7 +34,7 @@ class FastSLAM2:
     def motion_update(self, control, dt):
         v, w = control
         for p in self.particles:
-            p.theta += w * dt + np.random.randn() * 0.01
+            p.theta += w * dt + np.random.randn() * 0.005
             p.theta = (p.theta + np.pi) % (2 * np.pi) - np.pi
             p.x += v * dt * np.cos(p.theta) + np.random.randn() * 0.05
             p.y += v * dt * np.sin(p.theta) + np.random.randn() * 0.05
@@ -59,18 +59,31 @@ class FastSLAM2:
         total_weight = 0.0
         for p in self.particles:
             weight = 1.0
-            for obs_id, obs_range, obs_bearing in observations:
-                if obs_id in p.landmarks:
-                    landmark = p.landmarks[obs_id]
-                    dx = landmark.mu[0] - p.x
-                    dy = landmark.mu[1] - p.y
-                    predicted_range = np.hypot(dx, dy)
-                    predicted_bearing = np.arctan2(dy, dx) - p.theta
-                    range_error = obs_range - predicted_range
-                    bearing_error = ((obs_bearing - predicted_bearing) + np.pi) % (2*np.pi) - np.pi
-                    weight *= np.exp(-0.5 * (range_error**2 + bearing_error**2))
-            p.weight = weight
-            total_weight += weight
+        for obs_id, obs_range, obs_bearing in observations:
+            if obs_id in p.landmarks:
+                landmark = p.landmarks[obs_id]
+                dx = landmark.mu[0] - p.x
+                dy = landmark.mu[1] - p.y
+                predicted_range = np.hypot(dx, dy)
+                predicted_bearing = np.arctan2(dy, dx) - p.theta
+                predicted_bearing = (predicted_bearing + np.pi) % (2*np.pi) - np.pi
+
+                range_error = obs_range - predicted_range
+                bearing_error = obs_bearing - predicted_bearing
+                bearing_error = (bearing_error + np.pi) % (2*np.pi) - np.pi
+
+                # Variance sensorielles
+                range_var = 0.5 ** 2
+                bearing_var = (np.deg2rad(10)) ** 2  # 10° d’incertitude
+
+                # Vraisemblance gaussienne (indépendante pour range et bearing)
+                p_range = np.exp(-0.5 * (range_error ** 2) / range_var) / np.sqrt(2 * np.pi * range_var)
+                p_bearing = np.exp(-0.5 * (bearing_error ** 2) / bearing_var) / np.sqrt(2 * np.pi * bearing_var)
+
+                weight *= p_range * p_bearing
+        p.weight = weight
+        total_weight += weight
+
         if total_weight == 0:
             for p in self.particles:
                 p.weight = 1.0 / self.num_particles
@@ -79,14 +92,18 @@ class FastSLAM2:
                 p.weight /= total_weight
 
     def resample(self):
-        weights = [p.weight for p in self.particles]
-        weight_sum = sum(weights)
-        if weight_sum == 0:
-            weights = [1.0/self.num_particles] * self.num_particles
-        else:
-            weights = np.array(weights) / weight_sum
-            indices = np.random.choice(range(self.num_particles), self.num_particles, p=weights)
-            self.particles = [self.particles[i] for i in indices]
+        weights = np.array([p.weight for p in self.particles])
+        weights /= np.sum(weights)
+        positions = (np.arange(self.num_particles) + np.random.uniform()) / self.num_particles
+        cumulative_sum = np.cumsum(weights)
+        cumulative_sum[-1] = 1.0  # éviter les erreurs numériques
+
+        indexes = np.searchsorted(cumulative_sum, positions)
+        self.particles = [self.particles[i] for i in indexes]
+        # Réinitialise poids uniformément après resampling
+        for p in self.particles:
+            p.weight = 1.0 / self.num_particles
+
 
     def get_best_estimate(self):
         best = max(self.particles, key=lambda p: p.weight)

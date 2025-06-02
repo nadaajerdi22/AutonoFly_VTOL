@@ -1,3 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerExport.cmake
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerExport-release.cmake

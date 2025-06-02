@@ -1,4 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_graceful_controller/lib/libsmooth_control_law.so
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_graceful_controller/lib/libnav2_graceful_controller.so
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_graceful_controller/share/nav2_graceful_controller/cmake/nav2_graceful_controllerExport.cmake
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_graceful_controller/share/nav2_graceful_controller/cmake/nav2_graceful_controllerExport-release.cmake

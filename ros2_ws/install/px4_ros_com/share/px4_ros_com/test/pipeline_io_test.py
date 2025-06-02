@@ -1,1 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com/test/pipeline_io_test.py
