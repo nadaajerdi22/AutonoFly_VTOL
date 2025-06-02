@@ -10063,3 +10063,1880 @@
 [677.700351] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_common: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake)\n'}
 [677.700968] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_msgs: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)\n'}
 [677.754650] (-) TimerEvent: {}
+[677.860966] (-) TimerEvent: {}
+[677.907245] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_util: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake)\n'}
+[677.963706] (-) TimerEvent: {}
+[678.065261] (-) TimerEvent: {}
+[678.167003] (-) TimerEvent: {}
+[678.168276] (nav2_amcl) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[678.180947] (nav2_amcl) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[678.181159] (nav2_amcl) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[678.267106] (-) TimerEvent: {}
+[678.369484] (-) TimerEvent: {}
+[678.371617] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/failure_detector_status__type_support.cpp.o\x1b[0m\n'}
+[678.476142] (-) TimerEvent: {}
+[678.576467] (-) TimerEvent: {}
+[678.647202] (nav2_amcl) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[678.676570] (-) TimerEvent: {}
+[678.742960] (nav2_amcl) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[678.780203] (-) TimerEvent: {}
+[678.810273] (nav2_amcl) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[678.816949] (nav2_amcl) StdoutLine: {'line': b'-- Looking for drand48\n'}
+[678.880311] (-) TimerEvent: {}
+[678.982735] (-) TimerEvent: {}
+[679.040123] (nav2_amcl) StdoutLine: {'line': b'-- Looking for drand48 - found\n'}
+[679.057578] (nav2_amcl) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[679.060663] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/figure_eight_status__type_support.cpp.o\x1b[0m\n'}
+[679.086709] (-) TimerEvent: {}
+[679.187761] (-) TimerEvent: {}
+[679.288088] (-) TimerEvent: {}
+[679.391640] (-) TimerEvent: {}
+[679.498444] (-) TimerEvent: {}
+[679.520782] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[679.523828] (nav2_amcl) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_amcl/include>\n'}
+[679.524277] (nav2_amcl) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[679.540930] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[679.557916] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[679.558437] (nav2_amcl) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[679.572239] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[679.602523] (-) TimerEvent: {}
+[679.624188] (nav2_amcl) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[679.703130] (-) TimerEvent: {}
+[679.735249] (nav2_amcl) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[679.767031] (nav2_amcl) StdoutLine: {'line': b'-- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl\n'}
+[679.806215] (nav2_amcl) CommandEnded: {'returncode': 0}
+[679.806694] (-) TimerEvent: {}
+[679.807311] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'build'}
+[679.807357] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl', '--', '-j4', '-l4'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[679.907243] (-) TimerEvent: {}
+[680.002831] (nav2_amcl) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/pf_lib.dir/src/pf/pf.c.o\x1b[0m\n'}
+[680.007813] (-) TimerEvent: {}
+[680.111297] (-) TimerEvent: {}
+[680.213537] (-) TimerEvent: {}
+[680.307582] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__type_support.cpp.o\x1b[0m\n'}
+[680.313628] (-) TimerEvent: {}
+[680.418208] (-) TimerEvent: {}
+[680.518551] (-) TimerEvent: {}
+[680.620394] (-) TimerEvent: {}
+[680.727071] (-) TimerEvent: {}
+[680.828255] (-) TimerEvent: {}
+[680.864497] (nav2_amcl) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/pf_lib.dir/src/pf/pf_pdf.c.o\x1b[0m\n'}
+[680.928375] (-) TimerEvent: {}
+[681.030120] (-) TimerEvent: {}
+[681.130466] (-) TimerEvent: {}
+[681.148106] (nav2_amcl) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/pf_lib.dir/src/pf/pf_vector.c.o\x1b[0m\n'}
+[681.233560] (-) TimerEvent: {}
+[681.333935] (-) TimerEvent: {}
+[681.374325] (nav2_amcl) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/pf_lib.dir/src/pf/eig3.c.o\x1b[0m\n'}
+[681.434080] (-) TimerEvent: {}
+[681.479823] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__type_support.cpp.o\x1b[0m\n'}
+[681.534176] (-) TimerEvent: {}
+[681.634481] (-) TimerEvent: {}
+[681.738132] (-) TimerEvent: {}
+[681.762739] (nav2_amcl) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/pf_lib.dir/src/pf/pf_draw.c.o\x1b[0m\n'}
+[681.834598] (nav2_amcl) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/pf_lib.dir/src/pf/pf_kdtree.c.o\x1b[0m\n'}
+[681.839711] (-) TimerEvent: {}
+[681.940062] (-) TimerEvent: {}
+[682.041542] (-) TimerEvent: {}
+[682.131161] (nav2_amcl) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libpf_lib.so\x1b[0m\n'}
+[682.145993] (-) TimerEvent: {}
+[682.246450] (-) TimerEvent: {}
+[682.263104] (nav2_amcl) StdoutLine: {'line': b'[ 29%] Built target pf_lib\n'}
+[682.319208] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__type_support.cpp.o\x1b[0m\n'}
+[682.326668] (nav2_amcl) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/map_lib.dir/src/map/map.c.o\x1b[0m\n'}
+[682.351181] (-) TimerEvent: {}
+[682.451534] (-) TimerEvent: {}
+[682.452119] (nav2_amcl) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/map_lib.dir/src/map/map_draw.c.o\x1b[0m\n'}
+[682.519725] (nav2_amcl) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/map_lib.dir/src/map/map_cspace.cpp.o\x1b[0m\n'}
+[682.552903] (-) TimerEvent: {}
+[682.655589] (-) TimerEvent: {}
+[682.755943] (-) TimerEvent: {}
+[682.857101] (-) TimerEvent: {}
+[682.957738] (-) TimerEvent: {}
+[683.058440] (-) TimerEvent: {}
+[683.140913] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__type_support.cpp.o\x1b[0m\n'}
+[683.162607] (-) TimerEvent: {}
+[683.263955] (-) TimerEvent: {}
+[683.364352] (-) TimerEvent: {}
+[683.468240] (-) TimerEvent: {}
+[683.568540] (-) TimerEvent: {}
+[683.636237] (nav2_amcl) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/map_lib.dir/src/map/map_range.c.o\x1b[0m\n'}
+[683.669720] (-) TimerEvent: {}
+[683.772428] (-) TimerEvent: {}
+[683.832428] (nav2_map_server) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable test_costmap_filter_info_server\x1b[0m\n'}
+[683.872601] (nav2_amcl) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmap_lib.so\x1b[0m\n'}
+[683.873736] (-) TimerEvent: {}
+[683.976389] (-) TimerEvent: {}
+[684.078954] (-) TimerEvent: {}
+[684.168015] (nav2_amcl) StdoutLine: {'line': b'[ 50%] Built target map_lib\n'}
+[684.179057] (-) TimerEvent: {}
+[684.257570] (nav2_amcl) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/motions_lib.dir/src/motion_model/omni_motion_model.cpp.o\x1b[0m\n'}
+[684.280752] (-) TimerEvent: {}
+[684.326563] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__type_support.cpp.o\x1b[0m\n'}
+[684.383985] (-) TimerEvent: {}
+[684.484968] (-) TimerEvent: {}
+[684.585400] (-) TimerEvent: {}
+[684.687316] (-) TimerEvent: {}
+[684.787634] (-) TimerEvent: {}
+[684.889675] (-) TimerEvent: {}
+[684.898396] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/flight_phase_estimation__type_support.cpp.o\x1b[0m\n'}
+[684.990106] (-) TimerEvent: {}
+[685.095018] (-) TimerEvent: {}
+[685.196746] (-) TimerEvent: {}
+[685.302952] (-) TimerEvent: {}
+[685.403283] (-) TimerEvent: {}
+[685.503594] (-) TimerEvent: {}
+[685.606137] (-) TimerEvent: {}
+[685.679554] (nav2_map_server) StdoutLine: {'line': b'[ 63%] Built target test_costmap_filter_info_server\n'}
+[685.706328] (-) TimerEvent: {}
+[685.808162] (-) TimerEvent: {}
+[685.824319] (nav2_map_server) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o\x1b[0m\n'}
+[685.860882] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/follow_target__type_support.cpp.o\x1b[0m\n'}
+[685.910837] (-) TimerEvent: {}
+[686.011970] (-) TimerEvent: {}
+[686.114036] (-) TimerEvent: {}
+[686.215984] (-) TimerEvent: {}
+[686.316409] (-) TimerEvent: {}
+[686.419765] (-) TimerEvent: {}
+[686.424773] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/follow_target_estimator__type_support.cpp.o\x1b[0m\n'}
+[686.519908] (-) TimerEvent: {}
+[686.620319] (-) TimerEvent: {}
+[686.720610] (-) TimerEvent: {}
+[686.823345] (-) TimerEvent: {}
+[686.896872] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/follow_target_status__type_support.cpp.o\x1b[0m\n'}
+[686.924847] (-) TimerEvent: {}
+[687.027608] (-) TimerEvent: {}
+[687.127957] (-) TimerEvent: {}
+[687.228512] (-) TimerEvent: {}
+[687.330019] (-) TimerEvent: {}
+[687.349139] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/fuel_tank_status__type_support.cpp.o\x1b[0m\n'}
+[687.432769] (-) TimerEvent: {}
+[687.533139] (-) TimerEvent: {}
+[687.633493] (-) TimerEvent: {}
+[687.734123] (-) TimerEvent: {}
+[687.807572] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/generator_status__type_support.cpp.o\x1b[0m\n'}
+[687.834976] (-) TimerEvent: {}
+[687.935261] (-) TimerEvent: {}
+[688.036720] (-) TimerEvent: {}
+[688.140337] (-) TimerEvent: {}
+[688.241029] (-) TimerEvent: {}
+[688.345193] (-) TimerEvent: {}
+[688.348561] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/geofence_result__type_support.cpp.o\x1b[0m\n'}
+[688.446495] (-) TimerEvent: {}
+[688.546883] (-) TimerEvent: {}
+[688.648273] (-) TimerEvent: {}
+[688.753447] (-) TimerEvent: {}
+[688.853780] (-) TimerEvent: {}
+[688.955205] (-) TimerEvent: {}
+[689.060974] (-) TimerEvent: {}
+[689.085365] (nav2_amcl) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/motions_lib.dir/src/motion_model/differential_motion_model.cpp.o\x1b[0m\n'}
+[689.161295] (-) TimerEvent: {}
+[689.262513] (-) TimerEvent: {}
+[689.368754] (-) TimerEvent: {}
+[689.469203] (-) TimerEvent: {}
+[689.572511] (-) TimerEvent: {}
+[689.673384] (-) TimerEvent: {}
+[689.776978] (-) TimerEvent: {}
+[689.837536] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/geofence_status__type_support.cpp.o\x1b[0m\n'}
+[689.884035] (-) TimerEvent: {}
+[689.984452] (-) TimerEvent: {}
+[690.085010] (-) TimerEvent: {}
+[690.186879] (-) TimerEvent: {}
+[690.313223] (-) TimerEvent: {}
+[690.413575] (-) TimerEvent: {}
+[690.514475] (-) TimerEvent: {}
+[690.615031] (-) TimerEvent: {}
+[690.716484] (-) TimerEvent: {}
+[690.816768] (-) TimerEvent: {}
+[690.917636] (-) TimerEvent: {}
+[691.018423] (-) TimerEvent: {}
+[691.120843] (-) TimerEvent: {}
+[691.221487] (-) TimerEvent: {}
+[691.327042] (-) TimerEvent: {}
+[691.428037] (-) TimerEvent: {}
+[691.530076] (-) TimerEvent: {}
+[691.634368] (-) TimerEvent: {}
+[691.677418] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_controls__type_support.cpp.o\x1b[0m\n'}
+[691.734510] (-) TimerEvent: {}
+[691.837105] (-) TimerEvent: {}
+[691.938348] (-) TimerEvent: {}
+[692.043640] (-) TimerEvent: {}
+[692.146393] (-) TimerEvent: {}
+[692.247446] (-) TimerEvent: {}
+[692.348709] (-) TimerEvent: {}
+[692.449935] (-) TimerEvent: {}
+[692.550841] (-) TimerEvent: {}
+[692.656616] (-) TimerEvent: {}
+[692.769911] (-) TimerEvent: {}
+[692.871372] (-) TimerEvent: {}
+[692.973169] (-) TimerEvent: {}
+[693.075504] (-) TimerEvent: {}
+[693.176281] (-) TimerEvent: {}
+[693.279528] (-) TimerEvent: {}
+[693.380043] (-) TimerEvent: {}
+[693.397213] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_device_attitude_status__type_support.cpp.o\x1b[0m\n'}
+[693.482004] (-) TimerEvent: {}
+[693.586577] (-) TimerEvent: {}
+[693.690644] (-) TimerEvent: {}
+[693.799981] (-) TimerEvent: {}
+[693.900357] (-) TimerEvent: {}
+[693.996261] (nav2_amcl) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmotions_lib.so\x1b[0m\n'}
+[694.000483] (-) TimerEvent: {}
+[694.100809] (-) TimerEvent: {}
+[694.201647] (-) TimerEvent: {}
+[694.303961] (-) TimerEvent: {}
+[694.406237] (-) TimerEvent: {}
+[694.506516] (-) TimerEvent: {}
+[694.595853] (nav2_amcl) StdoutLine: {'line': b'[ 62%] Built target motions_lib\n'}
+[694.608035] (-) TimerEvent: {}
+[694.674050] (nav2_amcl) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/sensors_lib.dir/src/sensors/laser/laser.cpp.o\x1b[0m\n'}
+[694.709513] (-) TimerEvent: {}
+[694.746142] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_device_information__type_support.cpp.o\x1b[0m\n'}
+[694.810063] (-) TimerEvent: {}
+[694.912991] (-) TimerEvent: {}
+[695.017114] (-) TimerEvent: {}
+[695.120959] (-) TimerEvent: {}
+[695.221287] (-) TimerEvent: {}
+[695.275045] (nav2_amcl) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sensors_lib.dir/src/sensors/laser/likelihood_field_model_prob.cpp.o\x1b[0m\n'}
+[695.322987] (-) TimerEvent: {}
+[695.423325] (-) TimerEvent: {}
+[695.523607] (-) TimerEvent: {}
+[695.625383] (-) TimerEvent: {}
+[695.726260] (-) TimerEvent: {}
+[695.827527] (-) TimerEvent: {}
+[695.928165] (-) TimerEvent: {}
+[695.972359] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_device_set_attitude__type_support.cpp.o\x1b[0m\n'}
+[696.034594] (-) TimerEvent: {}
+[696.135130] (-) TimerEvent: {}
+[696.236935] (-) TimerEvent: {}
+[696.338000] (-) TimerEvent: {}
+[696.442026] (-) TimerEvent: {}
+[696.545649] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_manager_information__type_support.cpp.o\x1b[0m\n'}
+[696.545864] (-) TimerEvent: {}
+[696.646350] (-) TimerEvent: {}
+[696.753652] (-) TimerEvent: {}
+[696.856965] (-) TimerEvent: {}
+[696.936536] (nav2_amcl) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sensors_lib.dir/src/sensors/laser/likelihood_field_model.cpp.o\x1b[0m\n'}
+[696.958354] (-) TimerEvent: {}
+[697.059858] (-) TimerEvent: {}
+[697.163152] (-) TimerEvent: {}
+[697.267973] (-) TimerEvent: {}
+[697.300184] (nav2_amcl) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/sensors_lib.dir/src/sensors/laser/beam_model.cpp.o\x1b[0m\n'}
+[697.368500] (-) TimerEvent: {}
+[697.469023] (-) TimerEvent: {}
+[697.567908] (px4_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_manager_set_attitude__type_support.cpp.o\x1b[0m\n'}
+[697.570992] (-) TimerEvent: {}
+[697.671300] (-) TimerEvent: {}
+[697.771881] (-) TimerEvent: {}
+[697.872182] (-) TimerEvent: {}
+[697.972543] (-) TimerEvent: {}
+[698.074708] (-) TimerEvent: {}
+[698.130406] (nav2_amcl) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libsensors_lib.so\x1b[0m\n'}
+[698.177081] (-) TimerEvent: {}
+[698.189458] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_manager_set_manual_control__type_support.cpp.o\x1b[0m\n'}
+[698.277213] (-) TimerEvent: {}
+[698.377616] (-) TimerEvent: {}
+[698.480917] (-) TimerEvent: {}
+[698.581340] (-) TimerEvent: {}
+[698.682985] (-) TimerEvent: {}
+[698.724589] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gimbal_manager_status__type_support.cpp.o\x1b[0m\n'}
+[698.783139] (-) TimerEvent: {}
+[698.796053] (nav2_amcl) StdoutLine: {'line': b'[ 83%] Built target sensors_lib\n'}
+[698.886101] (-) TimerEvent: {}
+[698.902795] (nav2_amcl) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o\x1b[0m\n'}
+[698.988807] (-) TimerEvent: {}
+[699.099949] (-) TimerEvent: {}
+[699.200869] (-) TimerEvent: {}
+[699.304088] (-) TimerEvent: {}
+[699.406961] (-) TimerEvent: {}
+[699.510172] (-) TimerEvent: {}
+[699.612659] (-) TimerEvent: {}
+[699.712980] (-) TimerEvent: {}
+[699.814394] (-) TimerEvent: {}
+[699.916938] (-) TimerEvent: {}
+[700.017338] (-) TimerEvent: {}
+[700.119333] (-) TimerEvent: {}
+[700.227986] (-) TimerEvent: {}
+[700.331732] (-) TimerEvent: {}
+[700.433254] (-) TimerEvent: {}
+[700.537835] (-) TimerEvent: {}
+[700.638138] (-) TimerEvent: {}
+[700.687010] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/goto_setpoint__type_support.cpp.o\x1b[0m\n'}
+[700.742243] (-) TimerEvent: {}
+[700.844022] (-) TimerEvent: {}
+[700.947021] (-) TimerEvent: {}
+[701.055112] (-) TimerEvent: {}
+[701.157965] (-) TimerEvent: {}
+[701.263427] (-) TimerEvent: {}
+[701.368068] (-) TimerEvent: {}
+[701.471465] (-) TimerEvent: {}
+[701.572043] (-) TimerEvent: {}
+[701.672488] (-) TimerEvent: {}
+[701.774160] (-) TimerEvent: {}
+[701.867458] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gpio_config__type_support.cpp.o\x1b[0m\n'}
+[701.876195] (-) TimerEvent: {}
+[701.976502] (-) TimerEvent: {}
+[702.080956] (-) TimerEvent: {}
+[702.182959] (-) TimerEvent: {}
+[702.283301] (-) TimerEvent: {}
+[702.383706] (-) TimerEvent: {}
+[702.485629] (-) TimerEvent: {}
+[702.587958] (-) TimerEvent: {}
+[702.689874] (-) TimerEvent: {}
+[702.791022] (-) TimerEvent: {}
+[702.893596] (-) TimerEvent: {}
+[702.899118] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gpio_in__type_support.cpp.o\x1b[0m\n'}
+[702.993753] (-) TimerEvent: {}
+[703.097989] (-) TimerEvent: {}
+[703.198305] (-) TimerEvent: {}
+[703.301745] (-) TimerEvent: {}
+[703.402142] (-) TimerEvent: {}
+[703.502500] (-) TimerEvent: {}
+[703.605205] (-) TimerEvent: {}
+[703.705647] (-) TimerEvent: {}
+[703.810103] (-) TimerEvent: {}
+[703.821418] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gpio_out__type_support.cpp.o\x1b[0m\n'}
+[703.911957] (-) TimerEvent: {}
+[704.012307] (-) TimerEvent: {}
+[704.115011] (-) TimerEvent: {}
+[704.215322] (-) TimerEvent: {}
+[704.317170] (-) TimerEvent: {}
+[704.417606] (-) TimerEvent: {}
+[704.517939] (-) TimerEvent: {}
+[704.618270] (-) TimerEvent: {}
+[704.718546] (-) TimerEvent: {}
+[704.818827] (-) TimerEvent: {}
+[704.921448] (-) TimerEvent: {}
+[704.993803] (nav2_behavior_tree) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_back_up_action_bt_node.so\x1b[0m\n'}
+[705.023999] (-) TimerEvent: {}
+[705.124519] (-) TimerEvent: {}
+[705.201446] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gpio_request__type_support.cpp.o\x1b[0m\n'}
+[705.224986] (-) TimerEvent: {}
+[705.327749] (-) TimerEvent: {}
+[705.403618] (nav2_behavior_tree) StdoutLine: {'line': b'[  8%] Built target nav2_back_up_action_bt_node\n'}
+[705.427822] (-) TimerEvent: {}
+[705.484190] (nav2_behavior_tree) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o\x1b[0m\n'}
+[705.531186] (-) TimerEvent: {}
+[705.639069] (-) TimerEvent: {}
+[705.739467] (-) TimerEvent: {}
+[705.816697] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gps_dump__type_support.cpp.o\x1b[0m\n'}
+[705.840846] (-) TimerEvent: {}
+[705.948381] (-) TimerEvent: {}
+[706.048684] (-) TimerEvent: {}
+[706.152954] (-) TimerEvent: {}
+[706.256049] (-) TimerEvent: {}
+[706.356324] (-) TimerEvent: {}
+[706.376566] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gps_inject_data__type_support.cpp.o\x1b[0m\n'}
+[706.456485] (-) TimerEvent: {}
+[706.561950] (-) TimerEvent: {}
+[706.662269] (-) TimerEvent: {}
+[706.763063] (-) TimerEvent: {}
+[706.863372] (-) TimerEvent: {}
+[706.966689] (-) TimerEvent: {}
+[707.067882] (-) TimerEvent: {}
+[707.168253] (-) TimerEvent: {}
+[707.272950] (-) TimerEvent: {}
+[707.373282] (-) TimerEvent: {}
+[707.462552] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/gripper__type_support.cpp.o\x1b[0m\n'}
+[707.473402] (-) TimerEvent: {}
+[707.574597] (-) TimerEvent: {}
+[707.674936] (-) TimerEvent: {}
+[707.776633] (-) TimerEvent: {}
+[707.877951] (-) TimerEvent: {}
+[707.983748] (-) TimerEvent: {}
+[708.057886] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/health_report__type_support.cpp.o\x1b[0m\n'}
+[708.085210] (-) TimerEvent: {}
+[708.186322] (-) TimerEvent: {}
+[708.286676] (-) TimerEvent: {}
+[708.387286] (-) TimerEvent: {}
+[708.488518] (-) TimerEvent: {}
+[708.491065] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/heater_status__type_support.cpp.o\x1b[0m\n'}
+[708.588620] (-) TimerEvent: {}
+[708.689763] (-) TimerEvent: {}
+[708.791559] (-) TimerEvent: {}
+[708.892976] (-) TimerEvent: {}
+[708.993737] (-) TimerEvent: {}
+[709.095275] (-) TimerEvent: {}
+[709.198093] (-) TimerEvent: {}
+[709.298386] (-) TimerEvent: {}
+[709.398921] (-) TimerEvent: {}
+[709.430111] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/home_position__type_support.cpp.o\x1b[0m\n'}
+[709.499133] (-) TimerEvent: {}
+[709.601108] (-) TimerEvent: {}
+[709.701455] (-) TimerEvent: {}
+[709.801765] (-) TimerEvent: {}
+[709.902118] (-) TimerEvent: {}
+[710.002682] (-) TimerEvent: {}
+[710.103235] (-) TimerEvent: {}
+[710.203559] (-) TimerEvent: {}
+[710.308330] (-) TimerEvent: {}
+[710.408675] (-) TimerEvent: {}
+[710.509200] (-) TimerEvent: {}
+[710.611773] (-) TimerEvent: {}
+[710.712375] (-) TimerEvent: {}
+[710.770966] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/hover_thrust_estimate__type_support.cpp.o\x1b[0m\n'}
+[710.813967] (-) TimerEvent: {}
+[710.914266] (-) TimerEvent: {}
+[711.015113] (-) TimerEvent: {}
+[711.116354] (-) TimerEvent: {}
+[711.217991] (-) TimerEvent: {}
+[711.321296] (-) TimerEvent: {}
+[711.421940] (-) TimerEvent: {}
+[711.525622] (-) TimerEvent: {}
+[711.626269] (-) TimerEvent: {}
+[711.727105] (-) TimerEvent: {}
+[711.827743] (-) TimerEvent: {}
+[711.928877] (-) TimerEvent: {}
+[712.034050] (-) TimerEvent: {}
+[712.138050] (-) TimerEvent: {}
+[712.240070] (-) TimerEvent: {}
+[712.303317] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/input_rc__type_support.cpp.o\x1b[0m\n'}
+[712.341611] (-) TimerEvent: {}
+[712.442814] (-) TimerEvent: {}
+[712.545572] (-) TimerEvent: {}
+[712.646443] (-) TimerEvent: {}
+[712.749059] (-) TimerEvent: {}
+[712.849347] (-) TimerEvent: {}
+[712.949765] (-) TimerEvent: {}
+[713.051160] (-) TimerEvent: {}
+[713.151925] (-) TimerEvent: {}
+[713.253120] (-) TimerEvent: {}
+[713.296808] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__type_support.cpp.o\x1b[0m\n'}
+[713.353954] (-) TimerEvent: {}
+[713.454442] (-) TimerEvent: {}
+[713.558063] (-) TimerEvent: {}
+[713.658693] (-) TimerEvent: {}
+[713.746086] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/internal_combustion_engine_status__type_support.cpp.o\x1b[0m\n'}
+[713.759780] (-) TimerEvent: {}
+[713.860446] (-) TimerEvent: {}
+[713.962967] (-) TimerEvent: {}
+[714.066417] (-) TimerEvent: {}
+[714.169849] (-) TimerEvent: {}
+[714.270207] (-) TimerEvent: {}
+[714.344714] (nav2_map_server) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o\x1b[0m\n'}
+[714.370323] (-) TimerEvent: {}
+[714.419693] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/iridiumsbd_status__type_support.cpp.o\x1b[0m\n'}
+[714.471021] (-) TimerEvent: {}
+[714.571589] (-) TimerEvent: {}
+[714.672187] (-) TimerEvent: {}
+[714.772861] (-) TimerEvent: {}
+[714.797909] (nav2_map_server) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable test_map_server_node\x1b[0m\n'}
+[714.872965] (-) TimerEvent: {}
+[714.974393] (-) TimerEvent: {}
+[715.076338] (-) TimerEvent: {}
+[715.176720] (-) TimerEvent: {}
+[715.277619] (-) TimerEvent: {}
+[715.295416] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/irlock_report__type_support.cpp.o\x1b[0m\n'}
+[715.377718] (-) TimerEvent: {}
+[715.480974] (-) TimerEvent: {}
+[715.583965] (-) TimerEvent: {}
+[715.666945] (nav2_map_server) StdoutLine: {'line': b'[ 72%] Built target test_map_server_node\n'}
+[715.684168] (-) TimerEvent: {}
+[715.736335] (nav2_map_server) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o\x1b[0m\n'}
+[715.785513] (-) TimerEvent: {}
+[715.886746] (-) TimerEvent: {}
+[715.987225] (-) TimerEvent: {}
+[716.087818] (-) TimerEvent: {}
+[716.188462] (-) TimerEvent: {}
+[716.199316] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/landing_gear__type_support.cpp.o\x1b[0m\n'}
+[716.288963] (-) TimerEvent: {}
+[716.392188] (-) TimerEvent: {}
+[716.492812] (-) TimerEvent: {}
+[716.593407] (-) TimerEvent: {}
+[716.693958] (-) TimerEvent: {}
+[716.798869] (-) TimerEvent: {}
+[716.902143] (-) TimerEvent: {}
+[716.953830] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/landing_gear_wheel__type_support.cpp.o\x1b[0m\n'}
+[717.002520] (-) TimerEvent: {}
+[717.104445] (-) TimerEvent: {}
+[717.205698] (-) TimerEvent: {}
+[717.308409] (-) TimerEvent: {}
+[717.390524] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/landing_target_innovations__type_support.cpp.o\x1b[0m\n'}
+[717.408965] (-) TimerEvent: {}
+[717.510765] (-) TimerEvent: {}
+[717.614057] (-) TimerEvent: {}
+[717.714434] (-) TimerEvent: {}
+[717.815501] (-) TimerEvent: {}
+[717.831049] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/landing_target_pose__type_support.cpp.o\x1b[0m\n'}
+[717.915579] (-) TimerEvent: {}
+[718.019187] (-) TimerEvent: {}
+[718.119512] (-) TimerEvent: {}
+[718.220963] (-) TimerEvent: {}
+[718.322472] (-) TimerEvent: {}
+[718.427716] (-) TimerEvent: {}
+[718.529448] (-) TimerEvent: {}
+[718.631111] (-) TimerEvent: {}
+[718.731464] (-) TimerEvent: {}
+[718.833092] (-) TimerEvent: {}
+[718.870090] (px4_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/lateral_control_configuration__type_support.cpp.o\x1b[0m\n'}
+[718.933545] (-) TimerEvent: {}
+[719.033844] (-) TimerEvent: {}
+[719.134455] (-) TimerEvent: {}
+[719.238548] (-) TimerEvent: {}
+[719.338833] (-) TimerEvent: {}
+[719.380402] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/launch_detection_status__type_support.cpp.o\x1b[0m\n'}
+[719.438951] (-) TimerEvent: {}
+[719.539289] (-) TimerEvent: {}
+[719.640011] (-) TimerEvent: {}
+[719.740666] (-) TimerEvent: {}
+[719.843163] (-) TimerEvent: {}
+[719.943479] (-) TimerEvent: {}
+[720.044126] (-) TimerEvent: {}
+[720.059090] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/led_control__type_support.cpp.o\x1b[0m\n'}
+[720.145239] (-) TimerEvent: {}
+[720.265707] (-) TimerEvent: {}
+[720.368694] (-) TimerEvent: {}
+[720.470448] (-) TimerEvent: {}
+[720.570798] (-) TimerEvent: {}
+[720.666019] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/log_message__type_support.cpp.o\x1b[0m\n'}
+[720.676733] (-) TimerEvent: {}
+[720.780036] (-) TimerEvent: {}
+[720.880398] (-) TimerEvent: {}
+[720.980766] (-) TimerEvent: {}
+[721.081108] (-) TimerEvent: {}
+[721.181560] (-) TimerEvent: {}
+[721.283102] (-) TimerEvent: {}
+[721.385490] (-) TimerEvent: {}
+[721.419497] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/logger_status__type_support.cpp.o\x1b[0m\n'}
+[721.485651] (-) TimerEvent: {}
+[721.587378] (-) TimerEvent: {}
+[721.693109] (-) TimerEvent: {}
+[721.794539] (-) TimerEvent: {}
+[721.894882] (-) TimerEvent: {}
+[721.995798] (-) TimerEvent: {}
+[722.098984] (-) TimerEvent: {}
+[722.126983] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__type_support.cpp.o\x1b[0m\n'}
+[722.199972] (-) TimerEvent: {}
+[722.300299] (-) TimerEvent: {}
+[722.401290] (-) TimerEvent: {}
+[722.503702] (-) TimerEvent: {}
+[722.603959] (-) TimerEvent: {}
+[722.704346] (-) TimerEvent: {}
+[722.707391] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mag_worker_data__type_support.cpp.o\x1b[0m\n'}
+[722.805995] (-) TimerEvent: {}
+[722.906822] (-) TimerEvent: {}
+[723.007553] (-) TimerEvent: {}
+[723.109010] (-) TimerEvent: {}
+[723.209341] (-) TimerEvent: {}
+[723.309755] (-) TimerEvent: {}
+[723.364015] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/magnetometer_bias_estimate__type_support.cpp.o\x1b[0m\n'}
+[723.409872] (-) TimerEvent: {}
+[723.513358] (-) TimerEvent: {}
+[723.614236] (-) TimerEvent: {}
+[723.714601] (-) TimerEvent: {}
+[723.814932] (-) TimerEvent: {}
+[723.915260] (-) TimerEvent: {}
+[724.016247] (-) TimerEvent: {}
+[724.117960] (-) TimerEvent: {}
+[724.120445] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/manual_control_setpoint__type_support.cpp.o\x1b[0m\n'}
+[724.218154] (-) TimerEvent: {}
+[724.323109] (-) TimerEvent: {}
+[724.429267] (-) TimerEvent: {}
+[724.535966] (-) TimerEvent: {}
+[724.636329] (-) TimerEvent: {}
+[724.736691] (-) TimerEvent: {}
+[724.838406] (-) TimerEvent: {}
+[724.938808] (-) TimerEvent: {}
+[725.041159] (-) TimerEvent: {}
+[725.145575] (-) TimerEvent: {}
+[725.230216] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/manual_control_switches__type_support.cpp.o\x1b[0m\n'}
+[725.245669] (-) TimerEvent: {}
+[725.348160] (-) TimerEvent: {}
+[725.448925] (-) TimerEvent: {}
+[725.549650] (-) TimerEvent: {}
+[725.651111] (-) TimerEvent: {}
+[725.752320] (-) TimerEvent: {}
+[725.856959] (-) TimerEvent: {}
+[725.864843] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mavlink_log__type_support.cpp.o\x1b[0m\n'}
+[725.957265] (-) TimerEvent: {}
+[726.057595] (-) TimerEvent: {}
+[726.157940] (-) TimerEvent: {}
+[726.258809] (-) TimerEvent: {}
+[726.360942] (-) TimerEvent: {}
+[726.449872] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mavlink_tunnel__type_support.cpp.o\x1b[0m\n'}
+[726.461052] (-) TimerEvent: {}
+[726.561958] (-) TimerEvent: {}
+[726.663855] (-) TimerEvent: {}
+[726.764224] (-) TimerEvent: {}
+[726.784972] (nav2_map_server) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o\x1b[0m\n'}
+[726.864708] (-) TimerEvent: {}
+[726.967812] (-) TimerEvent: {}
+[727.068417] (-) TimerEvent: {}
+[727.120372] (nav2_map_server) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable test_map_saver_node\x1b[0m\n'}
+[727.129126] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/message_format_request__type_support.cpp.o\x1b[0m\n'}
+[727.169955] (-) TimerEvent: {}
+[727.270254] (-) TimerEvent: {}
+[727.371606] (-) TimerEvent: {}
+[727.475382] (-) TimerEvent: {}
+[727.576023] (-) TimerEvent: {}
+[727.676489] (-) TimerEvent: {}
+[727.690719] (nav2_map_server) StdoutLine: {'line': b'[ 80%] Built target test_map_saver_node\n'}
+[727.746947] (nav2_map_server) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o\x1b[0m\n'}
+[727.776593] (-) TimerEvent: {}
+[727.816227] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/message_format_response__type_support.cpp.o\x1b[0m\n'}
+[727.876702] (-) TimerEvent: {}
+[727.979780] (-) TimerEvent: {}
+[728.080310] (-) TimerEvent: {}
+[728.180793] (-) TimerEvent: {}
+[728.281132] (-) TimerEvent: {}
+[728.377874] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mission__type_support.cpp.o\x1b[0m\n'}
+[728.382084] (-) TimerEvent: {}
+[728.482376] (-) TimerEvent: {}
+[728.582954] (-) TimerEvent: {}
+[728.683309] (-) TimerEvent: {}
+[728.783625] (-) TimerEvent: {}
+[728.884590] (-) TimerEvent: {}
+[728.984953] (-) TimerEvent: {}
+[729.010711] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mission_result__type_support.cpp.o\x1b[0m\n'}
+[729.086038] (-) TimerEvent: {}
+[729.186568] (-) TimerEvent: {}
+[729.287744] (-) TimerEvent: {}
+[729.391105] (-) TimerEvent: {}
+[729.491442] (-) TimerEvent: {}
+[729.509767] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mode_completed__type_support.cpp.o\x1b[0m\n'}
+[729.591544] (-) TimerEvent: {}
+[729.694145] (-) TimerEvent: {}
+[729.794468] (-) TimerEvent: {}
+[729.894780] (-) TimerEvent: {}
+[729.958689] (nav2_behavior_tree) StdoutLine: {'line': b'[  9%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_drive_on_heading_bt_node.so\x1b[0m\n'}
+[729.994919] (-) TimerEvent: {}
+[730.096101] (-) TimerEvent: {}
+[730.196629] (-) TimerEvent: {}
+[730.283217] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/mount_orientation__type_support.cpp.o\x1b[0m\n'}
+[730.296597] (-) TimerEvent: {}
+[730.396939] (-) TimerEvent: {}
+[730.401914] (nav2_behavior_tree) StdoutLine: {'line': b'[  9%] Built target nav2_drive_on_heading_bt_node\n'}
+[730.435382] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o\x1b[0m\n'}
+[730.497951] (-) TimerEvent: {}
+[730.598284] (-) TimerEvent: {}
+[730.699538] (-) TimerEvent: {}
+[730.800283] (-) TimerEvent: {}
+[730.902402] (-) TimerEvent: {}
+[730.933192] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/navigator_mission_item__type_support.cpp.o\x1b[0m\n'}
+[731.002505] (-) TimerEvent: {}
+[731.102968] (-) TimerEvent: {}
+[731.204425] (-) TimerEvent: {}
+[731.305105] (-) TimerEvent: {}
+[731.406528] (-) TimerEvent: {}
+[731.498423] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/navigator_status__type_support.cpp.o\x1b[0m\n'}
+[731.506651] (-) TimerEvent: {}
+[731.607968] (-) TimerEvent: {}
+[731.708291] (-) TimerEvent: {}
+[731.808687] (-) TimerEvent: {}
+[731.909318] (-) TimerEvent: {}
+[732.010738] (-) TimerEvent: {}
+[732.047167] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__type_support.cpp.o\x1b[0m\n'}
+[732.110836] (-) TimerEvent: {}
+[732.211966] (-) TimerEvent: {}
+[732.313231] (-) TimerEvent: {}
+[732.414377] (-) TimerEvent: {}
+[732.516211] (-) TimerEvent: {}
+[732.594565] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/obstacle_distance__type_support.cpp.o\x1b[0m\n'}
+[732.616314] (-) TimerEvent: {}
+[732.717954] (-) TimerEvent: {}
+[732.820962] (-) TimerEvent: {}
+[732.921266] (-) TimerEvent: {}
+[733.021616] (-) TimerEvent: {}
+[733.116280] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/offboard_control_mode__type_support.cpp.o\x1b[0m\n'}
+[733.121722] (-) TimerEvent: {}
+[733.224003] (-) TimerEvent: {}
+[733.324835] (-) TimerEvent: {}
+[733.425189] (-) TimerEvent: {}
+[733.527566] (-) TimerEvent: {}
+[733.628961] (-) TimerEvent: {}
+[733.663894] (px4_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/onboard_computer_status__type_support.cpp.o\x1b[0m\n'}
+[733.729072] (-) TimerEvent: {}
+[733.829523] (-) TimerEvent: {}
+[733.935127] (-) TimerEvent: {}
+[734.036171] (-) TimerEvent: {}
+[734.137983] (-) TimerEvent: {}
+[734.238853] (-) TimerEvent: {}
+[734.342277] (-) TimerEvent: {}
+[734.442967] (-) TimerEvent: {}
+[734.459799] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__type_support.cpp.o\x1b[0m\n'}
+[734.545929] (-) TimerEvent: {}
+[734.648173] (-) TimerEvent: {}
+[734.749135] (-) TimerEvent: {}
+[734.849447] (-) TimerEvent: {}
+[734.949783] (-) TimerEvent: {}
+[735.050097] (-) TimerEvent: {}
+[735.074053] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__type_support.cpp.o\x1b[0m\n'}
+[735.151044] (-) TimerEvent: {}
+[735.251383] (-) TimerEvent: {}
+[735.351747] (-) TimerEvent: {}
+[735.453212] (-) TimerEvent: {}
+[735.553548] (-) TimerEvent: {}
+[735.631729] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/open_drone_id_self_id__type_support.cpp.o\x1b[0m\n'}
+[735.656966] (-) TimerEvent: {}
+[735.757267] (-) TimerEvent: {}
+[735.857942] (-) TimerEvent: {}
+[735.960476] (-) TimerEvent: {}
+[736.063161] (-) TimerEvent: {}
+[736.163475] (-) TimerEvent: {}
+[736.263864] (-) TimerEvent: {}
+[736.273507] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/open_drone_id_system__type_support.cpp.o\x1b[0m\n'}
+[736.365699] (-) TimerEvent: {}
+[736.466025] (-) TimerEvent: {}
+[736.566338] (-) TimerEvent: {}
+[736.667280] (-) TimerEvent: {}
+[736.759688] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/orb_test__type_support.cpp.o\x1b[0m\n'}
+[736.769552] (-) TimerEvent: {}
+[736.869914] (-) TimerEvent: {}
+[736.970227] (-) TimerEvent: {}
+[737.070991] (-) TimerEvent: {}
+[737.171648] (-) TimerEvent: {}
+[737.272456] (-) TimerEvent: {}
+[737.373393] (-) TimerEvent: {}
+[737.425694] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/orb_test_large__type_support.cpp.o\x1b[0m\n'}
+[737.473499] (-) TimerEvent: {}
+[737.573924] (-) TimerEvent: {}
+[737.674420] (-) TimerEvent: {}
+[737.774732] (-) TimerEvent: {}
+[737.875190] (-) TimerEvent: {}
+[737.975682] (-) TimerEvent: {}
+[737.978564] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/orb_test_medium__type_support.cpp.o\x1b[0m\n'}
+[738.075787] (-) TimerEvent: {}
+[738.177720] (-) TimerEvent: {}
+[738.278301] (-) TimerEvent: {}
+[738.378650] (-) TimerEvent: {}
+[738.481605] (-) TimerEvent: {}
+[738.582264] (-) TimerEvent: {}
+[738.683204] (-) TimerEvent: {}
+[738.784834] (-) TimerEvent: {}
+[738.785643] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/orbit_status__type_support.cpp.o\x1b[0m\n'}
+[738.887199] (-) TimerEvent: {}
+[738.987974] (-) TimerEvent: {}
+[739.090678] (-) TimerEvent: {}
+[739.191190] (-) TimerEvent: {}
+[739.239607] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/parameter_reset_request__type_support.cpp.o\x1b[0m\n'}
+[739.291503] (-) TimerEvent: {}
+[739.391995] (-) TimerEvent: {}
+[739.492366] (-) TimerEvent: {}
+[739.513836] (nav2_map_server) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o\x1b[0m\n'}
+[739.594959] (-) TimerEvent: {}
+[739.695283] (-) TimerEvent: {}
+[739.736709] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/parameter_set_used_request__type_support.cpp.o\x1b[0m\n'}
+[739.795409] (-) TimerEvent: {}
+[739.828343] (nav2_map_server) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_map_saver_cli\x1b[0m\n'}
+[739.897690] (-) TimerEvent: {}
+[739.998038] (-) TimerEvent: {}
+[740.098400] (-) TimerEvent: {}
+[740.198936] (-) TimerEvent: {}
+[740.234319] (nav2_map_server) StdoutLine: {'line': b'[ 88%] Built target test_map_saver_cli\n'}
+[740.268122] (nav2_map_server) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o\x1b[0m\n'}
+[740.299032] (-) TimerEvent: {}
+[740.301238] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/parameter_set_value_request__type_support.cpp.o\x1b[0m\n'}
+[740.399633] (-) TimerEvent: {}
+[740.500077] (-) TimerEvent: {}
+[740.601023] (-) TimerEvent: {}
+[740.704147] (-) TimerEvent: {}
+[740.804484] (-) TimerEvent: {}
+[740.850712] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/parameter_set_value_response__type_support.cpp.o\x1b[0m\n'}
+[740.904585] (-) TimerEvent: {}
+[741.006788] (-) TimerEvent: {}
+[741.107084] (-) TimerEvent: {}
+[741.207400] (-) TimerEvent: {}
+[741.307754] (-) TimerEvent: {}
+[741.399309] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/parameter_update__type_support.cpp.o\x1b[0m\n'}
+[741.408465] (-) TimerEvent: {}
+[741.508800] (-) TimerEvent: {}
+[741.610194] (-) TimerEvent: {}
+[741.712323] (-) TimerEvent: {}
+[741.812844] (-) TimerEvent: {}
+[741.914605] (-) TimerEvent: {}
+[742.019011] (-) TimerEvent: {}
+[742.119451] (-) TimerEvent: {}
+[742.143250] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/ping__type_support.cpp.o\x1b[0m\n'}
+[742.219553] (-) TimerEvent: {}
+[742.320112] (-) TimerEvent: {}
+[742.420969] (-) TimerEvent: {}
+[742.522178] (-) TimerEvent: {}
+[742.563826] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/position_controller_landing_status__type_support.cpp.o\x1b[0m\n'}
+[742.622280] (-) TimerEvent: {}
+[742.722619] (-) TimerEvent: {}
+[742.826257] (-) TimerEvent: {}
+[742.926612] (-) TimerEvent: {}
+[743.013169] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/position_controller_status__type_support.cpp.o\x1b[0m\n'}
+[743.026725] (-) TimerEvent: {}
+[743.127114] (-) TimerEvent: {}
+[743.229396] (-) TimerEvent: {}
+[743.329743] (-) TimerEvent: {}
+[743.430140] (-) TimerEvent: {}
+[743.533459] (-) TimerEvent: {}
+[743.582970] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/position_setpoint__type_support.cpp.o\x1b[0m\n'}
+[743.635960] (-) TimerEvent: {}
+[743.736271] (-) TimerEvent: {}
+[743.836611] (-) TimerEvent: {}
+[743.936954] (-) TimerEvent: {}
+[743.997707] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/position_setpoint_triplet__type_support.cpp.o\x1b[0m\n'}
+[744.037065] (-) TimerEvent: {}
+[744.138274] (-) TimerEvent: {}
+[744.239351] (-) TimerEvent: {}
+[744.341370] (-) TimerEvent: {}
+[744.442753] (-) TimerEvent: {}
+[744.456340] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/power_button_state__type_support.cpp.o\x1b[0m\n'}
+[744.544275] (-) TimerEvent: {}
+[744.644617] (-) TimerEvent: {}
+[744.745462] (-) TimerEvent: {}
+[744.846965] (-) TimerEvent: {}
+[744.947327] (-) TimerEvent: {}
+[745.048970] (-) TimerEvent: {}
+[745.146804] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/power_monitor__type_support.cpp.o\x1b[0m\n'}
+[745.149535] (-) TimerEvent: {}
+[745.252133] (-) TimerEvent: {}
+[745.356616] (-) TimerEvent: {}
+[745.457980] (-) TimerEvent: {}
+[745.558589] (-) TimerEvent: {}
+[745.659017] (-) TimerEvent: {}
+[745.671656] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/pps_capture__type_support.cpp.o\x1b[0m\n'}
+[745.759343] (-) TimerEvent: {}
+[745.860188] (-) TimerEvent: {}
+[745.961644] (-) TimerEvent: {}
+[746.061955] (-) TimerEvent: {}
+[746.128679] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/pure_pursuit_status__type_support.cpp.o\x1b[0m\n'}
+[746.163415] (-) TimerEvent: {}
+[746.263758] (-) TimerEvent: {}
+[746.366112] (-) TimerEvent: {}
+[746.467057] (-) TimerEvent: {}
+[746.567456] (-) TimerEvent: {}
+[746.657232] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/pwm_input__type_support.cpp.o\x1b[0m\n'}
+[746.667555] (-) TimerEvent: {}
+[746.770827] (-) TimerEvent: {}
+[746.840757] (nav2_map_server) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable map_saver_cli\x1b[0m\n'}
+[746.870926] (-) TimerEvent: {}
+[746.930119] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_spin_action_bt_node.so\x1b[0m\n'}
+[746.971071] (-) TimerEvent: {}
+[747.073258] (-) TimerEvent: {}
+[747.175560] (-) TimerEvent: {}
+[747.275951] (-) TimerEvent: {}
+[747.301501] (px4_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/px4io_status__type_support.cpp.o\x1b[0m\n'}
+[747.378551] (-) TimerEvent: {}
+[747.419712] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] Built target nav2_spin_action_bt_node\n'}
+[747.422826] (nav2_map_server) StdoutLine: {'line': b'[ 94%] Built target map_saver_cli\n'}
+[747.461107] (nav2_map_server) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o\x1b[0m\n'}
+[747.463359] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o\x1b[0m\n'}
+[747.478933] (-) TimerEvent: {}
+[747.580874] (-) TimerEvent: {}
+[747.681183] (-) TimerEvent: {}
+[747.780798] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/qshell_req__type_support.cpp.o\x1b[0m\n'}
+[747.781252] (-) TimerEvent: {}
+[747.882048] (-) TimerEvent: {}
+[747.983098] (-) TimerEvent: {}
+[748.085057] (-) TimerEvent: {}
+[748.185347] (-) TimerEvent: {}
+[748.290263] (-) TimerEvent: {}
+[748.290542] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/qshell_retval__type_support.cpp.o\x1b[0m\n'}
+[748.390369] (-) TimerEvent: {}
+[748.491065] (-) TimerEvent: {}
+[748.591399] (-) TimerEvent: {}
+[748.691905] (-) TimerEvent: {}
+[748.794035] (-) TimerEvent: {}
+[748.894389] (-) TimerEvent: {}
+[748.925861] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/radio_status__type_support.cpp.o\x1b[0m\n'}
+[748.994503] (-) TimerEvent: {}
+[749.095692] (-) TimerEvent: {}
+[749.196334] (-) TimerEvent: {}
+[749.298457] (-) TimerEvent: {}
+[749.400594] (-) TimerEvent: {}
+[749.448736] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rate_ctrl_status__type_support.cpp.o\x1b[0m\n'}
+[749.501081] (-) TimerEvent: {}
+[749.602815] (-) TimerEvent: {}
+[749.703167] (-) TimerEvent: {}
+[749.803480] (-) TimerEvent: {}
+[749.906166] (-) TimerEvent: {}
+[750.006500] (-) TimerEvent: {}
+[750.013951] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rc_channels__type_support.cpp.o\x1b[0m\n'}
+[750.107967] (-) TimerEvent: {}
+[750.208336] (-) TimerEvent: {}
+[750.309214] (-) TimerEvent: {}
+[750.411775] (-) TimerEvent: {}
+[750.512391] (-) TimerEvent: {}
+[750.535670] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rc_parameter_map__type_support.cpp.o\x1b[0m\n'}
+[750.612488] (-) TimerEvent: {}
+[750.712996] (-) TimerEvent: {}
+[750.816112] (-) TimerEvent: {}
+[750.916465] (-) TimerEvent: {}
+[751.016800] (-) TimerEvent: {}
+[751.115621] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/register_ext_component_reply__type_support.cpp.o\x1b[0m\n'}
+[751.116971] (-) TimerEvent: {}
+[751.221958] (-) TimerEvent: {}
+[751.322252] (-) TimerEvent: {}
+[751.422621] (-) TimerEvent: {}
+[751.522968] (-) TimerEvent: {}
+[751.587746] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/register_ext_component_request__type_support.cpp.o\x1b[0m\n'}
+[751.623062] (-) TimerEvent: {}
+[751.725181] (-) TimerEvent: {}
+[751.825665] (-) TimerEvent: {}
+[751.927180] (-) TimerEvent: {}
+[752.031854] (-) TimerEvent: {}
+[752.069948] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__type_support.cpp.o\x1b[0m\n'}
+[752.131961] (-) TimerEvent: {}
+[752.232345] (-) TimerEvent: {}
+[752.335100] (-) TimerEvent: {}
+[752.436496] (-) TimerEvent: {}
+[752.537191] (-) TimerEvent: {}
+[752.557005] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_attitude_status__type_support.cpp.o\x1b[0m\n'}
+[752.637285] (-) TimerEvent: {}
+[752.738967] (-) TimerEvent: {}
+[752.839335] (-) TimerEvent: {}
+[752.869553] (nav2_map_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable map_server\x1b[0m\n'}
+[752.939448] (-) TimerEvent: {}
+[753.031208] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_position_setpoint__type_support.cpp.o\x1b[0m\n'}
+[753.041950] (-) TimerEvent: {}
+[753.142249] (-) TimerEvent: {}
+[753.244763] (-) TimerEvent: {}
+[753.345110] (-) TimerEvent: {}
+[753.421690] (nav2_map_server) StdoutLine: {'line': b'[100%] Built target map_server\n'}
+[753.445643] (-) TimerEvent: {}
+[753.467793] (nav2_map_server) CommandEnded: {'returncode': 0}
+[753.468333] (nav2_map_server) JobProgress: {'identifier': 'nav2_map_server', 'progress': 'install'}
+[753.468366] (nav2_map_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[753.502417] (nav2_map_server) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[753.503445] (nav2_map_server) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[753.507740] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_server\n'}
+[753.529504] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli\n'}
+[753.545887] (-) TimerEvent: {}
+[753.561888] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server\n'}
+[753.588539] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server\n'}
+[753.624446] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/costmap_filter_info_server.hpp\n'}
+[753.647721] (-) TimerEvent: {}
+[753.652957] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_io.hpp\n'}
+[753.672739] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_mode.hpp\n'}
+[753.682055] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_rate_setpoint__type_support.cpp.o\x1b[0m\n'}
+[753.701629] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_saver.hpp\n'}
+[753.730637] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_server.hpp\n'}
+[753.750106] (-) TimerEvent: {}
+[753.760266] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py\n'}
+[753.779281] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh\n'}
+[753.792377] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv\n'}
+[753.808229] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server\n'}
+[753.823398] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server\n'}
+[753.839146] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh\n'}
+[753.850206] (-) TimerEvent: {}
+[753.854615] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv\n'}
+[753.869741] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh\n'}
+[753.886337] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv\n'}
+[753.900315] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash\n'}
+[753.915586] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh\n'}
+[753.931153] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh\n'}
+[753.947138] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv\n'}
+[753.952235] (-) TimerEvent: {}
+[753.962251] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/package.dsv\n'}
+[753.977874] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server\n'}
+[753.992849] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server\n'}
+[754.007417] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[754.025216] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[754.037808] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[754.052384] (-) TimerEvent: {}
+[754.054507] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[754.069648] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake\n'}
+[754.086158] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake\n'}
+[754.100691] (nav2_map_server) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/package.xml\n'}
+[754.116138] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_server_core.so\n'}
+[754.118038] (nav2_map_server) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""\n'}
+[754.118419] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_io.so\n'}
+[754.119028] (nav2_map_server) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_io.so" to ""\n'}
+[754.119162] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport.cmake\n'}
+[754.119249] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport-release.cmake\n'}
+[754.123609] (nav2_map_server) CommandEnded: {'returncode': 0}
+[754.160086] (-) TimerEvent: {}
+[754.227657] (nav2_map_server) JobEnded: {'identifier': 'nav2_map_server', 'rc': 0}
+[754.228124] (nav2_costmap_2d) JobStarted: {'identifier': 'nav2_costmap_2d'}
+[754.260278] (-) TimerEvent: {}
+[754.320317] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'cmake'}
+[754.320386] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_costmap_2d', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_costmap_2d', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_costmap_2d', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[754.362340] (-) TimerEvent: {}
+[754.465835] (-) TimerEvent: {}
+[754.490036] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_rate_status__type_support.cpp.o\x1b[0m\n'}
+[754.538630] (nav2_costmap_2d) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[754.567603] (-) TimerEvent: {}
+[754.667954] (-) TimerEvent: {}
+[754.768558] (-) TimerEvent: {}
+[754.801313] (nav2_costmap_2d) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[754.876100] (-) TimerEvent: {}
+[754.885814] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[754.977762] (-) TimerEvent: {}
+[755.079504] (-) TimerEvent: {}
+[755.182109] (-) TimerEvent: {}
+[755.203023] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[755.244294] (nav2_costmap_2d) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[755.244581] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[755.249755] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[755.275202] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[755.283268] (-) TimerEvent: {}
+[755.386114] (-) TimerEvent: {}
+[755.490411] (-) TimerEvent: {}
+[755.531238] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_steering_setpoint__type_support.cpp.o\x1b[0m\n'}
+[755.570258] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[755.591531] (-) TimerEvent: {}
+[755.617787] (nav2_costmap_2d) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[755.625195] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[755.625540] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[755.642912] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[755.692269] (-) TimerEvent: {}
+[755.795174] (-) TimerEvent: {}
+[755.896406] (-) TimerEvent: {}
+[756.001082] (-) TimerEvent: {}
+[756.101808] (-) TimerEvent: {}
+[756.116164] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[756.202589] (-) TimerEvent: {}
+[756.258999] (nav2_costmap_2d) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[756.302682] (-) TimerEvent: {}
+[756.346633] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__type_support.cpp.o\x1b[0m\n'}
+[756.368032] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)\n'}
+[756.390778] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[756.404601] (-) TimerEvent: {}
+[756.506222] (-) TimerEvent: {}
+[756.569615] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[756.606362] (-) TimerEvent: {}
+[756.631026] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[756.706855] (-) TimerEvent: {}
+[756.724965] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[756.811952] (-) TimerEvent: {}
+[756.838577] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[756.915180] (-) TimerEvent: {}
+[757.015550] (-) TimerEvent: {}
+[757.018379] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found laser_geometry: 2.7.0 (/opt/ros/jazzy/share/laser_geometry/cmake)\n'}
+[757.117034] (-) TimerEvent: {}
+[757.217374] (-) TimerEvent: {}
+[757.278176] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)\n'}
+[757.318996] (-) TimerEvent: {}
+[757.334541] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_velocity_setpoint__type_support.cpp.o\x1b[0m\n'}
+[757.419090] (-) TimerEvent: {}
+[757.520379] (-) TimerEvent: {}
+[757.539452] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[757.623607] (-) TimerEvent: {}
+[757.723948] (-) TimerEvent: {}
+[757.772144] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[757.790207] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[757.824975] (-) TimerEvent: {}
+[757.926033] (-) TimerEvent: {}
+[757.988957] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rover_velocity_status__type_support.cpp.o\x1b[0m\n'}
+[758.027583] (-) TimerEvent: {}
+[758.127914] (-) TimerEvent: {}
+[758.134761] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[758.221840] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[758.227953] (-) TimerEvent: {}
+[758.328282] (-) TimerEvent: {}
+[758.329393] (nav2_costmap_2d) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[758.429966] (-) TimerEvent: {}
+[758.530302] (-) TimerEvent: {}
+[758.630668] (-) TimerEvent: {}
+[758.635993] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_common: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake)\n'}
+[758.636689] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_msgs: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)\n'}
+[758.678771] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rpm__type_support.cpp.o\x1b[0m\n'}
+[758.733990] (-) TimerEvent: {}
+[758.834292] (-) TimerEvent: {}
+[758.935703] (-) TimerEvent: {}
+[759.040175] (-) TimerEvent: {}
+[759.047481] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_util: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake)\n'}
+[759.140272] (-) TimerEvent: {}
+[759.244506] (-) TimerEvent: {}
+[759.346433] (-) TimerEvent: {}
+[759.398034] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[759.399070] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[759.401205] (nav2_costmap_2d) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[759.448958] (-) TimerEvent: {}
+[759.549282] (-) TimerEvent: {}
+[759.599482] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rtl_status__type_support.cpp.o\x1b[0m\n'}
+[759.621683] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_voxel_grid: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)\n'}
+[759.652126] (-) TimerEvent: {}
+[759.673853] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[759.755118] (-) TimerEvent: {}
+[759.781364] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[759.827082] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[759.856338] (-) TimerEvent: {}
+[759.916752] (nav2_costmap_2d) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[759.933625] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[759.956603] (-) TimerEvent: {}
+[760.059429] (-) TimerEvent: {}
+[760.159811] (-) TimerEvent: {}
+[760.261218] (-) TimerEvent: {}
+[760.322009] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rtl_time_estimate__type_support.cpp.o\x1b[0m\n'}
+[760.361317] (-) TimerEvent: {}
+[760.462834] (-) TimerEvent: {}
+[760.565965] (-) TimerEvent: {}
+[760.666286] (-) TimerEvent: {}
+[760.766613] (-) TimerEvent: {}
+[760.796314] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[760.822797] (nav2_costmap_2d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[760.866745] (-) TimerEvent: {}
+[760.967178] (-) TimerEvent: {}
+[760.969931] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/satellite_info__type_support.cpp.o\x1b[0m\n'}
+[761.067314] (-) TimerEvent: {}
+[761.154328] (nav2_costmap_2d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[761.162478] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[761.167409] (-) TimerEvent: {}
+[761.269988] (-) TimerEvent: {}
+[761.356587] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[761.356912] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_costmap_2d/include>\n'}
+[761.357018] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[761.363042] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[761.363320] (nav2_costmap_2d) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[761.368573] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[761.370303] (-) TimerEvent: {}
+[761.372987] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[761.388470] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[761.388823] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[761.390717] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[761.406660] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configuring done (7.0s)\n'}
+[761.470424] (-) TimerEvent: {}
+[761.573907] (-) TimerEvent: {}
+[761.676484] (-) TimerEvent: {}
+[761.777062] (-) TimerEvent: {}
+[761.843348] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_accel__type_support.cpp.o\x1b[0m\n'}
+[761.877692] (-) TimerEvent: {}
+[761.977972] (-) TimerEvent: {}
+[762.079980] (-) TimerEvent: {}
+[762.182157] (-) TimerEvent: {}
+[762.276428] (px4_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_accel_fifo__type_support.cpp.o\x1b[0m\n'}
+[762.283315] (-) TimerEvent: {}
+[762.384984] (-) TimerEvent: {}
+[762.485515] (-) TimerEvent: {}
+[762.587181] (-) TimerEvent: {}
+[762.689285] (-) TimerEvent: {}
+[762.793573] (-) TimerEvent: {}
+[762.884943] (nav2_costmap_2d) StdoutLine: {'line': b'-- Generating done (1.2s)\n'}
+[762.895346] (-) TimerEvent: {}
+[762.995710] (-) TimerEvent: {}
+[763.099157] (-) TimerEvent: {}
+[763.200964] (-) TimerEvent: {}
+[763.305822] (-) TimerEvent: {}
+[763.349559] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_airflow__type_support.cpp.o\x1b[0m\n'}
+[763.407312] (-) TimerEvent: {}
+[763.509346] (-) TimerEvent: {}
+[763.542516] (nav2_costmap_2d) StdoutLine: {'line': b'-- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_costmap_2d\n'}
+[763.610273] (-) TimerEvent: {}
+[763.682614] (nav2_costmap_2d) CommandEnded: {'returncode': 0}
+[763.683075] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'build'}
+[763.683105] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_costmap_2d', '--', '-j4', '-l4'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_costmap_2d', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_costmap_2d', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[763.711986] (-) TimerEvent: {}
+[763.814248] (-) TimerEvent: {}
+[763.881744] (nav2_costmap_2d) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o\x1b[0m\n'}
+[763.914720] (-) TimerEvent: {}
+[764.006832] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_baro__type_support.cpp.o\x1b[0m\n'}
+[764.016023] (-) TimerEvent: {}
+[764.120100] (-) TimerEvent: {}
+[764.220480] (-) TimerEvent: {}
+[764.322821] (-) TimerEvent: {}
+[764.429843] (-) TimerEvent: {}
+[764.530358] (-) TimerEvent: {}
+[764.634001] (-) TimerEvent: {}
+[764.734323] (-) TimerEvent: {}
+[764.838521] (-) TimerEvent: {}
+[764.938848] (-) TimerEvent: {}
+[765.039220] (-) TimerEvent: {}
+[765.041150] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_combined__type_support.cpp.o\x1b[0m\n'}
+[765.139876] (-) TimerEvent: {}
+[765.243335] (-) TimerEvent: {}
+[765.344984] (-) TimerEvent: {}
+[765.447088] (-) TimerEvent: {}
+[765.547511] (-) TimerEvent: {}
+[765.647864] (-) TimerEvent: {}
+[765.748187] (-) TimerEvent: {}
+[765.849997] (-) TimerEvent: {}
+[765.919957] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_correction__type_support.cpp.o\x1b[0m\n'}
+[765.950366] (-) TimerEvent: {}
+[766.053960] (-) TimerEvent: {}
+[766.154307] (-) TimerEvent: {}
+[766.254977] (-) TimerEvent: {}
+[766.357098] (-) TimerEvent: {}
+[766.459035] (-) TimerEvent: {}
+[766.562133] (-) TimerEvent: {}
+[766.664501] (-) TimerEvent: {}
+[766.765981] (-) TimerEvent: {}
+[766.866630] (-) TimerEvent: {}
+[766.969301] (-) TimerEvent: {}
+[766.994531] (nav2_costmap_2d) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o\x1b[0m\n'}
+[767.072863] (-) TimerEvent: {}
+[767.176428] (-) TimerEvent: {}
+[767.232591] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_gnss_relative__type_support.cpp.o\x1b[0m\n'}
+[767.276546] (-) TimerEvent: {}
+[767.377136] (-) TimerEvent: {}
+[767.478415] (-) TimerEvent: {}
+[767.580867] (-) TimerEvent: {}
+[767.681504] (-) TimerEvent: {}
+[767.785601] (-) TimerEvent: {}
+[767.886160] (-) TimerEvent: {}
+[767.988378] (-) TimerEvent: {}
+[768.091374] (-) TimerEvent: {}
+[768.192808] (-) TimerEvent: {}
+[768.293274] (-) TimerEvent: {}
+[768.394178] (-) TimerEvent: {}
+[768.496140] (-) TimerEvent: {}
+[768.535157] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_gps__type_support.cpp.o\x1b[0m\n'}
+[768.596236] (-) TimerEvent: {}
+[768.696752] (-) TimerEvent: {}
+[768.798473] (-) TimerEvent: {}
+[768.817458] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_wait_action_bt_node.so\x1b[0m\n'}
+[768.898581] (-) TimerEvent: {}
+[769.001160] (-) TimerEvent: {}
+[769.104865] (-) TimerEvent: {}
+[769.213371] (-) TimerEvent: {}
+[769.315062] (-) TimerEvent: {}
+[769.331811] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_gyro__type_support.cpp.o\x1b[0m\n'}
+[769.340260] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] Built target nav2_wait_action_bt_node\n'}
+[769.382788] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_action_bt_node.dir/plugins/action/assisted_teleop_action.cpp.o\x1b[0m\n'}
+[769.417208] (-) TimerEvent: {}
+[769.519508] (-) TimerEvent: {}
+[769.624257] (-) TimerEvent: {}
+[769.728056] (-) TimerEvent: {}
+[769.831298] (-) TimerEvent: {}
+[769.938175] (-) TimerEvent: {}
+[770.028071] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_gyro_fft__type_support.cpp.o\x1b[0m\n'}
+[770.038372] (-) TimerEvent: {}
+[770.143184] (-) TimerEvent: {}
+[770.243532] (-) TimerEvent: {}
+[770.346054] (-) TimerEvent: {}
+[770.446554] (-) TimerEvent: {}
+[770.546845] (-) TimerEvent: {}
+[770.650737] (-) TimerEvent: {}
+[770.751038] (-) TimerEvent: {}
+[770.795160] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_gyro_fifo__type_support.cpp.o\x1b[0m\n'}
+[770.851133] (-) TimerEvent: {}
+[770.951492] (-) TimerEvent: {}
+[771.051961] (-) TimerEvent: {}
+[771.154831] (-) TimerEvent: {}
+[771.256144] (-) TimerEvent: {}
+[771.356438] (-) TimerEvent: {}
+[771.366286] (nav2_amcl) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libamcl_core.so\x1b[0m\n'}
+[771.456808] (-) TimerEvent: {}
+[771.562026] (-) TimerEvent: {}
+[771.662748] (-) TimerEvent: {}
+[771.678801] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_hygrometer__type_support.cpp.o\x1b[0m\n'}
+[771.765010] (-) TimerEvent: {}
+[771.865364] (-) TimerEvent: {}
+[771.965885] (-) TimerEvent: {}
+[772.066314] (-) TimerEvent: {}
+[772.166660] (-) TimerEvent: {}
+[772.274392] (-) TimerEvent: {}
+[772.377719] (-) TimerEvent: {}
+[772.478069] (-) TimerEvent: {}
+[772.578379] (-) TimerEvent: {}
+[772.590202] (nav2_amcl) StdoutLine: {'line': b'[ 91%] Built target amcl_core\n'}
+[772.624782] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_mag__type_support.cpp.o\x1b[0m\n'}
+[772.640647] (nav2_amcl) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o\x1b[0m\n'}
+[772.678477] (-) TimerEvent: {}
+[772.779961] (-) TimerEvent: {}
+[772.882309] (-) TimerEvent: {}
+[772.984114] (-) TimerEvent: {}
+[773.087543] (-) TimerEvent: {}
+[773.188826] (-) TimerEvent: {}
+[773.289375] (-) TimerEvent: {}
+[773.297918] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_optical_flow__type_support.cpp.o\x1b[0m\n'}
+[773.392969] (-) TimerEvent: {}
+[773.493258] (-) TimerEvent: {}
+[773.595244] (-) TimerEvent: {}
+[773.696017] (-) TimerEvent: {}
+[773.797805] (-) TimerEvent: {}
+[773.899773] (-) TimerEvent: {}
+[774.001200] (-) TimerEvent: {}
+[774.098629] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_preflight_mag__type_support.cpp.o\x1b[0m\n'}
+[774.101296] (-) TimerEvent: {}
+[774.202956] (-) TimerEvent: {}
+[774.305059] (-) TimerEvent: {}
+[774.407767] (-) TimerEvent: {}
+[774.508075] (-) TimerEvent: {}
+[774.610262] (-) TimerEvent: {}
+[774.710620] (-) TimerEvent: {}
+[774.727945] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_selection__type_support.cpp.o\x1b[0m\n'}
+[774.812469] (-) TimerEvent: {}
+[774.912773] (-) TimerEvent: {}
+[775.015374] (-) TimerEvent: {}
+[775.115731] (-) TimerEvent: {}
+[775.216069] (-) TimerEvent: {}
+[775.317061] (-) TimerEvent: {}
+[775.419908] (-) TimerEvent: {}
+[775.522779] (-) TimerEvent: {}
+[775.558064] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensor_uwb__type_support.cpp.o\x1b[0m\n'}
+[775.623671] (-) TimerEvent: {}
+[775.726401] (-) TimerEvent: {}
+[775.827281] (-) TimerEvent: {}
+[775.934677] (-) TimerEvent: {}
+[776.035023] (-) TimerEvent: {}
+[776.135310] (-) TimerEvent: {}
+[776.235945] (-) TimerEvent: {}
+[776.338423] (-) TimerEvent: {}
+[776.444906] (-) TimerEvent: {}
+[776.545251] (-) TimerEvent: {}
+[776.647027] (-) TimerEvent: {}
+[776.747404] (-) TimerEvent: {}
+[776.809168] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensors_status__type_support.cpp.o\x1b[0m\n'}
+[776.812416] (nav2_costmap_2d) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o\x1b[0m\n'}
+[776.848650] (-) TimerEvent: {}
+[776.953563] (-) TimerEvent: {}
+[777.053919] (-) TimerEvent: {}
+[777.157444] (-) TimerEvent: {}
+[777.257780] (-) TimerEvent: {}
+[777.359159] (-) TimerEvent: {}
+[777.390787] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/sensors_status_imu__type_support.cpp.o\x1b[0m\n'}
+[777.459951] (-) TimerEvent: {}
+[777.560430] (-) TimerEvent: {}
+[777.664220] (-) TimerEvent: {}
+[777.764692] (-) TimerEvent: {}
+[777.867262] (-) TimerEvent: {}
+[777.967928] (-) TimerEvent: {}
+[778.068669] (-) TimerEvent: {}
+[778.175666] (-) TimerEvent: {}
+[778.276011] (-) TimerEvent: {}
+[778.280851] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/system_power__type_support.cpp.o\x1b[0m\n'}
+[778.376103] (-) TimerEvent: {}
+[778.476497] (-) TimerEvent: {}
+[778.577326] (-) TimerEvent: {}
+[778.679247] (-) TimerEvent: {}
+[778.779831] (-) TimerEvent: {}
+[778.881102] (-) TimerEvent: {}
+[778.975037] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/takeoff_status__type_support.cpp.o\x1b[0m\n'}
+[778.983806] (-) TimerEvent: {}
+[779.086962] (-) TimerEvent: {}
+[779.187301] (-) TimerEvent: {}
+[779.287656] (-) TimerEvent: {}
+[779.388059] (-) TimerEvent: {}
+[779.488414] (-) TimerEvent: {}
+[779.498406] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/task_stack_info__type_support.cpp.o\x1b[0m\n'}
+[779.588523] (-) TimerEvent: {}
+[779.689456] (-) TimerEvent: {}
+[779.792289] (-) TimerEvent: {}
+[779.894273] (-) TimerEvent: {}
+[779.994582] (-) TimerEvent: {}
+[780.094890] (-) TimerEvent: {}
+[780.121996] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/tecs_status__type_support.cpp.o\x1b[0m\n'}
+[780.194964] (-) TimerEvent: {}
+[780.297119] (-) TimerEvent: {}
+[780.397620] (-) TimerEvent: {}
+[780.497959] (-) TimerEvent: {}
+[780.598295] (-) TimerEvent: {}
+[780.626418] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/telemetry_status__type_support.cpp.o\x1b[0m\n'}
+[780.698404] (-) TimerEvent: {}
+[780.800974] (-) TimerEvent: {}
+[780.901331] (-) TimerEvent: {}
+[781.001756] (-) TimerEvent: {}
+[781.105593] (-) TimerEvent: {}
+[781.179216] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/tiltrotor_extra_controls__type_support.cpp.o\x1b[0m\n'}
+[781.208506] (-) TimerEvent: {}
+[781.308822] (-) TimerEvent: {}
+[781.410745] (-) TimerEvent: {}
+[781.511087] (-) TimerEvent: {}
+[781.611373] (-) TimerEvent: {}
+[781.615019] (px4_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/timesync_status__type_support.cpp.o\x1b[0m\n'}
+[781.713954] (-) TimerEvent: {}
+[781.814394] (-) TimerEvent: {}
+[781.914778] (-) TimerEvent: {}
+[782.015788] (-) TimerEvent: {}
+[782.118867] (-) TimerEvent: {}
+[782.219246] (-) TimerEvent: {}
+[782.320013] (-) TimerEvent: {}
+[782.322445] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/trajectory_setpoint__type_support.cpp.o\x1b[0m\n'}
+[782.422406] (-) TimerEvent: {}
+[782.522739] (-) TimerEvent: {}
+[782.623037] (-) TimerEvent: {}
+[782.724957] (-) TimerEvent: {}
+[782.825273] (-) TimerEvent: {}
+[782.847542] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__type_support.cpp.o\x1b[0m\n'}
+[782.926837] (-) TimerEvent: {}
+[783.027136] (-) TimerEvent: {}
+[783.129082] (-) TimerEvent: {}
+[783.229448] (-) TimerEvent: {}
+[783.331957] (-) TimerEvent: {}
+[783.375912] (nav2_amcl) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable amcl\x1b[0m\n'}
+[783.432065] (-) TimerEvent: {}
+[783.485172] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/transponder_report__type_support.cpp.o\x1b[0m\n'}
+[783.537034] (-) TimerEvent: {}
+[783.637548] (-) TimerEvent: {}
+[783.737956] (-) TimerEvent: {}
+[783.778891] (nav2_amcl) StdoutLine: {'line': b'[100%] Built target amcl\n'}
+[783.805327] (nav2_amcl) CommandEnded: {'returncode': 0}
+[783.805786] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'install'}
+[783.805811] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_amcl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[783.838237] (nav2_amcl) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[783.838446] (-) TimerEvent: {}
+[783.838872] (nav2_amcl) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[783.839042] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/nav2_amcl/amcl\n'}
+[783.882588] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/amcl_node.hpp\n'}
+[783.915436] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/angleutils.hpp\n'}
+[783.939992] (-) TimerEvent: {}
+[783.957964] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/map/map.hpp\n'}
+[783.984420] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/motion_model/differential_motion_model.hpp\n'}
+[784.023709] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/motion_model/motion_model.hpp\n'}
+[784.041120] (-) TimerEvent: {}
+[784.061793] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/motion_model/omni_motion_model.hpp\n'}
+[784.102470] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/pf/eig3.hpp\n'}
+[784.141218] (-) TimerEvent: {}
+[784.145533] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/pf/pf.hpp\n'}
+[784.216048] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/pf/pf_kdtree.hpp\n'}
+[784.241318] (-) TimerEvent: {}
+[784.284984] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/pf/pf_pdf.hpp\n'}
+[784.312224] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/pf/pf_vector.hpp\n'}
+[784.341418] (-) TimerEvent: {}
+[784.342980] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/portable_utils.hpp\n'}
+[784.360549] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/include/nav2_amcl/nav2_amcl/sensors/laser/laser.hpp\n'}
+[784.388974] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh\n'}
+[784.419934] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv\n'}
+[784.442803] (-) TimerEvent: {}
+[784.457095] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl//plugins.xml\n'}
+[784.488466] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl\n'}
+[784.507704] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/tune_control__type_support.cpp.o\x1b[0m\n'}
+[784.513346] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl\n'}
+[784.542918] (-) TimerEvent: {}
+[784.546183] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh\n'}
+[784.577772] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv\n'}
+[784.613152] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh\n'}
+[784.629644] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv\n'}
+[784.644805] (-) TimerEvent: {}
+[784.670041] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash\n'}
+[784.701433] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh\n'}
+[784.727468] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh\n'}
+[784.744918] (-) TimerEvent: {}
+[784.756436] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv\n'}
+[784.782847] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv\n'}
+[784.807001] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl\n'}
+[784.830394] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl\n'}
+[784.845004] (-) TimerEvent: {}
+[784.861052] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl\n'}
+[784.890568] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[784.917632] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[784.934960] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[784.945966] (-) TimerEvent: {}
+[784.953634] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[784.970349] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake\n'}
+[784.986763] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake\n'}
+[785.003381] (nav2_amcl) StdoutLine: {'line': b'-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/package.xml\n'}
+[785.019511] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libamcl_core.so\n'}
+[785.024377] (nav2_amcl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libamcl_core.so" to ""\n'}
+[785.025450] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libpf_lib.so\n'}
+[785.026449] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libmap_lib.so\n'}
+[785.027373] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libmotions_lib.so\n'}
+[785.028597] (nav2_amcl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libmotions_lib.so" to ""\n'}
+[785.029974] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libsensors_lib.so\n'}
+[785.030589] (nav2_amcl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib/libsensors_lib.so" to ""\n'}
+[785.031545] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/amcl_coreExport.cmake\n'}
+[785.034100] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/amcl_coreExport-release.cmake\n'}
+[785.037296] (nav2_amcl) CommandEnded: {'returncode': 0}
+[785.046210] (-) TimerEvent: {}
+[785.095148] (nav2_amcl) JobEnded: {'identifier': 'nav2_amcl', 'rc': 0}
+[785.095970] (nav2_velocity_smoother) JobStarted: {'identifier': 'nav2_velocity_smoother'}
+[785.140076] (nav2_velocity_smoother) JobProgress: {'identifier': 'nav2_velocity_smoother', 'progress': 'cmake'}
+[785.140143] (nav2_velocity_smoother) Command: {'cmd': ['/usr/bin/cmake', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_velocity_smoother', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_velocity_smoother', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_velocity_smoother', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[785.150912] (-) TimerEvent: {}
+[785.251247] (-) TimerEvent: {}
+[785.315981] (nav2_velocity_smoother) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[785.351347] (-) TimerEvent: {}
+[785.419097] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/uavcan_parameter_request__type_support.cpp.o\x1b[0m\n'}
+[785.452959] (-) TimerEvent: {}
+[785.486955] (nav2_velocity_smoother) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[785.529760] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[785.553054] (-) TimerEvent: {}
+[785.653802] (-) TimerEvent: {}
+[785.754386] (-) TimerEvent: {}
+[785.859296] (-) TimerEvent: {}
+[785.878477] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[785.908159] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[785.909018] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[785.909209] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[785.937364] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[785.960073] (-) TimerEvent: {}
+[785.961992] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/uavcan_parameter_value__type_support.cpp.o\x1b[0m\n'}
+[786.060181] (-) TimerEvent: {}
+[786.162538] (-) TimerEvent: {}
+[786.262829] (-) TimerEvent: {}
+[786.269603] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[786.316961] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[786.319308] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[786.319495] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[786.330002] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[786.362964] (-) TimerEvent: {}
+[786.463542] (-) TimerEvent: {}
+[786.532586] (nav2_costmap_2d) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o\x1b[0m\n'}
+[786.563643] (-) TimerEvent: {}
+[786.595185] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/ulog_stream__type_support.cpp.o\x1b[0m\n'}
+[786.663830] (-) TimerEvent: {}
+[786.764371] (-) TimerEvent: {}
+[786.790344] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[786.864502] (-) TimerEvent: {}
+[786.924398] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[786.967167] (-) TimerEvent: {}
+[787.017266] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[787.067279] (-) TimerEvent: {}
+[787.115588] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[787.148001] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[787.169131] (-) TimerEvent: {}
+[787.186934] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[787.227135] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[787.270853] (-) TimerEvent: {}
+[787.310026] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found nav2_common: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake)\n'}
+[787.311389] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found nav2_util: 1.4.0 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/share/nav2_util/cmake)\n'}
+[787.371837] (-) TimerEvent: {}
+[787.473697] (-) TimerEvent: {}
+[787.477022] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[787.483376] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[787.575341] (-) TimerEvent: {}
+[787.677158] (-) TimerEvent: {}
+[787.704826] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[787.757863] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/ulog_stream_ack__type_support.cpp.o\x1b[0m\n'}
+[787.777850] (-) TimerEvent: {}
+[787.794291] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[787.851816] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[787.878088] (-) TimerEvent: {}
+[787.980136] (-) TimerEvent: {}
+[788.088008] (-) TimerEvent: {}
+[788.191584] (-) TimerEvent: {}
+[788.234220] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/unregister_ext_component__type_support.cpp.o\x1b[0m\n'}
+[788.292161] (-) TimerEvent: {}
+[788.393694] (-) TimerEvent: {}
+[788.494763] (-) TimerEvent: {}
+[788.595424] (-) TimerEvent: {}
+[788.695614] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_acceleration__type_support.cpp.o\x1b[0m\n'}
+[788.700800] (-) TimerEvent: {}
+[788.801439] (-) TimerEvent: {}
+[788.901761] (-) TimerEvent: {}
+[789.004763] (-) TimerEvent: {}
+[789.107553] (-) TimerEvent: {}
+[789.192762] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_air_data__type_support.cpp.o\x1b[0m\n'}
+[789.207646] (-) TimerEvent: {}
+[789.229535] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[789.233032] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[789.233317] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[789.310839] (-) TimerEvent: {}
+[789.408039] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[789.410952] (-) TimerEvent: {}
+[789.415617] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[789.512973] (-) TimerEvent: {}
+[789.613260] (-) TimerEvent: {}
+[789.713577] (-) TimerEvent: {}
+[789.814209] (-) TimerEvent: {}
+[789.897149] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_angular_acceleration_setpoint__type_support.cpp.o\x1b[0m\n'}
+[789.915964] (-) TimerEvent: {}
+[790.020968] (-) TimerEvent: {}
+[790.121690] (-) TimerEvent: {}
+[790.227036] (-) TimerEvent: {}
+[790.323631] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[790.331742] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[790.331985] (-) TimerEvent: {}
+[790.434004] (-) TimerEvent: {}
+[790.535285] (-) TimerEvent: {}
+[790.635595] (-) TimerEvent: {}
+[790.686066] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[790.686930] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[790.710710] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[790.716574] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_velocity_smoother/include>\n'}
+[790.716983] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[790.726950] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[790.727145] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[790.735753] (-) TimerEvent: {}
+[790.740988] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[790.754844] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[790.755095] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[790.762017] (nav2_velocity_smoother) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[790.792796] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Configuring done (5.6s)\n'}
+[790.836723] (-) TimerEvent: {}
+[790.942788] (-) TimerEvent: {}
+[791.043145] (-) TimerEvent: {}
+[791.060798] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[791.106257] (nav2_velocity_smoother) StdoutLine: {'line': b'-- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_velocity_smoother\n'}
+[791.114444] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_angular_velocity__type_support.cpp.o\x1b[0m\n'}
+[791.143246] (-) TimerEvent: {}
+[791.158252] (nav2_velocity_smoother) CommandEnded: {'returncode': 0}
+[791.158718] (nav2_velocity_smoother) JobProgress: {'identifier': 'nav2_velocity_smoother', 'progress': 'build'}
+[791.158746] (nav2_velocity_smoother) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_velocity_smoother', '--', '-j4', '-l4'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_velocity_smoother', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3501', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_velocity_smoother', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[791.243853] (-) TimerEvent: {}
+[791.316198] (nav2_velocity_smoother) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/velocity_smoother_core.dir/src/velocity_smoother.cpp.o\x1b[0m\n'}
+[791.349075] (-) TimerEvent: {}
+[791.452025] (-) TimerEvent: {}
+[791.552361] (-) TimerEvent: {}
+[791.654914] (-) TimerEvent: {}
+[791.756192] (-) TimerEvent: {}
+[791.856776] (-) TimerEvent: {}
+[791.957820] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_attitude__type_support.cpp.o\x1b[0m\n'}
+[791.958213] (-) TimerEvent: {}
+[792.058674] (-) TimerEvent: {}
+[792.162997] (-) TimerEvent: {}
+[792.265262] (-) TimerEvent: {}
+[792.366397] (-) TimerEvent: {}
+[792.466712] (-) TimerEvent: {}
+[792.569888] (-) TimerEvent: {}
+[792.678449] (-) TimerEvent: {}
+[792.780992] (-) TimerEvent: {}
+[792.881386] (-) TimerEvent: {}
+[792.981707] (-) TimerEvent: {}
+[793.084170] (-) TimerEvent: {}
+[793.124883] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_attitude_setpoint__type_support.cpp.o\x1b[0m\n'}
+[793.185997] (-) TimerEvent: {}
+[793.286299] (-) TimerEvent: {}
+[793.386645] (-) TimerEvent: {}
+[793.487012] (-) TimerEvent: {}
+[793.587730] (-) TimerEvent: {}
+[793.690872] (-) TimerEvent: {}
+[793.793119] (-) TimerEvent: {}
+[793.897227] (-) TimerEvent: {}
+[793.945588] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_command__type_support.cpp.o\x1b[0m\n'}
+[793.997323] (-) TimerEvent: {}
+[794.097812] (-) TimerEvent: {}
+[794.199638] (-) TimerEvent: {}
+[794.300199] (-) TimerEvent: {}
+[794.401054] (-) TimerEvent: {}
+[794.463340] (nav2_behavior_tree) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_assisted_teleop_action_bt_node.so\x1b[0m\n'}
+[794.505283] (-) TimerEvent: {}
+[794.612917] (-) TimerEvent: {}
+[794.617624] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_command_ack__type_support.cpp.o\x1b[0m\n'}
+[794.718067] (-) TimerEvent: {}
+[794.818413] (-) TimerEvent: {}
+[794.920040] (-) TimerEvent: {}
+[795.020887] (-) TimerEvent: {}
+[795.123031] (-) TimerEvent: {}
+[795.185091] (nav2_behavior_tree) StdoutLine: {'line': b'[ 11%] Built target nav2_assisted_teleop_action_bt_node\n'}
+[795.224195] (-) TimerEvent: {}
+[795.280561] (nav2_behavior_tree) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o\x1b[0m\n'}
+[795.324296] (-) TimerEvent: {}
+[795.425824] (-) TimerEvent: {}
+[795.528009] (-) TimerEvent: {}
+[795.628639] (-) TimerEvent: {}
+[795.733396] (-) TimerEvent: {}
+[795.837166] (-) TimerEvent: {}
+[795.938063] (-) TimerEvent: {}
+[796.038408] (-) TimerEvent: {}
+[796.095013] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_constraints__type_support.cpp.o\x1b[0m\n'}
+[796.141917] (-) TimerEvent: {}
+[796.242262] (-) TimerEvent: {}
+[796.345540] (-) TimerEvent: {}
+[796.448689] (-) TimerEvent: {}
+[796.550127] (-) TimerEvent: {}
+[796.650685] (-) TimerEvent: {}
+[796.750981] (-) TimerEvent: {}
+[796.853744] (-) TimerEvent: {}
+[796.954057] (-) TimerEvent: {}
+[797.054348] (-) TimerEvent: {}
+[797.117546] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_control_mode__type_support.cpp.o\x1b[0m\n'}
+[797.154452] (-) TimerEvent: {}
+[797.257971] (-) TimerEvent: {}
+[797.358386] (-) TimerEvent: {}
+[797.459415] (-) TimerEvent: {}
+[797.560011] (-) TimerEvent: {}
+[797.660373] (-) TimerEvent: {}
+[797.664840] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_global_position__type_support.cpp.o\x1b[0m\n'}
+[797.761204] (-) TimerEvent: {}
+[797.863031] (-) TimerEvent: {}
+[797.963541] (-) TimerEvent: {}
+[798.064855] (-) TimerEvent: {}
+[798.172030] (-) TimerEvent: {}
+[798.276533] (-) TimerEvent: {}
+[798.376927] (-) TimerEvent: {}
+[798.478713] (-) TimerEvent: {}
+[798.580279] (-) TimerEvent: {}
+[798.682612] (-) TimerEvent: {}
+[798.762508] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_imu__type_support.cpp.o\x1b[0m\n'}
+[798.782711] (-) TimerEvent: {}
+[798.885843] (-) TimerEvent: {}
+[798.986240] (-) TimerEvent: {}
+[799.086849] (-) TimerEvent: {}
+[799.190137] (-) TimerEvent: {}
+[799.291050] (-) TimerEvent: {}
+[799.394121] (-) TimerEvent: {}
+[799.494551] (-) TimerEvent: {}
+[799.608077] (-) TimerEvent: {}
+[799.710410] (-) TimerEvent: {}
+[799.810820] (-) TimerEvent: {}
+[799.900156] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_imu_status__type_support.cpp.o\x1b[0m\n'}
+[799.911236] (-) TimerEvent: {}
+[800.020955] (-) TimerEvent: {}
+[800.121254] (-) TimerEvent: {}
+[800.221837] (-) TimerEvent: {}
+[800.322164] (-) TimerEvent: {}
+[800.422749] (-) TimerEvent: {}
+[800.523180] (-) TimerEvent: {}
+[800.623602] (-) TimerEvent: {}
+[800.730554] (-) TimerEvent: {}
+[800.736536] (px4_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_land_detected__type_support.cpp.o\x1b[0m\n'}
+[800.832070] (-) TimerEvent: {}
+[800.934125] (-) TimerEvent: {}
+[801.037144] (-) TimerEvent: {}
+[801.138368] (-) TimerEvent: {}
+[801.243141] (-) TimerEvent: {}
+[801.310640] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_local_position__type_support.cpp.o\x1b[0m\n'}
+[801.344763] (-) TimerEvent: {}
+[801.445282] (-) TimerEvent: {}
+[801.545773] (-) TimerEvent: {}
+[801.646106] (-) TimerEvent: {}
+[801.744949] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_local_position_setpoint__type_support.cpp.o\x1b[0m\n'}
+[801.747267] (-) TimerEvent: {}
+[801.850121] (-) TimerEvent: {}
+[801.950424] (-) TimerEvent: {}
+[802.050751] (-) TimerEvent: {}
+[802.151658] (-) TimerEvent: {}
+[802.253781] (-) TimerEvent: {}
+[802.259161] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_magnetometer__type_support.cpp.o\x1b[0m\n'}
+[802.354400] (-) TimerEvent: {}
+[802.459073] (-) TimerEvent: {}
+[802.560196] (-) TimerEvent: {}
+[802.660576] (-) TimerEvent: {}
+[802.762843] (-) TimerEvent: {}
+[802.864127] (-) TimerEvent: {}
+[802.964483] (-) TimerEvent: {}
+[803.066434] (-) TimerEvent: {}
+[803.166741] (-) TimerEvent: {}
+[803.265739] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_odometry__type_support.cpp.o\x1b[0m\n'}
+[803.270028] (-) TimerEvent: {}
+[803.370952] (-) TimerEvent: {}
+[803.471360] (-) TimerEvent: {}
+[803.573741] (-) TimerEvent: {}
+[803.674072] (-) TimerEvent: {}
+[803.774427] (-) TimerEvent: {}
+[803.878233] (-) TimerEvent: {}
+[803.978544] (-) TimerEvent: {}
+[804.079427] (-) TimerEvent: {}
+[804.179798] (-) TimerEvent: {}
+[804.280636] (-) TimerEvent: {}
+[804.300061] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_optical_flow__type_support.cpp.o\x1b[0m\n'}
+[804.383996] (-) TimerEvent: {}
+[804.484298] (-) TimerEvent: {}
+[804.584630] (-) TimerEvent: {}
+[804.685233] (-) TimerEvent: {}
+[804.785532] (-) TimerEvent: {}
+[804.887135] (-) TimerEvent: {}
+[804.897861] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_optical_flow_vel__type_support.cpp.o\x1b[0m\n'}
+[804.989315] (-) TimerEvent: {}
+[805.091273] (-) TimerEvent: {}
+[805.194128] (-) TimerEvent: {}
+[805.297052] (-) TimerEvent: {}
+[805.397472] (-) TimerEvent: {}
+[805.499963] (-) TimerEvent: {}
+[805.600330] (-) TimerEvent: {}
+[805.702215] (-) TimerEvent: {}
+[805.806083] (-) TimerEvent: {}
+[805.906472] (-) TimerEvent: {}
+[806.009972] (-) TimerEvent: {}
+[806.112015] (-) TimerEvent: {}
+[806.158154] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.cpp.o\x1b[0m\n'}
+[806.212410] (-) TimerEvent: {}
+[806.313738] (-) TimerEvent: {}
+[806.414125] (-) TimerEvent: {}
+[806.514557] (-) TimerEvent: {}
+[806.615225] (-) TimerEvent: {}
+[806.715603] (-) TimerEvent: {}
+[806.819616] (-) TimerEvent: {}
+[806.921004] (-) TimerEvent: {}
+[807.008185] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_roi__type_support.cpp.o\x1b[0m\n'}
+[807.022579] (-) TimerEvent: {}
+[807.125950] (-) TimerEvent: {}
+[807.233983] (-) TimerEvent: {}
+[807.336954] (-) TimerEvent: {}
+[807.437294] (-) TimerEvent: {}
+[807.537733] (-) TimerEvent: {}
+[807.639015] (-) TimerEvent: {}
+[807.740023] (-) TimerEvent: {}
+[807.846213] (-) TimerEvent: {}
+[807.946609] (-) TimerEvent: {}
+[808.048615] (-) TimerEvent: {}
+[808.152980] (-) TimerEvent: {}
+[808.253365] (-) TimerEvent: {}
+[808.310178] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[808.353717] (-) TimerEvent: {}
+[808.457262] (-) TimerEvent: {}
+[808.559391] (-) TimerEvent: {}
+[808.660863] (-) TimerEvent: {}
+[808.764014] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.cpp.o\x1b[0m\n'}
+[808.764248] (-) TimerEvent: {}
+[808.864485] (-) TimerEvent: {}
+[808.965091] (-) TimerEvent: {}
+[809.065966] (-) TimerEvent: {}
+[809.168119] (-) TimerEvent: {}
+[809.269605] (-) TimerEvent: {}
+[809.370672] (-) TimerEvent: {}
+[809.450331] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.cpp.o\x1b[0m\n'}
+[809.471332] (-) TimerEvent: {}
+[809.572702] (-) TimerEvent: {}
+[809.672971] (-) TimerEvent: {}
+[809.776180] (-) TimerEvent: {}
+[809.879067] (-) TimerEvent: {}
+[809.979837] (-) TimerEvent: {}
+[810.050225] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/velocity_limits__type_support.cpp.o\x1b[0m\n'}
+[810.079951] (-) TimerEvent: {}
+[810.180259] (-) TimerEvent: {}
+[810.280734] (-) TimerEvent: {}
+[810.381042] (-) TimerEvent: {}
+[810.482529] (-) TimerEvent: {}
+[810.584507] (-) TimerEvent: {}
+[810.686120] (-) TimerEvent: {}
+[810.717480] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vtol_vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[810.788364] (-) TimerEvent: {}
+[810.888733] (-) TimerEvent: {}
+[810.990022] (-) TimerEvent: {}
+[811.090327] (-) TimerEvent: {}
+[811.190654] (-) TimerEvent: {}
+[811.291337] (-) TimerEvent: {}
+[811.392976] (-) TimerEvent: {}
+[811.413572] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/wheel_encoders__type_support.cpp.o\x1b[0m\n'}
+[811.493294] (-) TimerEvent: {}
+[811.597101] (-) TimerEvent: {}
+[811.699519] (-) TimerEvent: {}
+[811.800043] (-) TimerEvent: {}
+[811.900641] (-) TimerEvent: {}
+[812.002195] (-) TimerEvent: {}
+[812.106043] (-) TimerEvent: {}
+[812.136404] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/wind__type_support.cpp.o\x1b[0m\n'}
+[812.206149] (-) TimerEvent: {}
+[812.306813] (-) TimerEvent: {}
+[812.409136] (-) TimerEvent: {}
+[812.509483] (-) TimerEvent: {}
+[812.566719] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/yaw_estimator_status__type_support.cpp.o\x1b[0m\n'}
+[812.609775] (-) TimerEvent: {}
+[812.710110] (-) TimerEvent: {}
+[812.811683] (-) TimerEvent: {}
+[812.913321] (-) TimerEvent: {}
+[813.014750] (-) TimerEvent: {}
+[813.116105] (-) TimerEvent: {}
+[813.169085] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/srv/detail/vehicle_command__type_support.cpp.o\x1b[0m\n'}
+[813.217132] (-) TimerEvent: {}
+[813.317462] (-) TimerEvent: {}
+[813.419759] (-) TimerEvent: {}
+[813.520120] (-) TimerEvent: {}
+[813.620464] (-) TimerEvent: {}
+[813.723053] (-) TimerEvent: {}
+[813.825227] (-) TimerEvent: {}
+[813.925540] (-) TimerEvent: {}
+[814.016915] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/actuator_armed__type_support.cpp.o\x1b[0m\n'}
+[814.025642] (-) TimerEvent: {}
+[814.127965] (-) TimerEvent: {}
+[814.228277] (-) TimerEvent: {}
+[814.330733] (-) TimerEvent: {}
+[814.431108] (-) TimerEvent: {}
+[814.532064] (-) TimerEvent: {}
+[814.635969] (-) TimerEvent: {}
+[814.737615] (-) TimerEvent: {}
+[814.842093] (-) TimerEvent: {}
+[814.942449] (-) TimerEvent: {}
+[815.045798] (-) TimerEvent: {}
+[815.146579] (-) TimerEvent: {}
+[815.253775] (-) TimerEvent: {}
+[815.349320] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libpx4_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[815.356112] (-) TimerEvent: {}
+[815.456466] (-) TimerEvent: {}
+[815.557678] (-) TimerEvent: {}
+[815.660151] (-) TimerEvent: {}
+[815.762092] (-) TimerEvent: {}
+[815.862474] (-) TimerEvent: {}
+[815.940515] (px4_msgs) StdoutLine: {'line': b'[ 79%] Built target px4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[815.964039] (-) TimerEvent: {}
+[815.998378] (px4_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[816.066958] (-) TimerEvent: {}
+[816.167313] (-) TimerEvent: {}
+[816.216426] (nav2_behavior_tree) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so\x1b[0m\n'}
+[816.268974] (-) TimerEvent: {}
+[816.371122] (-) TimerEvent: {}
+[816.472195] (-) TimerEvent: {}
+[816.576846] (-) TimerEvent: {}
+[816.677295] (-) TimerEvent: {}
+[816.778129] (-) TimerEvent: {}
+[816.881533] (-) TimerEvent: {}
+[816.981878] (-) TimerEvent: {}
+[817.082240] (-) TimerEvent: {}
+[817.099136] (nav2_behavior_tree) StdoutLine: {'line': b'[ 12%] Built target nav2_clear_costmap_service_bt_node\n'}
+[817.181460] (nav2_behavior_tree) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o\x1b[0m\n'}
+[817.182846] (-) TimerEvent: {}
+[817.287087] (-) TimerEvent: {}
+[817.388310] (-) TimerEvent: {}
+[817.500528] (-) TimerEvent: {}
+[817.600823] (-) TimerEvent: {}
+[817.701107] (-) TimerEvent: {}
+[817.801380] (-) TimerEvent: {}
+[817.901961] (-) TimerEvent: {}
+[818.003844] (-) TimerEvent: {}

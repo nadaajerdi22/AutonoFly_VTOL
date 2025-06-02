@@ -84,3 +84,63 @@
 [ 58%] [32m[1mLinking CXX executable test_map_io[0m
 [ 58%] Built target test_map_io
 [ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[ 63%] Built target test_costmap_filter_info_server
+[ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable test_map_server_node[0m
+[ 72%] Built target test_map_server_node
+[ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[ 80%] Built target test_map_saver_node
+[ 83%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[ 86%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[ 88%] Built target test_map_saver_cli
+[ 91%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable map_saver_cli[0m
+[ 94%] Built target map_saver_cli
+[ 97%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable map_server[0m
+[100%] Built target map_server
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/costmap_filter_info_server.hpp
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_io.hpp
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_mode.hpp
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_saver.hpp
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_server.hpp
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_server_core.so
+-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_io.so
+-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport.cmake
+-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport-release.cmake

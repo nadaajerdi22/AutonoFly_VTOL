@@ -87,3 +87,66 @@
 [144.975s] [ 58%] [32m[1mLinking CXX executable test_map_io[0m
 [145.474s] [ 58%] Built target test_map_io
 [145.530s] [ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[175.560s] [ 63%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[177.407s] [ 63%] Built target test_costmap_filter_info_server
+[177.552s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[206.072s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[206.525s] [ 72%] [32m[1mLinking CXX executable test_map_server_node[0m
+[207.394s] [ 72%] Built target test_map_server_node
+[207.464s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[218.512s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[218.848s] [ 80%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[219.418s] [ 80%] Built target test_map_saver_node
+[219.474s] [ 83%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[231.241s] [ 86%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[231.556s] [ 88%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[231.961s] [ 88%] Built target test_map_saver_cli
+[231.995s] [ 91%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[238.568s] [ 94%] [32m[1mLinking CXX executable map_saver_cli[0m
+[239.150s] [ 94%] Built target map_saver_cli
+[239.188s] [ 97%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[244.597s] [100%] [32m[1mLinking CXX executable map_server[0m
+[245.149s] [100%] Built target map_server
+[245.195s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server -- -j4 -l4
+[245.196s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server
+[245.230s] -- Install configuration: "Release"
+[245.231s] -- Execute custom install script
+[245.235s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[245.257s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[245.289s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[245.316s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[245.352s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/costmap_filter_info_server.hpp
+[245.380s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_io.hpp
+[245.400s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_mode.hpp
+[245.429s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_saver.hpp
+[245.460s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/include/nav2_map_server/nav2_map_server/map_server.hpp
+[245.487s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[245.506s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[245.520s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[245.535s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[245.551s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[245.566s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[245.582s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[245.597s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[245.614s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[245.628s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[245.643s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[245.658s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[245.674s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[245.689s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[245.705s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[245.720s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[245.735s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[245.753s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[245.765s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[245.782s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[245.797s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[245.816s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[245.828s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[245.843s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_server_core.so
+[245.845s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[245.846s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_io.so
+[245.846s] -- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+[245.846s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport.cmake
+[245.846s] -- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/share/nav2_map_server/cmake/map_server_coreExport-release.cmake
+[245.851s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_map_server
