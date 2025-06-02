@@ -1,0 +1,61 @@
+[0.038s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common
+[0.147s] -- Found ament_cmake_core: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_core/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.821s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.843s] -- Found ament_cmake_python: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_python/cmake)
+[1.344s] -- Configuring done (1.3s)
+[1.366s] -- Generating done (0.0s)
+[1.368s] -- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common
+[1.381s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common
+[1.381s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common -- -j4 -l4
+[1.579s] Built target ament_cmake_python_symlink_nav2_common
+[2.089s] running egg_info
+[2.090s] creating nav2_common.egg-info
+[2.203s] writing nav2_common.egg-info/PKG-INFO
+[2.203s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[2.204s] writing top-level names to nav2_common.egg-info/top_level.txt
+[2.206s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.386s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.387s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.479s] Built target ament_cmake_python_build_nav2_common_egg
+[2.515s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common -- -j4 -l4
+[2.530s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common
+[2.554s] -- Install configuration: ""
+[2.558s] -- Execute custom install script
+[2.561s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.584s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.599s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.4.0-py3.12.egg-info/PKG-INFO
+[2.616s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.4.0-py3.12.egg-info/SOURCES.txt
+[2.632s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.4.0-py3.12.egg-info/dependency_links.txt
+[2.649s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.4.0-py3.12.egg-info/top_level.txt
+[2.665s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py
+[2.679s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py
+[2.694s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py
+[2.708s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py
+[2.722s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py
+[2.735s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.752s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.766s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.780s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.796s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[2.809s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.823s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[2.836s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[2.854s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.868s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.883s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/package.dsv
+[2.898s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.914s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.931s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.950s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.979s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/package.xml
+[3.008s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[3.028s] -- Symlinking: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/share/nav2_common/test/test_rewritten_yaml.py
+[3.151s] Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common'...
+[3.151s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py'...
+[3.152s] Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch'...
+[3.152s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py'...
+[3.152s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py'...
+[3.152s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py'...
+[3.152s] Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[3.180s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_common

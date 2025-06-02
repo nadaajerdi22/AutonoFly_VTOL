@@ -1,0 +1,43 @@
+[2.542s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/build --no-deps symlink_data
+[3.349s] running develop
+[3.792s] running egg_info
+[3.792s] creating nav2_simple_commander.egg-info
+[3.878s] writing nav2_simple_commander.egg-info/PKG-INFO
+[3.878s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[3.878s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[3.878s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[3.879s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[3.879s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[3.962s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[3.963s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[4.006s] running build_ext
+[4.007s] Creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages/nav2-simple-commander.egg-link (link to .)
+[4.007s] Installing demo_inspection script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.008s] Installing demo_picking script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.009s] Installing demo_recoveries script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.012s] Installing demo_security script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.012s] Installing example_assisted_teleop script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.017s] Installing example_follow_path script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.017s] Installing example_nav_through_poses script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.018s] Installing example_nav_to_pose script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.018s] Installing example_route script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.018s] Installing example_waypoint_follower script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.018s] 
+[4.018s] Installed /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander
+[4.018s] running symlink_data
+[4.018s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/ament_index
+[4.018s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[4.018s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[4.021s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/resource/nav2_simple_commander -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/package.xml -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/nav_through_poses_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/follow_path_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/route_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/security_demo_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/nav_to_pose_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/recoveries_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/picking_demo_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.022s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/waypoint_follower_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.023s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/inspection_demo_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.023s] symbolically linking /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/assisted_teleop_example_launch.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[4.101s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/build --no-deps symlink_data

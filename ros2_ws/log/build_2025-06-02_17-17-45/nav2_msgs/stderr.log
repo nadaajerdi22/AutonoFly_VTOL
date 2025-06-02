@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:1150: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_waypoints__type_support.cpp.o] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

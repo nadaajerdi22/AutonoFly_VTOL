@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2ca07fa5802e68ec657f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "nav2_msgs__py",
+					"jsonFile" : "directory-nav2_msgs__py-Release-9e5421a1269742f309b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_msgs/nav2_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nav2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nav2_msgs_egg-Release-eef8deaa3af7281bf9b8.json",
+					"name" : "ament_cmake_python_build_nav2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_nav2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_nav2_msgs-Release-e9edfc520e290bc674a9.json",
+					"name" : "ament_cmake_python_symlink_nav2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs-Release-6637b18784e524ec098b.json",
+					"name" : "nav2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__cpp-Release-3084cc380596b90c942f.json",
+					"name" : "nav2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nav2_msgs__py::@928736400d01866809ad",
+					"jsonFile" : "target-nav2_msgs__py-Release-e20d8ae8d6fc23287a78.json",
+					"name" : "nav2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_generator_c-Release-66534e26332aa489db53.json",
+					"name" : "nav2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_generator_py-Release-5985ace2e48aa1dc94ba.json",
+					"name" : "nav2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_generator_type_description-Release-52e3e2ab09876a7e498a.json",
+					"name" : "nav2_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_c-Release-c8ec62744a16e8dd85fd.json",
+					"name" : "nav2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_cpp-Release-92657e63b2d3eb4c4d35.json",
+					"name" : "nav2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_fastrtps_c-Release-20bf7368330c36a13038.json",
+					"name" : "nav2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_fastrtps_cpp-Release-be61165ccb2dffc0c018.json",
+					"name" : "nav2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_introspection_c-Release-e75e5ff72afa7196f2c3.json",
+					"name" : "nav2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs__rosidl_typesupport_introspection_cpp-Release-e91324c1899ace27609d.json",
+					"name" : "nav2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_s__rosidl_typesupport_c-Release-9fbe13593d535eb24c75.json",
+					"name" : "nav2_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_s__rosidl_typesupport_fastrtps_c-Release-36a268aa76084fc34d61.json",
+					"name" : "nav2_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_s__rosidl_typesupport_introspection_c-Release-012863ea8f40c8f477b6.json",
+					"name" : "nav2_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_msgs_uninstall-Release-48fe702eae7e1c96cc6a.json",
+					"name" : "nav2_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6cde38c4cb295a8abc0f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_msgs",
+		"source" : "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

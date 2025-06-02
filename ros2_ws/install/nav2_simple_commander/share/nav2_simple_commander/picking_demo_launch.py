@@ -1,0 +1,1 @@
+/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/picking_demo_launch.py

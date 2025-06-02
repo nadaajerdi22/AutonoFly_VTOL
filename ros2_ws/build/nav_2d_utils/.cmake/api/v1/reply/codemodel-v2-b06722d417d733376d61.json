@@ -1,0 +1,191 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3112382e18bd634a6cf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						4,
+						5,
+						7,
+						9
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "nav_2d_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "2d_utils_tests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-2d_utils_tests-Release-9439de5419bafd33492f.json",
+					"name" : "2d_utils_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conversions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conversions-Release-fd30c186d36e419604fe.json",
+					"name" : "conversions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-fe60d1500bfdcfead113.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-df8e17d9997ef21e8f32.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_utils_uninstall-Release-99cb8cb2e7c64405b02e.json",
+					"name" : "nav_2d_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_ops::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_ops-Release-f2aaf0c66d84b0892c58.json",
+					"name" : "path_ops",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "path_ops_tests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-path_ops_tests-Release-e8bba4b77f874803aa01.json",
+					"name" : "path_ops_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_help::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_help-Release-d86e6b33f549d5407338.json",
+					"name" : "tf_help",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tf_help_tests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-tf_help_tests-Release-955bd153e3ef430c6533.json",
+					"name" : "tf_help_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4a68f6e98f777052926f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav_2d_utils",
+		"source" : "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
