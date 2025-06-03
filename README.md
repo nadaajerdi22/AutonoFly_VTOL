@@ -25,3 +25,7 @@ source /opt/ros/humble/setup.bash
 cd ~/ros2_ws
 source install/setup.bash
 ```
+## here we launch the simulation 
+```
+ros2 launch autonofly_bringup start_autonomy.launch.py
+```
