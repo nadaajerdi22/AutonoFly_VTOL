@@ -1,15 +1,39 @@
 # 🛸 AutonoFly VTOL Simulation
 
-## 📦 Build Docker Image
+This project provides a complete simulation of an autonomous VTOL drone using ROS2, PX4, Gazebo, QGroundControl, and navigation algorithms such as RRT and FASTSLAM2. 
+
+The goal is to simulate a drone that can:
+- Localize itself in the environment using FastSLAM2
+- Automatically plan a path using RRT
+- Navigate autonomously in a simulated world using PX4 and Gazebo
+---
+## 📦 Project Structure
+
+- `ros2_ws/`: ROS2 workspace containing:
+  - `autonofly_slam`: SLAM node using FastSLAM2
+  - `autonofly_nav`: Navigation node using RRT
+  - `px4_ros_com`: PX4-ROS2 bridge
+- `PX4/`: Custom PX4 firmware with a VTOL drone model
+- `ROS2-px4-gazebo-docker/`: Docker setup for ROS2 + PX4 + Gazebo environment
+---
+
+## 🚨 Requirements
+- Docker 
+- Linux system
+- 
+## 🛠️ Build Docker Image
 
 ```bash
 docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
 ```
 
 ## Run Docker Container
+
+First, we type : 
 ```
 xhost +local:root
 ```
+Then we run the container 
 ```
 docker run -it --rm --net=host \
   --env="DISPLAY=$DISPLAY" \
@@ -20,10 +44,15 @@ docker run -it --rm --net=host \
   --entrypoint /bin/bash \
   ros2-px4-gazebo
 ``` 
-## inside the contqiner 
+## inside the Docker container 
 ``` 
 source /opt/ros/humble/setup.bash
 cd ~/ros2_ws
+colcon build
+source install/setup.bash
+./start_autonomy.sh
+
+
 source install/setup.bash
 ```
 ## here we launch the simulation 
