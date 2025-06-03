@@ -19,3 +19,9 @@ docker run -it --rm --net=host \
   --entrypoint /bin/bash \
   ros2-px4-gazebo
 ``` 
+## inside the contqiner 
+``` 
+source /opt/ros/humble/setup.bash
+cd ~/ros2_ws
+source install/setup.bash
+```
