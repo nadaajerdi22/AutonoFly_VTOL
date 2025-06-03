@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "px4_msgs/msg/detail/distance_sensor__type_support.h"
 #include "px4_msgs/msg/detail/distance_sensor__struct.h"
+#include "px4_msgs/msg/detail/distance_sensor__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "px4_msgs/msg/detail/distance_sensor__functions.h"
 
 #ifdef __cplusplus

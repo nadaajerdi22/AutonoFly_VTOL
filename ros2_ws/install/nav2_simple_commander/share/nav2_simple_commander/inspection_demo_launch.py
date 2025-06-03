@@ -1,1 +1,0 @@
-/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander/launch/inspection_demo_launch.py

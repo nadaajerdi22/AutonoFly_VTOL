@@ -1,0 +1,36 @@
+name: autonofly_all
+root: ~/Desktop/AutonoFly_VTOL
+
+windows:
+  - name: gz_px4_ros2
+    layout: main-vertical
+    panes:
+      - cmd: >
+          cd ~/Desktop/AutonoFly_VTOL/PX4 &&
+          make px4_sitl gz_standard_vtol_AutonoFly_VTOL
+
+  - name: fastslam
+    panes:
+      - cmd: >
+          cd ~/Desktop/AutonoFly_VTOL &&
+          source ~/Desktop/AutonoFly_VTOL/venv/bin/activate &&
+          source ros2_ws/install/setup.bash &&
+          ros2 run autonofly_slam fastslam_node
+
+  - name: rrt_planner
+    panes:
+      - cmd: >
+          cd ~/Desktop/AutonoFly_VTOL &&
+          source ~/Desktop/AutonoFly_VTOL/venv/bin/activate &&
+          source ros2_ws/install/setup.bash &&
+          ros2 run autonofly_nav rrt_node
+
+  - name: logs
+    panes:
+      - cmd: >
+          tail -f ~/Desktop/AutonoFly_VTOL/logs/autonofly.log
+
+  - name: venv
+    panes:
+      - cmd: >
+          source ~/Desktop/AutonoFly_VTOL/venv/bin/activate

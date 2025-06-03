@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "px4_msgs/msg/detail/vehicle_air_data__type_support.h"
 #include "px4_msgs/msg/detail/vehicle_air_data__functions.h"
+#include "px4_msgs/msg/detail/vehicle_air_data__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "px4_msgs/msg/detail/vehicle_air_data__struct.h"
 
 #ifdef __cplusplus

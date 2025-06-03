@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000281] (-) JobUnselected: {'identifier': 'autonofly_nav'}
+[0.000350] (-) JobUnselected: {'identifier': 'autonofly_slam'}
+[0.000397] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000696] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict({'px4_msgs': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs'})}
+[0.000744] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.022729] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 1}
+[0.033142] (-) EventReactorShutdown: {}

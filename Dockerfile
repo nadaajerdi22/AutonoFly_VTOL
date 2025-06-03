@@ -1,47 +1,76 @@
-# Étape 1 : Base Ubuntu 22.04
-FROM ubuntu:22.04
+# Use ROS 2 Humble Desktop as the base image
+FROM osrf/ros:humble-desktop-full
 
-# Étape 2 : Installer les outils de base nécessaires (dont add-apt-repository) en mode non interactif
-RUN apt-get update && apt-get upgrade -y && apt-get install -y \
-    lsb-release sudo curl wget gnupg2 locales tzdata software-properties-common \
-    build-essential git vim bash-completion python3-pip \
-    ninja-build exiftool cmake gfortran \
-    python3-jinja2 python3-toml python3-numpy python3-yaml python3-dev \
-    python3-matplotlib python3-scipy python3-opencv python3-pyproj && \
-    locale-gen en_US en_US.UTF-8 && update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-
-
-# Étape 3 : Ajouter le dépôt ROS 2 Jazzy proprement
-RUN mkdir -p /etc/apt/keyrings && \
-    curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | tee /etc/apt/keyrings/ros.asc > /dev/null && \
-    echo "deb [signed-by=/etc/apt/keyrings/ros.asc] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list && \
-    apt-get update
-
-# Étape 4 : Installer ROS 2 Jazzy desktop et paquets Python ROS
-RUN apt-get install -y ros-jazzy-desktop \
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    cmake \
+    build-essential \
+    python3-pip \
+    python3-venv \
     python3-colcon-common-extensions \
-    python3-rosdep python3-rosinstall-generator python3-vcstool python3-rosinstall \
-    python3-pyserial python3-empy
+    clang \
+    lldb \
+    ninja-build \
+    libgtest-dev \
+    libeigen3-dev \
+    libopencv-dev \
+    libyaml-dev \
+    libgstreamer1.0-dev \
+    libgstreamer-plugins-base1.0-dev \
+    gstreamer1.0-plugins-good \
+    gstreamer1.0-tools \
+    sudo \
+    wget \
+    curl \
+    tmux \
+    ruby \
+    tmuxinator
 
-# Étape 5 : Configurer ROS2
-RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
-ENV ROS_DISTRO=jazzy
 
-# Étape 6 : Installer PX4
-WORKDIR /home/user
-RUN git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-WORKDIR /home/user/PX4-Autopilot
-RUN make px4_sitl_default
 
-# Étape 7 : Copier ros2_ws (algorithmes de navigation)
-COPY ./ros2_ws /home/user/ros2_ws
-WORKDIR /home/user/ros2_ws
-RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash && colcon build"
+# Setup Micro XRCE-DDS Agent & Client
+RUN cd /root && \
+    git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git && \
+    cd Micro-XRCE-DDS-Agent && \
+    mkdir build && \
+    cd build && \
+    cmake .. && \
+    make && \
+    make install && \
+    ldconfig /usr/local/lib/
 
-# Étape 8 : Copier et configurer QGroundControl
-COPY ./QGroundControl.AppImage /home/user/QGroundControl.AppImage
-RUN chmod +x /home/user/QGroundControl.AppImage
+# Install Python requirements. If you don't have gpu, uncomment next line -torch cpu installation-
+# RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+RUN pip3 install \
+    mavsdk \
+    aioconsole \
+    pygame \
+    opencv-python \
+    ultralytics
 
-# Étape 9 : Configurer le répertoire de travail et la commande par défaut
-WORKDIR /home/user
-CMD ["/bin/bash"]
+RUN apt-get install -y ros-humble-ros-gzgarden
+
+# Related to mismatch between numpy 2.x and numpy 1.x
+RUN pip3 uninstall -y numpy
+
+# Copy models and worlds from local repository
+RUN mkdir -p /root/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/
+
+
+# Modify camera angle
+RUN sed -i 's|<pose>.12 .03 .242 0 0 0</pose>|<pose>.15 .029 .21 0 0.7854 0</pose>|' /root/PX4-Autopilot/Tools/simulation/gz/models/x500_depth/model.sdf
+
+# Additional Configs
+RUN echo "source /root/ws_sensor_combined/install/setup.bash" >> /root/.bashrc && \
+    echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
+    echo "export GZ_SIM_RESOURCE_PATH=/root/.gz/models" >> /root/.bashrc
+
+# Copy tmuxinator configuration
+COPY all_in_one.yml /root/.config/tmuxinator/px4_ros2_gazebo.yml
+
+# Set up tmuxinator
+RUN echo "export PATH=\$PATH:/root/.local/bin" >> /root/.bashrc
+
+# Set default command to start tmuxinator
+CMD ["tmuxinator", "start", "px4_ros2_gazebo"]

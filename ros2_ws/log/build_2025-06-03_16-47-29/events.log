@@ -1,0 +1,456 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (-) JobUnselected: {'identifier': 'autonofly_nav'}
+[0.000305] (-) JobUnselected: {'identifier': 'autonofly_slam'}
+[0.000391] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000413] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict({'px4_msgs': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs'})}
+[0.000441] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.019407] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.020089] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com', '-DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/Desktop/AutonoFly_VTOL/venv/bin:/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'VIRTUAL_ENV_PROMPT': '(venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/opennav_docking_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/nada/Desktop/AutonoFly_VTOL/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/opennav_docking_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy'}), 'shell': False}
+[0.094365] (px4_ros_com) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099156] (-) TimerEvent: {}
+[0.169012] (px4_ros_com) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.188981] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199276] (-) TimerEvent: {}
+[0.299555] (-) TimerEvent: {}
+[0.308378] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.321820] (px4_ros_com) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.322239] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.322689] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.336812] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399657] (-) TimerEvent: {}
+[0.473493] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.484944] (px4_ros_com) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.485230] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.485806] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.493167] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.499749] (-) TimerEvent: {}
+[0.599965] (-) TimerEvent: {}
+[0.667844] (px4_ros_com) StdoutLine: {'line': b'-- Found Python3: /home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700255] (-) TimerEvent: {}
+[0.800556] (-) TimerEvent: {}
+[0.852130] (px4_ros_com) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.900727] (-) TimerEvent: {}
+[0.939427] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.974943] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.000871] (-) TimerEvent: {}
+[1.040334] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101021] (-) TimerEvent: {}
+[1.106193] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.176850] (px4_ros_com) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.201147] (-) TimerEvent: {}
+[1.212119] (px4_ros_com) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.230727] (px4_ros_com) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.301242] (-) TimerEvent: {}
+[1.330481] (px4_ros_com) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[1.384046] (px4_ros_com) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.401326] (-) TimerEvent: {}
+[1.487292] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.495974] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.501453] (-) TimerEvent: {}
+[1.601736] (-) TimerEvent: {}
+[1.703139] (-) TimerEvent: {}
+[1.758146] (px4_ros_com) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.803257] (-) TimerEvent: {}
+[1.828055] (px4_ros_com) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.895589] (px4_ros_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.903338] (-) TimerEvent: {}
+[2.003607] (-) TimerEvent: {}
+[2.051670] (px4_ros_com) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.093523] (px4_ros_com) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[2.103732] (-) TimerEvent: {}
+[2.114922] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.203845] (-) TimerEvent: {}
+[2.304100] (-) TimerEvent: {}
+[2.329411] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.346512] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.346706] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com/include/px4_ros_com>\n'}
+[2.346798] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.355367] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.355556] (px4_ros_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.358227] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.358713] (px4_ros_com) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.361422] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.364228] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.372636] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.372861] (px4_ros_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.375399] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.381873] (px4_ros_com) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.404238] (-) TimerEvent: {}
+[2.422469] (px4_ros_com) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.443802] (px4_ros_com) StdoutLine: {'line': b'-- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com\n'}
+[2.458984] (px4_ros_com) CommandEnded: {'returncode': 0}
+[2.460696] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[2.460737] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', '--', '-j4', '-l4'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/Desktop/AutonoFly_VTOL/venv/bin:/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'VIRTUAL_ENV_PROMPT': '(venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/opennav_docking_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/nada/Desktop/AutonoFly_VTOL/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/opennav_docking_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy'}), 'shell': False}
+[2.504357] (-) TimerEvent: {}
+[2.545213] (px4_ros_com) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o\x1b[0m\n'}
+[2.568779] (px4_ros_com) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o\x1b[0m\n'}
+[2.572929] (px4_ros_com) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o\x1b[0m\n'}
+[2.577211] (px4_ros_com) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o\x1b[0m\n'}
+[2.604619] (-) TimerEvent: {}
+[2.710688] (-) TimerEvent: {}
+[2.812585] (-) TimerEvent: {}
+[2.914243] (-) TimerEvent: {}
+[3.014491] (-) TimerEvent: {}
+[3.120131] (-) TimerEvent: {}
+[3.220618] (-) TimerEvent: {}
+[3.326760] (-) TimerEvent: {}
+[3.428133] (-) TimerEvent: {}
+[3.528424] (-) TimerEvent: {}
+[3.631146] (-) TimerEvent: {}
+[3.731740] (-) TimerEvent: {}
+[3.835241] (-) TimerEvent: {}
+[3.938245] (-) TimerEvent: {}
+[4.038597] (-) TimerEvent: {}
+[4.138900] (-) TimerEvent: {}
+[4.239201] (-) TimerEvent: {}
+[4.340530] (-) TimerEvent: {}
+[4.442171] (-) TimerEvent: {}
+[4.542447] (-) TimerEvent: {}
+[4.645134] (-) TimerEvent: {}
+[4.745444] (-) TimerEvent: {}
+[4.848201] (-) TimerEvent: {}
+[4.951140] (-) TimerEvent: {}
+[5.051460] (-) TimerEvent: {}
+[5.151721] (-) TimerEvent: {}
+[5.251992] (-) TimerEvent: {}
+[5.354311] (-) TimerEvent: {}
+[5.456154] (-) TimerEvent: {}
+[5.556557] (-) TimerEvent: {}
+[5.659172] (-) TimerEvent: {}
+[5.759542] (-) TimerEvent: {}
+[5.859832] (-) TimerEvent: {}
+[5.963357] (-) TimerEvent: {}
+[6.063623] (-) TimerEvent: {}
+[6.163899] (-) TimerEvent: {}
+[6.264520] (-) TimerEvent: {}
+[6.365031] (-) TimerEvent: {}
+[6.468383] (-) TimerEvent: {}
+[6.568892] (-) TimerEvent: {}
+[6.669593] (-) TimerEvent: {}
+[6.772147] (-) TimerEvent: {}
+[6.872458] (-) TimerEvent: {}
+[6.975316] (-) TimerEvent: {}
+[7.075666] (-) TimerEvent: {}
+[7.175957] (-) TimerEvent: {}
+[7.276279] (-) TimerEvent: {}
+[7.376546] (-) TimerEvent: {}
+[7.477221] (-) TimerEvent: {}
+[7.579278] (-) TimerEvent: {}
+[7.679874] (-) TimerEvent: {}
+[7.782644] (-) TimerEvent: {}
+[7.883154] (-) TimerEvent: {}
+[7.986132] (-) TimerEvent: {}
+[8.086453] (-) TimerEvent: {}
+[8.186741] (-) TimerEvent: {}
+[8.287134] (-) TimerEvent: {}
+[8.387403] (-) TimerEvent: {}
+[8.488141] (-) TimerEvent: {}
+[8.591164] (-) TimerEvent: {}
+[8.691430] (-) TimerEvent: {}
+[8.791702] (-) TimerEvent: {}
+[8.892356] (-) TimerEvent: {}
+[8.996134] (-) TimerEvent: {}
+[9.096470] (-) TimerEvent: {}
+[9.196728] (-) TimerEvent: {}
+[9.297378] (-) TimerEvent: {}
+[9.400400] (-) TimerEvent: {}
+[9.500700] (-) TimerEvent: {}
+[9.600987] (-) TimerEvent: {}
+[9.701276] (-) TimerEvent: {}
+[9.801851] (-) TimerEvent: {}
+[9.903289] (-) TimerEvent: {}
+[10.004239] (-) TimerEvent: {}
+[10.105409] (-) TimerEvent: {}
+[10.208800] (-) TimerEvent: {}
+[10.309084] (-) TimerEvent: {}
+[10.409349] (-) TimerEvent: {}
+[10.509696] (-) TimerEvent: {}
+[10.611194] (-) TimerEvent: {}
+[10.711762] (-) TimerEvent: {}
+[10.812148] (-) TimerEvent: {}
+[10.913391] (-) TimerEvent: {}
+[11.014308] (-) TimerEvent: {}
+[11.115012] (-) TimerEvent: {}
+[11.219683] (-) TimerEvent: {}
+[11.319993] (-) TimerEvent: {}
+[11.421137] (-) TimerEvent: {}
+[11.523986] (-) TimerEvent: {}
+[11.628258] (-) TimerEvent: {}
+[11.728967] (-) TimerEvent: {}
+[11.829877] (-) TimerEvent: {}
+[11.931197] (-) TimerEvent: {}
+[12.033980] (-) TimerEvent: {}
+[12.134296] (-) TimerEvent: {}
+[12.236208] (-) TimerEvent: {}
+[12.336487] (-) TimerEvent: {}
+[12.442536] (-) TimerEvent: {}
+[12.466933] (px4_ros_com) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable debug_vect_advertiser\x1b[0m\n'}
+[12.542642] (-) TimerEvent: {}
+[12.646954] (-) TimerEvent: {}
+[12.749157] (-) TimerEvent: {}
+[12.851432] (-) TimerEvent: {}
+[12.953283] (-) TimerEvent: {}
+[13.053640] (-) TimerEvent: {}
+[13.153934] (-) TimerEvent: {}
+[13.254402] (-) TimerEvent: {}
+[13.318883] (px4_ros_com) StdoutLine: {'line': b'[ 41%] Built target debug_vect_advertiser\n'}
+[13.354493] (-) TimerEvent: {}
+[13.376636] (px4_ros_com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[13.454593] (-) TimerEvent: {}
+[13.555581] (-) TimerEvent: {}
+[13.657507] (-) TimerEvent: {}
+[13.757796] (-) TimerEvent: {}
+[13.858340] (-) TimerEvent: {}
+[13.961143] (-) TimerEvent: {}
+[14.061428] (-) TimerEvent: {}
+[14.161971] (-) TimerEvent: {}
+[14.265129] (-) TimerEvent: {}
+[14.365416] (-) TimerEvent: {}
+[14.466064] (-) TimerEvent: {}
+[14.571139] (-) TimerEvent: {}
+[14.671409] (-) TimerEvent: {}
+[14.771698] (-) TimerEvent: {}
+[14.872406] (-) TimerEvent: {}
+[14.973059] (-) TimerEvent: {}
+[15.073917] (-) TimerEvent: {}
+[15.175749] (-) TimerEvent: {}
+[15.277326] (-) TimerEvent: {}
+[15.377644] (-) TimerEvent: {}
+[15.479575] (-) TimerEvent: {}
+[15.579882] (-) TimerEvent: {}
+[15.683272] (-) TimerEvent: {}
+[15.783532] (-) TimerEvent: {}
+[15.883822] (-) TimerEvent: {}
+[15.985208] (-) TimerEvent: {}
+[16.085689] (-) TimerEvent: {}
+[16.186221] (-) TimerEvent: {}
+[16.291187] (-) TimerEvent: {}
+[16.391532] (-) TimerEvent: {}
+[16.461956] (px4_ros_com) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libframe_transforms.so\x1b[0m\n'}
+[16.491634] (-) TimerEvent: {}
+[16.514799] (px4_ros_com) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable vehicle_gps_position_listener\x1b[0m\n'}
+[16.591731] (-) TimerEvent: {}
+[16.693499] (-) TimerEvent: {}
+[16.796162] (-) TimerEvent: {}
+[16.898146] (-) TimerEvent: {}
+[16.982327] (px4_ros_com) StdoutLine: {'line': b'[ 66%] Built target frame_transforms\n'}
+[16.998238] (-) TimerEvent: {}
+[17.098489] (-) TimerEvent: {}
+[17.140836] (px4_ros_com) StdoutLine: {'line': b'[ 66%] Built target vehicle_gps_position_listener\n'}
+[17.198623] (-) TimerEvent: {}
+[17.301257] (-) TimerEvent: {}
+[17.369016] (px4_ros_com) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable sensor_combined_listener\x1b[0m\n'}
+[17.401348] (-) TimerEvent: {}
+[17.501879] (-) TimerEvent: {}
+[17.602356] (-) TimerEvent: {}
+[17.703767] (-) TimerEvent: {}
+[17.809507] (-) TimerEvent: {}
+[17.831319] (px4_ros_com) StdoutLine: {'line': b'[ 75%] Built target sensor_combined_listener\n'}
+[17.909611] (-) TimerEvent: {}
+[18.010012] (-) TimerEvent: {}
+[18.113158] (-) TimerEvent: {}
+[18.213418] (-) TimerEvent: {}
+[18.313854] (-) TimerEvent: {}
+[18.414163] (-) TimerEvent: {}
+[18.514517] (-) TimerEvent: {}
+[18.614830] (-) TimerEvent: {}
+[18.715175] (-) TimerEvent: {}
+[18.815455] (-) TimerEvent: {}
+[18.915774] (-) TimerEvent: {}
+[19.016058] (-) TimerEvent: {}
+[19.116841] (-) TimerEvent: {}
+[19.217310] (-) TimerEvent: {}
+[19.317616] (-) TimerEvent: {}
+[19.418157] (-) TimerEvent: {}
+[19.518691] (-) TimerEvent: {}
+[19.619382] (-) TimerEvent: {}
+[19.719697] (-) TimerEvent: {}
+[19.819979] (-) TimerEvent: {}
+[19.920253] (-) TimerEvent: {}
+[20.020811] (-) TimerEvent: {}
+[20.121155] (-) TimerEvent: {}
+[20.221637] (-) TimerEvent: {}
+[20.321998] (-) TimerEvent: {}
+[20.422296] (-) TimerEvent: {}
+[20.522568] (-) TimerEvent: {}
+[20.622847] (-) TimerEvent: {}
+[20.723126] (-) TimerEvent: {}
+[20.823393] (-) TimerEvent: {}
+[20.923923] (-) TimerEvent: {}
+[21.024193] (-) TimerEvent: {}
+[21.124457] (-) TimerEvent: {}
+[21.224791] (-) TimerEvent: {}
+[21.325097] (-) TimerEvent: {}
+[21.425397] (-) TimerEvent: {}
+[21.525666] (-) TimerEvent: {}
+[21.625933] (-) TimerEvent: {}
+[21.726239] (-) TimerEvent: {}
+[21.826530] (-) TimerEvent: {}
+[21.926800] (-) TimerEvent: {}
+[22.027054] (-) TimerEvent: {}
+[22.127298] (-) TimerEvent: {}
+[22.227562] (-) TimerEvent: {}
+[22.249416] (px4_ros_com) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable offboard_control\x1b[0m\n'}
+[22.327691] (-) TimerEvent: {}
+[22.428047] (-) TimerEvent: {}
+[22.528327] (-) TimerEvent: {}
+[22.542197] (px4_ros_com) StdoutLine: {'line': b'[ 83%] Built target offboard_control\n'}
+[22.589830] (px4_ros_com) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o\x1b[0m\n'}
+[22.590026] (px4_ros_com) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_copy_px4_ros_com\n'}
+[22.629235] (-) TimerEvent: {}
+[22.730061] (-) TimerEvent: {}
+[22.830371] (-) TimerEvent: {}
+[22.932117] (-) TimerEvent: {}
+[23.032384] (-) TimerEvent: {}
+[23.132633] (-) TimerEvent: {}
+[23.197607] (px4_ros_com) StdoutLine: {'line': b'running egg_info\n'}
+[23.224131] (px4_ros_com) StdoutLine: {'line': b'creating px4_ros_com.egg-info\n'}
+[23.224968] (px4_ros_com) StdoutLine: {'line': b'writing px4_ros_com.egg-info/PKG-INFO\n'}
+[23.225113] (px4_ros_com) StdoutLine: {'line': b'writing dependency_links to px4_ros_com.egg-info/dependency_links.txt\n'}
+[23.225318] (px4_ros_com) StdoutLine: {'line': b'writing top-level names to px4_ros_com.egg-info/top_level.txt\n'}
+[23.227158] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[23.232724] (-) TimerEvent: {}
+[23.317624] (px4_ros_com) StdoutLine: {'line': b"reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[23.318963] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[23.332844] (-) TimerEvent: {}
+[23.398226] (px4_ros_com) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_px4_ros_com_egg\n'}
+[23.432942] (-) TimerEvent: {}
+[23.533260] (-) TimerEvent: {}
+[23.634145] (-) TimerEvent: {}
+[23.734582] (-) TimerEvent: {}
+[23.835631] (-) TimerEvent: {}
+[23.936198] (-) TimerEvent: {}
+[24.036478] (-) TimerEvent: {}
+[24.137147] (-) TimerEvent: {}
+[24.237840] (-) TimerEvent: {}
+[24.338521] (-) TimerEvent: {}
+[24.440688] (-) TimerEvent: {}
+[24.540971] (-) TimerEvent: {}
+[24.642133] (-) TimerEvent: {}
+[24.743245] (-) TimerEvent: {}
+[24.843936] (-) TimerEvent: {}
+[24.944774] (-) TimerEvent: {}
+[25.046454] (-) TimerEvent: {}
+[25.147103] (-) TimerEvent: {}
+[25.247731] (-) TimerEvent: {}
+[25.348356] (-) TimerEvent: {}
+[25.449006] (-) TimerEvent: {}
+[25.549570] (-) TimerEvent: {}
+[25.649987] (-) TimerEvent: {}
+[25.750747] (-) TimerEvent: {}
+[25.851020] (-) TimerEvent: {}
+[25.951288] (-) TimerEvent: {}
+[26.051614] (-) TimerEvent: {}
+[26.151859] (-) TimerEvent: {}
+[26.252147] (-) TimerEvent: {}
+[26.352442] (-) TimerEvent: {}
+[26.452720] (-) TimerEvent: {}
+[26.553030] (-) TimerEvent: {}
+[26.654129] (-) TimerEvent: {}
+[26.754469] (-) TimerEvent: {}
+[26.854746] (-) TimerEvent: {}
+[26.957771] (-) TimerEvent: {}
+[27.058263] (-) TimerEvent: {}
+[27.158795] (-) TimerEvent: {}
+[27.259334] (-) TimerEvent: {}
+[27.359674] (-) TimerEvent: {}
+[27.459964] (-) TimerEvent: {}
+[27.560234] (-) TimerEvent: {}
+[27.660587] (-) TimerEvent: {}
+[27.760900] (-) TimerEvent: {}
+[27.861692] (-) TimerEvent: {}
+[27.964280] (-) TimerEvent: {}
+[28.064546] (-) TimerEvent: {}
+[28.165022] (-) TimerEvent: {}
+[28.265330] (-) TimerEvent: {}
+[28.365625] (-) TimerEvent: {}
+[28.465901] (-) TimerEvent: {}
+[28.566161] (-) TimerEvent: {}
+[28.666460] (-) TimerEvent: {}
+[28.766729] (-) TimerEvent: {}
+[28.866997] (-) TimerEvent: {}
+[28.967322] (-) TimerEvent: {}
+[29.067590] (-) TimerEvent: {}
+[29.167857] (-) TimerEvent: {}
+[29.268194] (-) TimerEvent: {}
+[29.368454] (-) TimerEvent: {}
+[29.468723] (-) TimerEvent: {}
+[29.569055] (-) TimerEvent: {}
+[29.669299] (-) TimerEvent: {}
+[29.769611] (-) TimerEvent: {}
+[29.870341] (-) TimerEvent: {}
+[29.970928] (-) TimerEvent: {}
+[30.071210] (-) TimerEvent: {}
+[30.143378] (px4_ros_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable offboard_control_srv\x1b[0m\n'}
+[30.171329] (-) TimerEvent: {}
+[30.271605] (-) TimerEvent: {}
+[30.371880] (-) TimerEvent: {}
+[30.440930] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target offboard_control_srv\n'}
+[30.455745] (px4_ros_com) CommandEnded: {'returncode': 0}
+[30.456881] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[30.468928] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/Desktop/AutonoFly_VTOL/venv/bin:/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'VIRTUAL_ENV_PROMPT': '(venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/opennav_docking_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/nada/Desktop/AutonoFly_VTOL/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/opennav_docking_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_utils:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/dwb_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav_2d_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_core:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_collision_monitor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/costmap_queue:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_costmap_2d:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_voxel_grid:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_velocity_smoother:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_map_server:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_lifecycle_manager:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_behavior_tree:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_amcl:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_util:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_common:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_simple_commander:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/nav2_loopback_sim:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy'}), 'shell': False}
+[30.471979] (-) TimerEvent: {}
+[30.484289] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.484832] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[30.489257] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""\n'}
+[30.490208] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[30.493523] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""\n'}
+[30.496325] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[30.496428] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""\n'}
+[30.496518] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[30.498223] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""\n'}
+[30.498589] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv\n'}
+[30.503523] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""\n'}
+[30.503696] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[30.503795] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[30.503885] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/include/px4_ros_com\n'}
+[30.504915] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[30.507185] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[30.507824] (px4_ros_com) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""\n'}
+[30.507984] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[30.508231] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[30.508522] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[30.508767] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test\n'}
+[30.509089] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[30.509381] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[30.509612] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[30.509734] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[30.509980] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh\n'}
+[30.510309] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv\n'}
+[30.510620] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info\n'}
+[30.510800] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[30.510943] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[30.511089] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[30.511224] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[30.511346] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com\n'}
+[30.511450] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py\n'}
+[30.511571] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py\n'}
+[30.556063] (px4_ros_com) StdoutLine: {'line': b"Listing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...\n"}
+[30.556252] (px4_ros_com) StdoutLine: {'line': b"Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py'...\n"}
+[30.556340] (px4_ros_com) StdoutLine: {'line': b"Compiling '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py'...\n"}
+[30.562333] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py\n'}
+[30.562925] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[30.563284] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[30.563507] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[30.563876] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[30.564202] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[30.564565] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[30.564883] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[30.565280] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[30.565711] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[30.565974] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[30.566253] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[30.566723] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[30.567109] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[30.567354] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[30.567498] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.567742] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.567989] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.568241] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.568623] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[30.568797] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[30.569180] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[30.571721] (px4_ros_com) CommandEnded: {'returncode': 0}
+[30.572123] (-) TimerEvent: {}
+[30.617344] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[30.618317] (-) EventReactorShutdown: {}

@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (autonofly_nav) JobQueued: {'identifier': 'autonofly_nav', 'dependencies': OrderedDict()}
+[0.000446] (autonofly_slam) JobQueued: {'identifier': 'autonofly_slam', 'dependencies': OrderedDict()}
+[0.000467] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000484] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict({'px4_msgs': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs'})}
+[0.000518] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.008374] (autonofly_nav) JobStarted: {'identifier': 'autonofly_nav'}
+[0.019065] (autonofly_slam) JobStarted: {'identifier': 'autonofly_slam'}
+[0.031239] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.032588] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099296] (-) TimerEvent: {}
+[0.199588] (-) TimerEvent: {}
+[0.299816] (-) TimerEvent: {}
+[0.400099] (-) TimerEvent: {}
+[0.411668] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.412263] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.412367] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500225] (-) TimerEvent: {}
+[0.575708] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.591743] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.593128] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.594781] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.600329] (-) TimerEvent: {}
+[0.608574] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700413] (-) TimerEvent: {}
+[0.801324] (-) TimerEvent: {}
+[0.803680] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.825887] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.826061] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.827574] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.875831] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.904197] (-) TimerEvent: {}
+[1.004838] (-) TimerEvent: {}
+[1.105310] (-) TimerEvent: {}
+[1.205655] (-) TimerEvent: {}
+[1.263289] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.305796] (-) TimerEvent: {}
+[1.409392] (-) TimerEvent: {}
+[1.510206] (-) TimerEvent: {}
+[1.612118] (-) TimerEvent: {}
+[1.715309] (-) TimerEvent: {}
+[1.718177] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.817373] (-) TimerEvent: {}
+[1.917701] (-) TimerEvent: {}
+[1.990480] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.022255] (-) TimerEvent: {}
+[2.059661] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.122301] (-) TimerEvent: {}
+[2.127693] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.195721] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.224431] (-) TimerEvent: {}
+[2.247587] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.319954] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.324546] (-) TimerEvent: {}
+[2.425122] (-) TimerEvent: {}
+[2.492761] (autonofly_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autonofly_nav', 'build', '--build-base', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build', 'install', '--record', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_nav', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.525211] (-) TimerEvent: {}
+[2.625478] (-) TimerEvent: {}
+[2.697380] (autonofly_slam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autonofly_slam', 'build', '--build-base', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build', 'install', '--record', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log', '--single-version-externally-managed'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.725556] (-) TimerEvent: {}
+[2.826853] (-) TimerEvent: {}
+[2.927455] (-) TimerEvent: {}
+[3.028422] (autonofly_nav) StdoutLine: {'line': b'running egg_info\n'}
+[3.028635] (-) TimerEvent: {}
+[3.029801] (autonofly_nav) StdoutLine: {'line': b'creating ../../build/autonofly_nav/autonofly_nav.egg-info\n'}
+[3.075847] (autonofly_nav) StdoutLine: {'line': b'writing ../../build/autonofly_nav/autonofly_nav.egg-info/PKG-INFO\n'}
+[3.076004] (autonofly_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/autonofly_nav/autonofly_nav.egg-info/dependency_links.txt\n'}
+[3.076090] (autonofly_nav) StdoutLine: {'line': b'writing entry points to ../../build/autonofly_nav/autonofly_nav.egg-info/entry_points.txt\n'}
+[3.076917] (autonofly_nav) StdoutLine: {'line': b'writing requirements to ../../build/autonofly_nav/autonofly_nav.egg-info/requires.txt\n'}
+[3.076999] (autonofly_nav) StdoutLine: {'line': b'writing top-level names to ../../build/autonofly_nav/autonofly_nav.egg-info/top_level.txt\n'}
+[3.077075] (autonofly_nav) StdoutLine: {'line': b"writing manifest file '../../build/autonofly_nav/autonofly_nav.egg-info/SOURCES.txt'\n"}
+[3.128797] (-) TimerEvent: {}
+[3.162023] (autonofly_nav) StdoutLine: {'line': b"reading manifest file '../../build/autonofly_nav/autonofly_nav.egg-info/SOURCES.txt'\n"}
+[3.162264] (autonofly_nav) StdoutLine: {'line': b"writing manifest file '../../build/autonofly_nav/autonofly_nav.egg-info/SOURCES.txt'\n"}
+[3.164027] (autonofly_nav) StdoutLine: {'line': b'running build\n'}
+[3.164178] (autonofly_nav) StdoutLine: {'line': b'running build_py\n'}
+[3.164273] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build\n'}
+[3.164353] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib\n'}
+[3.164431] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav\n'}
+[3.164507] (autonofly_nav) StdoutLine: {'line': b'copying autonofly_nav/rrt_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav\n'}
+[3.167848] (autonofly_nav) StdoutLine: {'line': b'copying autonofly_nav/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav\n'}
+[3.168016] (autonofly_nav) StdoutLine: {'line': b'copying autonofly_nav/rrt_planner.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav\n'}
+[3.168119] (autonofly_nav) StdoutLine: {'line': b'copying autonofly_nav/talker.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav\n'}
+[3.168650] (autonofly_nav) StdoutLine: {'line': b'running install\n'}
+[3.175226] (autonofly_nav) StdoutLine: {'line': b'running install_lib\n'}
+[3.218065] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav\n'}
+[3.218305] (autonofly_nav) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav/rrt_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav\n'}
+[3.218444] (autonofly_nav) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav\n'}
+[3.218534] (autonofly_nav) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav/rrt_planner.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav\n'}
+[3.219270] (autonofly_nav) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav/talker.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav\n'}
+[3.219378] (autonofly_nav) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav/rrt_node.py to rrt_node.cpython-312.pyc\n'}
+[3.220096] (autonofly_nav) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav/__init__.py to __init__.cpython-312.pyc\n'}
+[3.220217] (autonofly_nav) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav/rrt_planner.py to rrt_planner.cpython-312.pyc\n'}
+[3.224417] (autonofly_nav) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav/talker.py to talker.cpython-312.pyc\n'}
+[3.225104] (autonofly_nav) StdoutLine: {'line': b'running install_data\n'}
+[3.225261] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/ament_index\n'}
+[3.225389] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/ament_index/resource_index\n'}
+[3.225495] (autonofly_nav) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/ament_index/resource_index/packages\n'}
+[3.225619] (autonofly_nav) StdoutLine: {'line': b'copying resource/autonofly_nav -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/ament_index/resource_index/packages\n'}
+[3.226291] (autonofly_nav) StdoutLine: {'line': b'copying package.xml -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav\n'}
+[3.226412] (autonofly_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.228863] (-) TimerEvent: {}
+[3.276271] (autonofly_nav) StdoutLine: {'line': b'Copying ../../build/autonofly_nav/autonofly_nav.egg-info to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav-0.0.1-py3.12.egg-info\n'}
+[3.277617] (autonofly_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[3.328949] (-) TimerEvent: {}
+[3.342483] (autonofly_slam) StdoutLine: {'line': b'running egg_info\n'}
+[3.343910] (autonofly_slam) StdoutLine: {'line': b'creating ../../build/autonofly_slam/autonofly_slam.egg-info\n'}
+[3.390106] (autonofly_slam) StdoutLine: {'line': b'writing ../../build/autonofly_slam/autonofly_slam.egg-info/PKG-INFO\n'}
+[3.390432] (autonofly_slam) StdoutLine: {'line': b'writing dependency_links to ../../build/autonofly_slam/autonofly_slam.egg-info/dependency_links.txt\n'}
+[3.390678] (autonofly_slam) StdoutLine: {'line': b'writing entry points to ../../build/autonofly_slam/autonofly_slam.egg-info/entry_points.txt\n'}
+[3.392238] (autonofly_slam) StdoutLine: {'line': b'writing requirements to ../../build/autonofly_slam/autonofly_slam.egg-info/requires.txt\n'}
+[3.392373] (autonofly_slam) StdoutLine: {'line': b'writing top-level names to ../../build/autonofly_slam/autonofly_slam.egg-info/top_level.txt\n'}
+[3.392457] (autonofly_slam) StdoutLine: {'line': b"writing manifest file '../../build/autonofly_slam/autonofly_slam.egg-info/SOURCES.txt'\n"}
+[3.429031] (-) TimerEvent: {}
+[3.482497] (autonofly_slam) StdoutLine: {'line': b"reading manifest file '../../build/autonofly_slam/autonofly_slam.egg-info/SOURCES.txt'\n"}
+[3.483583] (autonofly_slam) StdoutLine: {'line': b"writing manifest file '../../build/autonofly_slam/autonofly_slam.egg-info/SOURCES.txt'\n"}
+[3.490987] (autonofly_slam) StdoutLine: {'line': b'running build\n'}
+[3.491428] (autonofly_slam) StdoutLine: {'line': b'running build_py\n'}
+[3.491517] (autonofly_slam) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build\n'}
+[3.491597] (autonofly_slam) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib\n'}
+[3.491674] (autonofly_slam) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam\n'}
+[3.491750] (autonofly_slam) StdoutLine: {'line': b'copying autonofly_slam/fastslam_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam\n'}
+[3.491824] (autonofly_slam) StdoutLine: {'line': b'copying autonofly_slam/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam\n'}
+[3.491898] (autonofly_slam) StdoutLine: {'line': b'copying autonofly_slam/slam_subscriber.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam\n'}
+[3.492745] (autonofly_slam) StdoutLine: {'line': b'running install\n'}
+[3.502662] (autonofly_slam) StdoutLine: {'line': b'running install_lib\n'}
+[3.529112] (-) TimerEvent: {}
+[3.577910] (autonofly_slam) StdoutLine: {'line': b'creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam\n'}
+[3.578532] (autonofly_slam) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam/fastslam_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam\n'}
+[3.578652] (autonofly_slam) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam\n'}
+[3.578737] (autonofly_slam) StdoutLine: {'line': b'copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam/slam_subscriber.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam\n'}
+[3.579796] (autonofly_slam) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam/fastslam_node.py to fastslam_node.cpython-312.pyc\n'}
+[3.581263] (autonofly_slam) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam/__init__.py to __init__.cpython-312.pyc\n'}
+[3.581749] (autonofly_slam) StdoutLine: {'line': b'byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam/slam_subscriber.py to slam_subscriber.cpython-312.pyc\n'}
+[3.582240] (autonofly_slam) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.621903] (autonofly_nav) StdoutLine: {'line': b'Installing rrt_node script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/autonofly_nav\n'}
+[3.622075] (autonofly_nav) StdoutLine: {'line': b'Installing talker script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/autonofly_nav\n'}
+[3.624240] (autonofly_nav) StdoutLine: {'line': b"writing list of installed files to '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/install.log'\n"}
+[3.629196] (-) TimerEvent: {}
+[3.645624] (autonofly_slam) StdoutLine: {'line': b'Copying ../../build/autonofly_slam/autonofly_slam.egg-info to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam-0.0.0-py3.12.egg-info\n'}
+[3.646020] (autonofly_slam) StdoutLine: {'line': b'running install_scripts\n'}
+[3.681074] (autonofly_nav) CommandEnded: {'returncode': 0}
+[3.714438] (autonofly_nav) JobEnded: {'identifier': 'autonofly_nav', 'rc': 0}
+[3.730483] (-) TimerEvent: {}
+[3.833207] (-) TimerEvent: {}
+[3.935320] (-) TimerEvent: {}
+[4.027858] (autonofly_slam) StdoutLine: {'line': b'Installing fastslam_node script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/autonofly_slam\n'}
+[4.028667] (autonofly_slam) StdoutLine: {'line': b"writing list of installed files to '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log'\n"}
+[4.036063] (-) TimerEvent: {}
+[4.102210] (autonofly_slam) CommandEnded: {'returncode': 0}
+[4.112006] (autonofly_slam) JobEnded: {'identifier': 'autonofly_slam', 'rc': 0}
+[4.136160] (-) TimerEvent: {}
+[4.236445] (-) TimerEvent: {}
+[4.336787] (-) TimerEvent: {}
+[4.437873] (-) TimerEvent: {}
+[4.538392] (-) TimerEvent: {}
+[4.638734] (-) TimerEvent: {}
+[4.739854] (-) TimerEvent: {}
+[4.841066] (-) TimerEvent: {}
+[4.942598] (-) TimerEvent: {}
+[5.043318] (-) TimerEvent: {}
+[5.145188] (-) TimerEvent: {}
+[5.245459] (-) TimerEvent: {}
+[5.345677] (-) TimerEvent: {}
+[5.446848] (-) TimerEvent: {}
+[5.547095] (-) TimerEvent: {}
+[5.647464] (-) TimerEvent: {}
+[5.697868] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[5.708315] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[5.719405] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[5.727499] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[5.747606] (-) TimerEvent: {}
+[5.847887] (-) TimerEvent: {}
+[5.948217] (-) TimerEvent: {}
+[6.048460] (-) TimerEvent: {}
+[6.148800] (-) TimerEvent: {}
+[6.249053] (-) TimerEvent: {}
+[6.349311] (-) TimerEvent: {}
+[6.449606] (-) TimerEvent: {}
+[6.549871] (-) TimerEvent: {}
+[6.650139] (-) TimerEvent: {}
+[6.750442] (-) TimerEvent: {}
+[6.850727] (-) TimerEvent: {}
+[6.951003] (-) TimerEvent: {}
+[7.001188] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.051164] (-) TimerEvent: {}
+[7.151559] (-) TimerEvent: {}
+[7.251817] (-) TimerEvent: {}
+[7.352219] (-) TimerEvent: {}
+[7.452567] (-) TimerEvent: {}
+[7.523360] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.534565] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[7.552661] (-) TimerEvent: {}
+[7.652906] (-) TimerEvent: {}
+[7.731537] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[7.753024] (-) TimerEvent: {}
+[7.853275] (-) TimerEvent: {}
+[7.953628] (-) TimerEvent: {}
+[8.053898] (-) TimerEvent: {}
+[8.154208] (-) TimerEvent: {}
+[8.254706] (-) TimerEvent: {}
+[8.355046] (-) TimerEvent: {}
+[8.394138] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[8.455182] (-) TimerEvent: {}
+[8.501046] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)\n'}
+[8.511871] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)\n'}
+[8.541083] (px4_msgs) StdoutLine: {'line': b'-- Configuring done (8.5s)\n'}
+[8.555311] (-) TimerEvent: {}
+[8.655861] (-) TimerEvent: {}
+[8.756430] (-) TimerEvent: {}
+[8.856796] (-) TimerEvent: {}
+[8.957141] (-) TimerEvent: {}
+[9.057984] (-) TimerEvent: {}
+[9.158314] (-) TimerEvent: {}
+[9.259570] (-) TimerEvent: {}
+[9.296249] (px4_msgs) StdoutLine: {'line': b'-- Generating done (0.6s)\n'}
+[9.359672] (-) TimerEvent: {}
+[9.385206] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs\n'}
+[9.420355] (px4_msgs) CommandEnded: {'returncode': 0}
+[9.421039] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[9.422951] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs', '--', '-j4', '-l4'], 'cwd': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/nada/PX4-Autopilot/Tools/simulation/gz/build', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/nada/.gazebo/models:/home/nada/PX4-Autopilot/Tools/simulation/gz/models', 'USER': 'nada', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nada', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/nada/Desktop/AutonoFly_VTOL', 'TERM_PROGRAM_VERSION': '1.100.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2465', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2725', 'BUNDLED_DEBUGPY_PATH': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '576493', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nada', 'JOURNAL_STREAM': '9:20648', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nada', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/nada/.gazebo/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/Tools/simulation/gz/models:/home/nada/Desktop/PX4-Autopilot/gazebo_models:/home/nada/.gazebo/models:/home/nada/.gazebo/models:/home/nada/.gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nada/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/nada/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/nada/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/nada-HP-EliteDesk-800-G3-SFF:@/tmp/.ICE-unix/2685,unix/nada-HP-EliteDesk-800-G3-SFF:/tmp/.ICE-unix/2685', 'INVOCATION_ID': 'f816b07c64eb4d3d9742906bb1069714', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nada/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-11bd254860e5cd5e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1GED72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-97345502cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.459763] (-) TimerEvent: {}
+[9.560144] (-) TimerEvent: {}
+[9.660567] (-) TimerEvent: {}
+[9.762695] (-) TimerEvent: {}
+[9.863077] (-) TimerEvent: {}
+[9.963354] (-) TimerEvent: {}
+[10.063692] (-) TimerEvent: {}
+[10.163968] (-) TimerEvent: {}
+[10.264209] (-) TimerEvent: {}
+[10.365138] (-) TimerEvent: {}
+[10.465754] (-) TimerEvent: {}
+[10.566026] (-) TimerEvent: {}
+[10.666478] (-) TimerEvent: {}
+[10.766753] (-) TimerEvent: {}
+[10.868392] (-) TimerEvent: {}
+[10.968680] (-) TimerEvent: {}
+[11.010837] (px4_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[11.015738] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_px4_msgs\n'}
+[11.068738] (-) TimerEvent: {}
+[11.172227] (-) TimerEvent: {}
+[11.272509] (-) TimerEvent: {}
+[11.372793] (-) TimerEvent: {}
+[11.413922] (px4_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[11.414131] (px4_msgs) StdoutLine: {'line': b'creating px4_msgs.egg-info\n'}
+[11.454063] (px4_msgs) StdoutLine: {'line': b'writing px4_msgs.egg-info/PKG-INFO\n'}
+[11.456268] (px4_msgs) StdoutLine: {'line': b'writing dependency_links to px4_msgs.egg-info/dependency_links.txt\n'}
+[11.456400] (px4_msgs) StdoutLine: {'line': b'writing top-level names to px4_msgs.egg-info/top_level.txt\n'}
+[11.456501] (px4_msgs) StdoutLine: {'line': b"writing manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[11.472987] (-) TimerEvent: {}
+[11.574515] (-) TimerEvent: {}
+[11.574807] (px4_msgs) StdoutLine: {'line': b"reading manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[11.575350] (px4_msgs) StdoutLine: {'line': b"writing manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[11.632975] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_px4_msgs_egg\n'}
+[11.674633] (-) TimerEvent: {}
+[11.775047] (-) TimerEvent: {}
+[11.876027] (-) TimerEvent: {}
+[11.976902] (-) TimerEvent: {}
+[12.077897] (-) TimerEvent: {}
+[12.178759] (-) TimerEvent: {}
+[12.279368] (-) TimerEvent: {}
+[12.380034] (-) TimerEvent: {}
+[12.480325] (-) TimerEvent: {}
+[12.580607] (-) TimerEvent: {}
+[12.680868] (-) TimerEvent: {}
+[12.781296] (-) TimerEvent: {}
+[12.881871] (-) TimerEvent: {}
+[12.982334] (-) TimerEvent: {}
+[13.082609] (-) TimerEvent: {}
+[13.183083] (-) TimerEvent: {}
+[13.283385] (-) TimerEvent: {}
+[13.383660] (-) TimerEvent: {}
+[13.484053] (-) TimerEvent: {}
+[13.584312] (-) TimerEvent: {}
+[13.684723] (-) TimerEvent: {}
+[13.785124] (-) TimerEvent: {}
+[13.885571] (-) TimerEvent: {}
+[13.985833] (-) TimerEvent: {}
+[14.086139] (-) TimerEvent: {}
+[14.186432] (-) TimerEvent: {}
+[14.286683] (-) TimerEvent: {}
+[14.386939] (-) TimerEvent: {}
+[14.488474] (-) TimerEvent: {}
+[14.588733] (-) TimerEvent: {}
+[14.689017] (-) TimerEvent: {}
+[14.789761] (-) TimerEvent: {}
+[14.890213] (-) TimerEvent: {}
+[14.990476] (-) TimerEvent: {}
+[15.090852] (-) TimerEvent: {}
+[15.191255] (-) TimerEvent: {}
+[15.291911] (-) TimerEvent: {}
+[15.392742] (-) TimerEvent: {}
+[15.493066] (-) TimerEvent: {}
+[15.593409] (-) TimerEvent: {}
+[15.694005] (-) TimerEvent: {}
+[15.794234] (-) TimerEvent: {}
+[15.894490] (-) TimerEvent: {}
+[15.994730] (-) TimerEvent: {}
+[16.095303] (-) TimerEvent: {}
+[16.195563] (-) TimerEvent: {}
+[16.295843] (-) TimerEvent: {}
+[16.396124] (-) TimerEvent: {}
+[16.496461] (-) TimerEvent: {}
+[16.596696] (-) TimerEvent: {}
+[16.697012] (-) TimerEvent: {}
+[16.797278] (-) TimerEvent: {}
+[16.897531] (-) TimerEvent: {}
+[16.997810] (-) TimerEvent: {}
+[17.098055] (-) TimerEvent: {}
+[17.198441] (-) TimerEvent: {}
+[17.298881] (-) TimerEvent: {}
+[17.399180] (-) TimerEvent: {}
+[17.499458] (-) TimerEvent: {}
+[17.599720] (-) TimerEvent: {}
+[17.700219] (-) TimerEvent: {}
+[17.800561] (-) TimerEvent: {}
+[17.900848] (-) TimerEvent: {}
+[18.001116] (-) TimerEvent: {}
+[18.102329] (-) TimerEvent: {}
+[18.202635] (-) TimerEvent: {}
+[18.303166] (-) TimerEvent: {}
+[18.404418] (-) TimerEvent: {}
+[18.504711] (-) TimerEvent: {}
+[18.604952] (-) TimerEvent: {}
+[18.705607] (-) TimerEvent: {}
+[18.806437] (-) TimerEvent: {}
+[18.906738] (-) TimerEvent: {}
+[19.007000] (-) TimerEvent: {}
+[19.107268] (-) TimerEvent: {}
+[19.207521] (-) TimerEvent: {}
+[19.308116] (-) TimerEvent: {}
+[19.408631] (-) TimerEvent: {}
+[19.509095] (-) TimerEvent: {}
+[19.609338] (-) TimerEvent: {}
+[19.712067] (-) TimerEvent: {}
+[19.812309] (-) TimerEvent: {}
+[19.912692] (-) TimerEvent: {}
+[20.013741] (-) TimerEvent: {}
+[20.114304] (-) TimerEvent: {}
+[20.217186] (-) TimerEvent: {}
+[20.317402] (-) TimerEvent: {}
+[20.417652] (-) TimerEvent: {}
+[20.518047] (-) TimerEvent: {}
+[20.621206] (-) TimerEvent: {}
+[20.721484] (-) TimerEvent: {}
+[20.822244] (-) TimerEvent: {}
+[20.923155] (-) TimerEvent: {}
+[21.023403] (-) TimerEvent: {}
+[21.123721] (-) TimerEvent: {}
+[21.229190] (-) TimerEvent: {}
+[21.329452] (-) TimerEvent: {}
+[21.429722] (-) TimerEvent: {}
+[21.529974] (-) TimerEvent: {}
+[21.631090] (-) TimerEvent: {}
+[21.731967] (-) TimerEvent: {}
+[21.832218] (-) TimerEvent: {}
+[21.932465] (-) TimerEvent: {}
+[22.033658] (-) TimerEvent: {}
+[22.134051] (-) TimerEvent: {}
+[22.240814] (-) TimerEvent: {}
+[22.341108] (-) TimerEvent: {}
+[22.441362] (-) TimerEvent: {}
+[22.542222] (-) TimerEvent: {}
+[22.642661] (-) TimerEvent: {}
+[22.745422] (-) TimerEvent: {}
+[22.845712] (-) TimerEvent: {}
+[22.946020] (-) TimerEvent: {}
+[23.046640] (-) TimerEvent: {}
+[23.147064] (-) TimerEvent: {}
+[23.247997] (-) TimerEvent: {}
+[23.348424] (-) TimerEvent: {}
+[23.448711] (-) TimerEvent: {}
+[23.549111] (-) TimerEvent: {}
+[23.650315] (-) TimerEvent: {}
+[23.751397] (-) TimerEvent: {}
+[23.854210] (-) TimerEvent: {}
+[23.954951] (-) TimerEvent: {}
+[24.055381] (-) TimerEvent: {}
+[24.156024] (-) TimerEvent: {}
+[24.249353] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[24.249968] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>\n'}
+[24.250062] (px4_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[24.250141] (px4_msgs) StderrLine: {'line': b'             ^^^^^^\n'}
+[24.250255] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main\n'}
+[24.250333] (px4_msgs) StderrLine: {'line': b'    generate_type_hash(args.generator_arguments_file)\n'}
+[24.250406] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 116, in generate_type_hash\n'}
+[24.250479] (px4_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[24.250550] (px4_msgs) StderrLine: {'line': b'               ^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.250622] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[24.250697] (px4_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[24.250769] (px4_msgs) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.250841] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[24.250912] (px4_msgs) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[24.250984] (px4_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.251061] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[24.251140] (px4_msgs) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[24.251252] (px4_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.251322] (px4_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 658, in parse\n'}
+[24.254800] (px4_msgs) StderrLine: {'line': b'    return self.parser.parse(text, start=start, on_error=on_error)\n'}
+[24.255000] (px4_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.255097] (px4_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 104, in parse\n'}
+[24.256899] (-) TimerEvent: {}
+[24.257391] (px4_msgs) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[24.257644] (px4_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.257743] (px4_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 279, in parse\n'}
+[24.258417] (px4_msgs) StderrLine: {'line': b'    to_scan = self._parse(lexer, columns, to_scan, start_symbol)\n'}
+[24.258581] (px4_msgs) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[24.258674] (px4_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 150, in _parse\n'}
+[24.259451] (px4_msgs) StderrLine: {'line': b'    self.predict_and_complete(i, to_scan, columns, transitives)\n'}
+[24.259631] (px4_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 153, in predict_and_complete\n'}
+[24.259972] (px4_msgs) StderrLine: {'line': b'    new_item = Item(rule, 0, i)\n'}
+[24.260078] (px4_msgs) StderrLine: {'line': b'               ^^^^^^^^^^^^^^^^\n'}
+[24.260169] (px4_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 9, in __init__\n'}
+[24.260535] (px4_msgs) StderrLine: {'line': b'    def __init__(self, rule, ptr, start):\n'}
+[24.260673] (px4_msgs) StderrLine: {'line': b'\n'}
+[24.260814] (px4_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[24.353413] (px4_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_type_description.dir/build.make:537: rosidl_generator_type_description/px4_msgs/msg/ActionRequest.json] Interrupt\n'}
+[24.353612] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/px4_msgs__rosidl_generator_type_description.dir/all] Interrupt\n'}
+[24.354829] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[24.357250] (px4_msgs) CommandEnded: {'returncode': -2}
+[24.357782] (-) TimerEvent: {}
+[24.365064] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[24.377752] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[24.377803] (-) EventReactorShutdown: {}

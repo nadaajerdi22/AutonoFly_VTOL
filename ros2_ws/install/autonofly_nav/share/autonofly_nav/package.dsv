@@ -4,6 +4,3 @@ source;share/autonofly_nav/hook/pythonpath.sh
 source;share/autonofly_nav/hook/ament_prefix_path.ps1
 source;share/autonofly_nav/hook/ament_prefix_path.dsv
 source;share/autonofly_nav/hook/ament_prefix_path.sh
-source;../../build/autonofly_nav/share/autonofly_nav/hook/pythonpath_develop.ps1
-source;../../build/autonofly_nav/share/autonofly_nav/hook/pythonpath_develop.dsv
-source;../../build/autonofly_nav/share/autonofly_nav/hook/pythonpath_develop.sh

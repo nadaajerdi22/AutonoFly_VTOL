@@ -1,0 +1,338 @@
+[0.575s] DEBUG:colcon:Command line arguments: ['/home/nada/Desktop/AutonoFly_VTOL/venv/bin/colcon', 'build']
+[0.576s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73d1c6a3d7f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73d1c6b6a2d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73d1c6b6a2d0>>)
+[0.748s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.749s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extension 'ignore_ament_install'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extensions ['colcon_pkg']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extension 'colcon_pkg'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extensions ['colcon_meta']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extension 'colcon_meta'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extensions ['ros']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_nav) by extension 'ros'
+[0.858s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonofly_nav' with type 'ros.ament_python' and name 'autonofly_nav'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extension 'ignore'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extension 'ignore_ament_install'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extensions ['colcon_pkg']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extension 'colcon_pkg'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extensions ['colcon_meta']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extension 'colcon_meta'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extensions ['ros']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonofly_slam) by extension 'ros'
+[0.861s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonofly_slam' with type 'ros.ament_python' and name 'autonofly_slam'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.865s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.870s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'cmake_target' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'autonofly_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.932s] DEBUG:colcon.colcon_core.verb:Building package 'autonofly_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav', 'merge_install': False, 'path': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_nav', 'symlink_install': False, 'test_result_base': None}
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'cmake_target' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'autonofly_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'autonofly_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam', 'merge_install': False, 'path': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam', 'symlink_install': False, 'test_result_base': None}
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.935s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.937s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.939s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.940s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs'
+[0.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.954s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/nada/Desktop/AutonoFly_VTOL/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.954s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.956s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/usr/lib/x86_64-linux-gnu/cmake/gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.976s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_nav' with build type 'ament_python'
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonofly_nav', 'ament_prefix_path')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/hook/ament_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/hook/ament_prefix_path.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/hook/ament_prefix_path.sh'
+[0.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.001s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam' with build type 'ament_python'
+[1.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonofly_slam', 'ament_prefix_path')
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/hook/ament_prefix_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/hook/ament_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/hook/ament_prefix_path.sh'
+[1.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs -- -j4 -l4
+[1.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_nav'
+[1.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.706s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'autonofly_slam' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.706s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'autonofly_slam' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.707s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam'
+[1.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/prefix_override:/home/nada/Desktop/AutonoFly_VTOL/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonofly_nav build --build-base /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build install --record /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/install.log --single-version-externally-managed install_data
+[2.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/prefix_override:/home/nada/Desktop/AutonoFly_VTOL/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonofly_slam build --build-base /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build install --record /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log --single-version-externally-managed
+[2.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/prefix_override:/home/nada/Desktop/AutonoFly_VTOL/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonofly_slam build --build-base /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build install --record /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log --single-version-externally-managed
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam' for CMake module files
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam' for CMake config files
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/bin'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/pkgconfig/autonofly_slam.pc'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages'
+[2.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonofly_slam', 'pythonpath')
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/hook/pythonpath.ps1'
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/hook/pythonpath.dsv'
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/hook/pythonpath.sh'
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/bin'
+[2.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonofly_slam)
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/package.ps1'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/package.dsv'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/package.sh'
+[2.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/package.bash'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/autonofly_slam/package.zsh'
+[2.888s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/share/colcon-core/packages/autonofly_slam)
+[2.892s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav' for CMake module files
+[2.893s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav' for CMake config files
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/bin'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/pkgconfig/autonofly_nav.pc'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages'
+[2.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonofly_nav', 'pythonpath')
+[2.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/hook/pythonpath.ps1'
+[2.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/prefix_override:/home/nada/Desktop/AutonoFly_VTOL/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonofly_nav build --build-base /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build install --record /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/install.log --single-version-externally-managed install_data
+[2.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/hook/pythonpath.dsv'
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/hook/pythonpath.sh'
+[2.899s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/bin'
+[2.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonofly_nav)
+[2.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/package.ps1'
+[2.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/package.dsv'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/package.sh'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/package.bash'
+[2.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav/package.zsh'
+[2.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/colcon-core/packages/autonofly_nav)
+[4.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs -- -j4 -l4
+[4.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs
+[5.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[5.333s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs' for CMake module files
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs' for CMake config files
+[5.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs
+[5.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[5.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[5.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[5.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[5.343s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib'
+[5.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[5.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/bin'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages'
+[5.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[5.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[5.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[5.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[5.350s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/bin'
+[5.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[5.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[5.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[5.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[5.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[5.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[5.355s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs' for CMake module files
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs' for CMake config files
+[5.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[5.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[5.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[5.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[5.361s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib'
+[5.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[5.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/bin'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages'
+[5.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[5.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[5.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[5.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[5.372s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/bin'
+[5.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[5.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[5.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[5.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[5.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[5.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[5.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_ros_com'
+[5.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com -- -j4 -l4
+[6.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com -- -j4 -l4
+[6.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com
+[6.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[6.408s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com' for CMake module files
+[6.409s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com' for CMake config files
+[6.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[6.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[6.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[6.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[6.418s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib'
+[6.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[6.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[6.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[6.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/bin'
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages'
+[6.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[6.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[6.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[6.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/usr/lib/x86_64-linux-gnu/cmake/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_ros_com
+[6.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[6.427s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/bin'
+[6.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[6.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[6.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[6.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[6.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[6.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[6.435s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com' for CMake module files
+[6.440s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com' for CMake config files
+[6.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[6.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[6.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[6.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[6.447s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib'
+[6.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[6.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[6.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/bin'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages'
+[6.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[6.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[6.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[6.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[6.465s] Level 1:colcon.colcon_core.environment:checking '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/bin'
+[6.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[6.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[6.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[6.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[6.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[6.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[6.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.471s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[6.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.482s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[6.600s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/local_setup.ps1'
+[6.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/_local_setup_util_ps1.py'
+[6.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/setup.ps1'
+[6.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/local_setup.sh'
+[6.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/_local_setup_util_sh.py'
+[6.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/setup.sh'
+[6.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/local_setup.bash'
+[6.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/setup.bash'
+[6.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/local_setup.zsh'
+[6.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/setup.zsh'

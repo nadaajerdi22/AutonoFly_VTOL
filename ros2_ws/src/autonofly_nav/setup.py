@@ -16,9 +16,11 @@ setup(
     maintainer_email='nadaajerdi2022@gmail.com',
     description='Navigation autonome: RRT',
     license='Apache-2.0',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'rrt_node = autonofly_nav.rrt_node:main',    ],
-},
-
+            'rrt_node = autonofly_nav.rrt_node:main',
+            'talker = autonofly_nav.talker:main',
+        ],
+    },
 )

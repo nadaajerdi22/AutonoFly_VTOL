@@ -1,0 +1,34 @@
+[2.679s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonofly_slam build --build-base /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build install --record /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log --single-version-externally-managed
+[3.324s] running egg_info
+[3.325s] creating ../../build/autonofly_slam/autonofly_slam.egg-info
+[3.371s] writing ../../build/autonofly_slam/autonofly_slam.egg-info/PKG-INFO
+[3.371s] writing dependency_links to ../../build/autonofly_slam/autonofly_slam.egg-info/dependency_links.txt
+[3.372s] writing entry points to ../../build/autonofly_slam/autonofly_slam.egg-info/entry_points.txt
+[3.373s] writing requirements to ../../build/autonofly_slam/autonofly_slam.egg-info/requires.txt
+[3.373s] writing top-level names to ../../build/autonofly_slam/autonofly_slam.egg-info/top_level.txt
+[3.373s] writing manifest file '../../build/autonofly_slam/autonofly_slam.egg-info/SOURCES.txt'
+[3.464s] reading manifest file '../../build/autonofly_slam/autonofly_slam.egg-info/SOURCES.txt'
+[3.465s] writing manifest file '../../build/autonofly_slam/autonofly_slam.egg-info/SOURCES.txt'
+[3.472s] running build
+[3.472s] running build_py
+[3.472s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build
+[3.473s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib
+[3.473s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam
+[3.473s] copying autonofly_slam/fastslam_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam
+[3.473s] copying autonofly_slam/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam
+[3.473s] copying autonofly_slam/slam_subscriber.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam
+[3.474s] running install
+[3.484s] running install_lib
+[3.559s] creating /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam
+[3.560s] copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam/fastslam_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam
+[3.560s] copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam
+[3.560s] copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build/lib/autonofly_slam/slam_subscriber.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam
+[3.561s] byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam/fastslam_node.py to fastslam_node.cpython-312.pyc
+[3.562s] byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam/__init__.py to __init__.cpython-312.pyc
+[3.563s] byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam/slam_subscriber.py to slam_subscriber.cpython-312.pyc
+[3.563s] running install_egg_info
+[3.627s] Copying ../../build/autonofly_slam/autonofly_slam.egg-info to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages/autonofly_slam-0.0.0-py3.12.egg-info
+[3.627s] running install_scripts
+[4.009s] Installing fastslam_node script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/autonofly_slam
+[4.010s] writing list of installed files to '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log'
+[4.083s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/autonofly_slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonofly_slam build --build-base /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/build install --record /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_slam/install.log --single-version-externally-managed

@@ -1,0 +1,89 @@
+[0.033s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs
+[0.412s] -- The C compiler identification is GNU 13.3.0
+[0.412s] -- The CXX compiler identification is GNU 13.3.0
+[0.412s] -- Detecting C compiler ABI info
+[0.575s] -- Detecting C compiler ABI info - done
+[0.591s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.594s] -- Detecting C compile features - done
+[0.608s] -- Detecting CXX compiler ABI info
+[0.803s] -- Detecting CXX compiler ABI info - done
+[0.825s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.826s] -- Detecting CXX compile features
+[0.827s] -- Detecting CXX compile features - done
+[0.875s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.263s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.718s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.990s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.059s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.247s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.321s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.697s] -- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[5.708s] -- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[5.719s] -- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[5.727s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.534s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.731s] -- Found PythonExtra: /usr/bin/python3  
+[8.394s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.501s] -- Found ament_cmake_flake8: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[8.512s] -- Found ament_cmake_pep257: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[8.541s] -- Configuring done (8.5s)
+[9.296s] -- Generating done (0.6s)
+[9.385s] -- Build files have been written to: /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs
+[9.420s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs
+[9.423s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs -- -j4 -l4
+[11.010s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.015s] [  0%] Built target ament_cmake_python_copy_px4_msgs
+[11.414s] running egg_info
+[11.414s] creating px4_msgs.egg-info
+[11.456s] writing px4_msgs.egg-info/PKG-INFO
+[11.456s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[11.456s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[11.456s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[11.574s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[11.575s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[11.633s] [  0%] Built target ament_cmake_python_build_px4_msgs_egg
+[24.249s] Traceback (most recent call last):
+[24.250s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[24.250s]     sys.exit(main())
+[24.250s]              ^^^^^^
+[24.250s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[24.250s]     generate_type_hash(args.generator_arguments_file)
+[24.250s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 116, in generate_type_hash
+[24.250s]     idl_file = parse_idl_file(locator)
+[24.250s]                ^^^^^^^^^^^^^^^^^^^^^^^
+[24.250s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[24.250s]     content = parse_idl_string(string, png_file=png_file)
+[24.250s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[24.250s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[24.250s]     tree = get_ast_from_idl_string(idl_string)
+[24.251s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[24.251s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[24.251s]     return _parser.parse(idl_string)
+[24.251s]            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[24.251s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 658, in parse
+[24.254s]     return self.parser.parse(text, start=start, on_error=on_error)
+[24.255s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[24.256s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 104, in parse
+[24.257s]     return self.parser.parse(stream, chosen_start, **kw)
+[24.257s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[24.257s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 279, in parse
+[24.258s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[24.258s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[24.258s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 150, in _parse
+[24.259s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[24.259s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 153, in predict_and_complete
+[24.260s]     new_item = Item(rule, 0, i)
+[24.260s]                ^^^^^^^^^^^^^^^^
+[24.260s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 9, in __init__
+[24.260s]     def __init__(self, rule, ptr, start):
+[24.260s] 
+[24.260s] KeyboardInterrupt
+[24.353s] gmake[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_type_description.dir/build.make:537: rosidl_generator_type_description/px4_msgs/msg/ActionRequest.json] Interrupt
+[24.353s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/px4_msgs__rosidl_generator_type_description.dir/all] Interrupt
+[24.354s] gmake: *** [Makefile:146: all] Interrupt
+[24.357s] Invoked command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs -- -j4 -l4

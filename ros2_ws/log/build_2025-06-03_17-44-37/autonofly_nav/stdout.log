@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/autonofly_nav/autonofly_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/autonofly_nav/autonofly_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/autonofly_nav/autonofly_nav.egg-info/entry_points.txt
+writing requirements to ../../build/autonofly_nav/autonofly_nav.egg-info/requires.txt
+writing top-level names to ../../build/autonofly_nav/autonofly_nav.egg-info/top_level.txt
+reading manifest file '../../build/autonofly_nav/autonofly_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/autonofly_nav/autonofly_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+copying autonofly_nav/rrt_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav
+copying autonofly_nav/__init__.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav
+copying autonofly_nav/rrt_planner.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav
+copying autonofly_nav/talker.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav
+running install
+running install_lib
+copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav/rrt_node.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav
+copying /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build/lib/autonofly_nav/rrt_planner.py -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav
+byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav/rrt_node.py to rrt_node.cpython-312.pyc
+byte-compiling /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav/rrt_planner.py to rrt_planner.cpython-312.pyc
+running install_data
+copying resource/autonofly_nav -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/share/autonofly_nav
+running install_egg_info
+removing '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/autonofly_nav/autonofly_nav.egg-info to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages/autonofly_nav-0.0.1-py3.12.egg-info
+running install_scripts
+Installing rrt_node script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/autonofly_nav
+Installing talker script to /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/autonofly_nav
+writing list of installed files to '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/install.log'

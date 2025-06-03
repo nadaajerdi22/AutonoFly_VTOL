@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "px4_msgs/msg/detail/gimbal_device_set_attitude__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "px4_msgs/msg/detail/gimbal_device_set_attitude__type_support.h"
 #include "px4_msgs/msg/detail/gimbal_device_set_attitude__struct.h"
 
