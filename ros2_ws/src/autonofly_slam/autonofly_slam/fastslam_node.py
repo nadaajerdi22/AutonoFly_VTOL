@@ -1,7 +1,9 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import rclpy
 from rclpy.node import Node
+from geometry_msgs.msg import PoseStamped
+from visualization_msgs.msg import Marker, MarkerArray
+import tf_transformations
 
 class Landmark:
     def __init__(self, mu, sigma):
@@ -43,32 +45,20 @@ class FastSLAM2:
         R = np.eye(2) * sensor_noise  # bruit observation
         for p in self.particles:
             for obs_id, obs_range, obs_bearing in observations:
-                # Calcul position observée en coordonnées globales
                 lx = p.x + obs_range * np.cos(p.theta + obs_bearing)
                 ly = p.y + obs_range * np.sin(p.theta + obs_bearing)
                 z = np.array([lx, ly])
 
                 if obs_id not in p.landmarks:
-                    # Initialisation du landmark
                     p.landmarks[obs_id] = Landmark(z, np.eye(2) * 1.0)
                 else:
                     landmark = p.landmarks[obs_id]
                     mu = landmark.mu
                     sigma = landmark.sigma
-
-                    # Innovation
                     y = z - mu
-
-                    # Jacobienne H = identité (car mesure directe position landmark)
                     H = np.eye(2)
-
-                    # Covariance innovation
                     S = H @ sigma @ H.T + R
-
-                    # Gain de Kalman
                     K = sigma @ H.T @ np.linalg.inv(S)
-
-                    # Mise à jour moyenne et covariance
                     landmark.mu = mu + K @ y
                     landmark.sigma = (np.eye(2) - K @ H) @ sigma
 
@@ -101,7 +91,7 @@ class FastSLAM2:
 
         EPS = 1e-10
         if total_weight < EPS:
-            total_weight = EPS  # éviter division par zéro
+            total_weight = EPS
 
         for p in self.particles:
             p.weight /= total_weight
@@ -116,7 +106,7 @@ class FastSLAM2:
 
         positions = (np.arange(self.num_particles) + np.random.uniform()) / self.num_particles
         cumulative_sum = np.cumsum(weights)
-        cumulative_sum[-1] = 1.0  # éviter erreurs numériques
+        cumulative_sum[-1] = 1.0
 
         indexes = np.searchsorted(cumulative_sum, positions)
         self.particles = [self.particles[i] for i in indexes]
@@ -134,20 +124,16 @@ class FastSLAMNode(Node):
         self.fastslam = FastSLAM2(num_particles=100, map_size=100)
         self.timer = self.create_timer(0.1, self.timer_callback)
 
-        plt.ion()
-        self.fig, self.ax = plt.subplots()
-        self.est_traj_plot, = self.ax.plot([], [], 'b-', label="Estimation Traj")
-        self.lm_plot, = self.ax.plot([], [], 'ro', label="Landmarks")
-        self.ax.set_xlim(0, 100)
-        self.ax.set_ylim(0, 100)
-        self.ax.legend()
+        self.pose_pub = self.create_publisher(PoseStamped, 'fastslam/pose', 10)
+        self.lm_pub = self.create_publisher(MarkerArray, 'fastslam/landmarks', 10)
 
     def timer_callback(self):
-        control = (1.0, 0.1)
+        control = (1.0, 0.1)  # vitesse linéaire et angulaire
         observations = [
             (1, 20 + np.random.randn(), np.pi / 6 + np.random.randn() * 0.1),
             (2, 25 + np.random.randn(), -np.pi / 4 + np.random.randn() * 0.1)
         ]
+
         self.fastslam.motion_update(control, 0.1)
         self.fastslam.sensor_update(observations)
         self.fastslam.compute_weights(observations)
@@ -155,14 +141,42 @@ class FastSLAMNode(Node):
         est_x, est_y, est_theta, est_landmarks = self.fastslam.get_best_estimate()
         self.get_logger().info(f"Estimate: x={est_x:.2f}, y={est_y:.2f}, theta={est_theta:.2f}")
 
-        traj_x, traj_y = zip(*self.fastslam.trajectory)
-        self.est_traj_plot.set_data(traj_x, traj_y)
-        if est_landmarks:
-            lm_x = [lm.mu[0] for lm in est_landmarks.values()]
-            lm_y = [lm.mu[1] for lm in est_landmarks.values()]
-            self.lm_plot.set_data(lm_x, lm_y)
-        self.ax.figure.canvas.draw()
-        self.ax.figure.canvas.flush_events()
+        # نشر موقع الطيارة
+        pose_msg = PoseStamped()
+        pose_msg.header.stamp = self.get_clock().now().to_msg()
+        pose_msg.header.frame_id = "map"
+        pose_msg.pose.position.x = est_x
+        pose_msg.pose.position.y = est_y
+        pose_msg.pose.position.z = 0.0
+        q = tf_transformations.quaternion_from_euler(0, 0, est_theta)
+        pose_msg.pose.orientation.x = q[0]
+        pose_msg.pose.orientation.y = q[1]
+        pose_msg.pose.orientation.z = q[2]
+        pose_msg.pose.orientation.w = q[3]
+        self.pose_pub.publish(pose_msg)
+
+        markers = MarkerArray()
+        for lm_id, lm in est_landmarks.items():
+            marker = Marker()
+            marker.header.frame_id = "map"
+            marker.header.stamp = pose_msg.header.stamp
+            marker.ns = "landmarks"
+            marker.id = lm_id
+            marker.type = Marker.SPHERE
+            marker.action = Marker.ADD
+            marker.pose.position.x = lm.mu[0]
+            marker.pose.position.y = lm.mu[1]
+            marker.pose.position.z = 0.0
+            marker.pose.orientation.w = 1.0
+            marker.scale.x = 0.5
+            marker.scale.y = 0.5
+            marker.scale.z = 0.5
+            marker.color.r = 1.0
+            marker.color.g = 0.0
+            marker.color.b = 0.0
+            marker.color.a = 1.0
+            markers.markers.append(marker)
+        self.lm_pub.publish(markers)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -174,8 +188,6 @@ def main(args=None):
     finally:
         node.destroy_node()
         rclpy.shutdown()
-        plt.ioff()
-        plt.show()
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,9 @@
+[1.361s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/prefix_override:/home/nada/Desktop/AutonoFly_VTOL/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/autonofly_nav/build --no-deps symlink_data
+[1.560s] /home/nada/Desktop/AutonoFly_VTOL/venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.560s]   warnings.warn(msg)
+[1.630s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[1.630s]    or: setup.py --help [cmd1 cmd2 ...]
+[1.631s]    or: setup.py --help-commands
+[1.631s]    or: setup.py cmd --help
+[1.631s] 
+[1.631s] error: option --editable not recognized

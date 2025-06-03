@@ -1,0 +1,7 @@
+[0.034s] Invoking command in '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nada/Desktop/AutonoFly_VTOL/install/autonofly_nav:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_slam:/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/autonofly_nav:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs -- -j4 -l4
+[2.084s] failed to create symbolic link '/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/build/px4_msgs/ament_cmake_python/px4_msgs/px4_msgs' because existing path cannot be removed: Is a directory
+[2.086s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_px4_msgs] Error 1
+[2.087s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/all] Error 2
+[2.087s] gmake[1]: *** Waiting for unfinished jobs....
+[2.105s] [  0%] Built target px4_msgs__rosidl_generator_type_description
+[2.108s] gmake: *** [Makefile:146: all] Error 2

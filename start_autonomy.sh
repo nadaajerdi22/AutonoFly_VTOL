@@ -6,13 +6,14 @@ BASE_DIR=~/Desktop/AutonoFly_VTOL
 source $BASE_DIR/ros2_ws/install/setup.bash
 
 echo "[+] Lancement de PX4 SITL..."
-cd $BASE_DIR/PX4 && make px4_sitl gz_standard_vtol_AutonoFly_VTOL &
+cd $BASE_DIR/PX4 && \
+make px4_sitl gz_standard_vtol_AutonoFly_VTOL > /dev/null 2>&1 &
 PX4_PID=$!
 
 sleep 10  # Laisse PX4 démarrer correctement
 
 echo "[+] Lancement du noeud px4_ros_com..."
-ros2 run px4_ros_com px4_ros_com_node &
+ros2 run px4_ros_com px4_ros_com_node > /dev/null 2>&1 &
 PX4_ROS_COM_PID=$!
 
 sleep 1
