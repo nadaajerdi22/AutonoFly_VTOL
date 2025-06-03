@@ -9,7 +9,8 @@ docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
 ## Run Docker Container
 ```
 xhost +local:root
-
+```
+```
 docker run -it --rm --net=host \
   --env="DISPLAY=$DISPLAY" \
   --env="QT_X11_NO_MITSHM=1" \
