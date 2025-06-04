@@ -1,3 +1,0 @@
-[submodule "PX4"]
-	path = PX4
-	url = https://github.com/PX4/PX4-Autopilot.git
