@@ -72,6 +72,10 @@ source install/setup.bash
 ./start_autonomy.sh
 
 ```
+# To run the simulation 
+
+``` make px4_sitl gz_standard_vtol_AutonoFly_VTOL ```
+
 ## here we launch the simulation 
 ```
 ros2 launch autonofly_bringup start_autonomy.launch.py
