@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/autonofly_slam:/root/ros2_ws/install/autonofly_nav:/opt/ros/humble /usr/local/bin/cmake /root/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/px4_msgs
+Invoked command in '/root/ros2_ws/build/px4_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/autonofly_slam:/root/ros2_ws/install/autonofly_nav:/opt/ros/humble /usr/local/bin/cmake /root/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/px4_msgs
