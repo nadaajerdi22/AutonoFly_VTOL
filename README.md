@@ -3,10 +3,13 @@
 This project provides a complete simulation of an autonomous VTOL drone using ROS2, PX4, Gazebo, QGroundControl, and navigation algorithms such as RRT and FASTSLAM2. 
 
 -- 
+
 The goal is to simulate a drone that can:
 - Localize itself in the environment using FastSLAM2
 - Automatically plan a path using RRT
 - Navigate autonomously in a simulated world using PX4 and Gazebo
+
+  
 ---
 
 ## 📦 Project Structure
