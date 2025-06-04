@@ -74,7 +74,10 @@ source install/setup.bash
 ```
 # To run the simulation 
 
-``` make px4_sitl gz_standard_vtol_AutonoFly_VTOL ```
+```
+make px4_sitl gz_standard_vtol_AutonoFly_VTOL 
+
+```
 
 ## here we launch the simulation 
 ```
