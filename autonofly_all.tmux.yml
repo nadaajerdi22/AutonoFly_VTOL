@@ -3,7 +3,7 @@ windows:
   - window_name: px4_sitl
     layout: tiled
     panes:
-      - cd /root/autonofly/PX4 && make px4_sitl gazebo
+      - cd /root/autonofly/PX4 && make px4_sitl gz_standard_vtol_AutonoFly_VTOL
 
   - window_name: ros2_build
     panes:
