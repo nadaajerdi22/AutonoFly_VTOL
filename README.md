@@ -54,10 +54,11 @@ docker run -it --rm --net=host \
   --env="DISPLAY=$DISPLAY" \
   --env="QT_X11_NO_MITSHM=1" \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-  --volume="/home/nada/Desktop/AutonoFly_VTOL/ros2_ws:/root/ros2_ws" \
+  --volume="/home/nada/Desktop/AutonoFly_VTOL:/root/AutonoFly_VTOL" \
   --privileged \
   --entrypoint /bin/bash \
   ros2-px4-gazebo
+
 ``` 
 ## inside the Docker container 
 
