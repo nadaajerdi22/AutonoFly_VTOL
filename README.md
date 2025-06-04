@@ -22,10 +22,12 @@ The goal is to simulate a drone that can:
 
 ## 🚨 Requirements
 - Docker 
-- Linux system 
+- Linux system or simply wsl bash on windows 
 
 ---
 ## 🛠️ Build Docker Image
+
+First, We build our docker image via this command
 
 ```bash
 docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
@@ -33,7 +35,7 @@ docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
 
 ## Run Docker Container
 
-First, we type : 
+We type : 
 ```
 xhost +local:root
 ```
@@ -49,6 +51,9 @@ docker run -it --rm --net=host \
   ros2-px4-gazebo
 ``` 
 ## inside the Docker container 
+
+
+We source the workspace
 ``` 
 source /opt/ros/humble/setup.bash
 cd ~/ros2_ws
