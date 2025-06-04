@@ -65,8 +65,8 @@ docker run -it --rm --net=host \
 
 We source the workspace
 ``` 
-source /opt/ros/humble/setup.bash
-cd ~/ros2_ws
+cd /root/AutonoFly_VTOL/ros2_ws
+source /opt/ros/humble/setup.bash  
 colcon build
 source install/setup.bash
 ./start_autonomy.sh
