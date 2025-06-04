@@ -210,7 +210,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/usr/bin/python3" "-m" "compileall"
+        "/home/nada/Desktop/AutonoFly_VTOL/venv/bin/python3" "-m" "compileall"
         "/home/nada/Desktop/AutonoFly_VTOL/ros2_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs"
       )
 endif()
