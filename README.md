@@ -37,10 +37,6 @@ git clone https://github.com/farashasystemsteam/AutonoFly_VTOL.git
 
 First, We build our docker image via this command
 
-for the docker image, you can clone it from here and follow the steps of building the docker image
-
-``` https://github.com/Suyannesara/ROS2-px4-gazebo-docker ```
-
 ```bash
 docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
 ```
@@ -48,7 +44,7 @@ docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
 ## Run Docker Container
 
 To Allow xhost access, We type : 
-```
+```bash 
 xhost +local:root
 ```
 To Run the docker container
