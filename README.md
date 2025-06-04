@@ -22,9 +22,20 @@ The goal is to simulate a drone that can:
 
 ## 🚨 Requirements
 - Docker 
-- Linux system or simply wsl bash on windows 
+- Linux system or wsl on windows
+- QGroundControl for mavlink communication 
 
 ---
+
+
+clone the repo 
+
+```
+git clone https://github.com/farashasystemsteam/AutonoFly_VTOL.git 
+```
+--- 
+
+
 ## 🛠️ Build Docker Image
 
 First, We build our docker image via this command
@@ -35,11 +46,12 @@ docker build -t ros2-px4-gazebo -f complete:v0.2.Dockerfile .
 
 ## Run Docker Container
 
-We type : 
+To Allow xhost access, We type : 
 ```
 xhost +local:root
 ```
-Then we run the container 
+To Run the docker container
+
 ```
 docker run -it --rm --net=host \
   --env="DISPLAY=$DISPLAY" \
@@ -62,7 +74,8 @@ source install/setup.bash
 ./start_autonomy.sh
 
 ```
-## Here we launch the simulation 
+## here we launch the simulation 
 ```
 ros2 launch autonofly_bringup start_autonomy.launch.py
 ```
+
