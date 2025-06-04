@@ -1,36 +1,28 @@
-name: autonofly_all
-root: ~/Desktop/AutonoFly_VTOL
-
+session_name: autonofly_all
 windows:
-  - name: gz_px4_ros2
-    layout: main-vertical
+  - window_name: px4_sitl
+    layout: tiled
     panes:
-      - cmd: >
-          cd ~/Desktop/AutonoFly_VTOL/PX4 &&
-          make px4_sitl gz_standard_vtol_AutonoFly_VTOL
+      - cd /root/autonofly/PX4 && make px4_sitl gazebo
 
-  - name: fastslam
+  - window_name: ros2_build
     panes:
-      - cmd: >
-          cd ~/Desktop/AutonoFly_VTOL &&
-          source ~/Desktop/AutonoFly_VTOL/venv/bin/activate &&
-          source ros2_ws/install/setup.bash &&
-          ros2 run autonofly_slam fastslam_node
+      - |
+        cd /root/autonofly/ros2_ws
+        source /opt/ros/humble/setup.bash
+        colcon build
+        source install/setup.bash
+        bash
 
-  - name: rrt_planner
+  - window_name: fastslam
     panes:
-      - cmd: >
-          cd ~/Desktop/AutonoFly_VTOL &&
-          source ~/Desktop/AutonoFly_VTOL/venv/bin/activate &&
-          source ros2_ws/install/setup.bash &&
-          ros2 run autonofly_nav rrt_node
+      - |
+        cd /root/autonofly/ros2_ws
+        source install/setup.bash
+        ros2 run autonofly_slam slam_node.py
 
-  - name: logs
+  - window_name: rviz
     panes:
-      - cmd: >
-          tail -f ~/Desktop/AutonoFly_VTOL/logs/autonofly.log
-
-  - name: venv
-    panes:
-      - cmd: >
-          source ~/Desktop/AutonoFly_VTOL/venv/bin/activate
+      - |
+        source /opt/ros/humble/setup.bash
+        rviz2
