@@ -62,8 +62,7 @@ source install/setup.bash
 ./start_autonomy.sh
 
 ```
-## here we launch the simulation 
+## Here we launch the simulation 
 ```
 ros2 launch autonofly_bringup start_autonomy.launch.py
 ```
-# AutonoFly_VTOL
