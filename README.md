@@ -74,6 +74,8 @@ source install/setup.bash
 ```
 # To run the simulation 
 
+go to the path where you placed the PX4-Autopilot directory and run this command : 
+
 ```
 make px4_sitl gz_standard_vtol_AutonoFly 
 
